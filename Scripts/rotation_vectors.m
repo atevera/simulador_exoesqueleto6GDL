@@ -11,6 +11,8 @@ function lambdas = rotation_vectors(code,a,b)
     lambdas = cell(3,length(code));
     for i = 1:length(code)
         switch code(i)
+            case 0
+                lambda = [0 0 0]';
             case 4
                 lambda = [1 0 0]';
             case 5
