@@ -3,11 +3,12 @@
 % Nota: Los valores de 'l' son propuestos y serán actualizados
 % cuando el doctor lo indique. 
 
-clear all
+clear All
 clc
 format short 
+
 %-- Longitudes entre cada referencial --%
-l = [10 20 15.21 20.12 10 4.47 7.6]; % [mm]
+l = [10 20 15.21 20.12 10 4.47 7.6]; % [mm] --> serían [cm] no??
 d = [0 0 16]; % Posición del dedal en coordenadas del referencial local
 
 %-- Centros de masa de cada eslabón en coordenadas del referencial local xyz
@@ -23,14 +24,17 @@ alpha = 0;
 beta = -26.57*pi()/180; %Gamma offset: Obtenido de SolidWorks
 
 %-- Vectores de rotación --%
-lambda = rotation_vectors([5 5 8 6 4 5 0], alpha, beta);
+lambda = rotation_vectors([5 5 8 6 4 5 0], alpha, beta); %CHECKED BY TONY
 
 translation_matrix = {[0 0 0],[l(1) 0 l(2)],[-l(7) 0 l(3)],[-l(6) 0 l(4)],[0 0 l(5)],[0 0 0], [d(1) d(2) d(3)]};
 
 %-- Cinemática directa para los referenciales no inerciales
-htm0_7 = homogeneous_transform_matrix(translation_matrix, lambda, q);
-fk0_7 = forward_kinematics(htm0_7);
+htm0_7 = homogeneous_transform_matrix(translation_matrix, lambda, q); %CHECKED BY TONY --> Este genera un array con las matrices de transformacion de referencial a referencial
+fk0_7 = forward_kinematics(htm0_7); %CHECKED BY TONY --> Este te genera un array con las matrices de transformacion de cada referencial con respecto al referencial in
 
 %-- Cinemática directa para los centros de masa.
-fk_cm1_5 = center_of_masa_offset(fk0_7, cm_offset);
+fk_cm1_5 = center_of_masa_offset(fk0_7, cm_offset); %NEED TO CHECK :S
+
+%-- Jacobiano geométrico para referenciales en articulaciones
+J_Art = jacobian_generator(fk0_7, lambda);
 

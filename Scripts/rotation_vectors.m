@@ -8,7 +8,7 @@
 %       - Valor de beta (Desviación). 
 
 function lambdas = rotation_vectors(code,a,b)
-    lambdas = cell(3,length(code));
+    lambdas = cell(1,length(code));
     for i = 1:length(code)
         switch code(i)
             case 0

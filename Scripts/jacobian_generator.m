@@ -9,7 +9,7 @@ function J = jacobian_generator(MTH, LAMBDA_R)
     for i = 1:length(LAMBDA_R)
         mth0_i = MTH{i};
         mth_r_i = mth0_i(1:3,1:3);
-        lambda_r_i = LAMBDA_R(:,i);
+        lambda_r_i = LAMBDA_R{i};
         d_i = mth0_i(1:3,4);
 
         %--Jacobiano de velocidad angular--
