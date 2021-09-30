@@ -12,6 +12,9 @@ d = [0 0 16]; % Posición del dedal en coordenadas del referencial local
 %-- Centros de masa de cada eslabón en coordenadas del referencial local xyz
 cm_offset = {[5 0 10], [-5 0 6], [-3 0 10], [0 0 5], [0 0 8]};
 
+%-- Masas de cada eslabón
+masas = [0.3 0.5 0.2 1 0.4];  % [kg]
+
 %-- Array de ángulos --%
 q = [0 0 0 0 0 0 0];
 dq = [0.1 0.5 1 1.5 2 0.8 0]'; %Velocidad angular de los GDL [rad/s]
@@ -35,4 +38,7 @@ fk_cm1_5 = forward_kinematics_center_of_masa_offset(fk0_7, cm_offset);
 
 %-- Jacobiano geométrico para referenciales en articulaciones
 J_Art = jacobian_generator(fk0_7, lambda);
+
+%-- Construcción de la matriz de Inercia H(q) 
+H = get_inertia_matrix(masas, J_Art, fk_cm1_5, inertial_tensor);
 
