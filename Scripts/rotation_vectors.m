@@ -7,9 +7,12 @@
 %       - Valor de alpha (Elevación).
 %       - Valor de beta (Desviación). 
 
-function lambdas = rotation_vectors(code,a,b)
-    lambdas = cell(1,length(code));
-    for i = 1:length(code)
+function lambdas = rotation_vectors(code)
+    a = code(end-1);
+    b = code(end);
+    lambdas = zeros(3,length(code)-2);
+    %lambdas = cell(1,length(code));
+    for i = 1:length(code)-2
         switch code(i)
             case 0
                 lambda = [0 0 0]';
@@ -22,7 +25,7 @@ function lambdas = rotation_vectors(code,a,b)
             otherwise
                 lambda = [cos(a)*sin(b) sin(a)*sin(b) cos(b)]';
         end
-        lambdas{i} = lambda; 
+        lambdas(:,i) = lambda; 
     end
 end
 

@@ -5,16 +5,11 @@
 %       - Array de coordenadas generalizadas. 
 
 function homogeneous_matrix = local_homogeneous_transform_matrix(translation, lambda, q) 
-    num_ref = length(lambda);
-    homogeneous_matrix = cell(1, num_ref);
-    % rotation_matrix =cell(3, num_ref); 
-    %Segun yo no necesitas declarar un
-    % espacio para un array de estas matrices, porque de cualquier manera
-    % solo la usas una vez en el cálculo de la matriz de rotacion, cambia
-    % con cada iteracion y nunca sale de esta funcion. Mejor solo dejarla
-    % como una variable local.
+    num_ref = size(lambda, 2);
+    homogeneous_matrix = zeros(num_ref,16);
     for i = 1:num_ref
-        rotation_matrix = expm(OPC(lambda{i}*q(i)));
-        homogeneous_matrix{i} = [rotation_matrix translation{i}'; 0 0 0 1];
+        rotation_matrix = expm(OPC(lambda(:,i)*q(i)));
+        hm_i = [rotation_matrix translation(:,i); 0 0 0 1];
+        homogeneous_matrix(i,:) = reshape(hm_i,1,16);
     end
 end
