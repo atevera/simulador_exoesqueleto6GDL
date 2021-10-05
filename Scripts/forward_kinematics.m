@@ -6,7 +6,7 @@
 
 function ht_matrix = forward_kinematics(referencial)
     num_ref = size(referencial,1);
-    ht_matrix = zeros(num_ref, 16);
+    ht_matrix = sym(zeros(num_ref, 16));
     ht_matrix(1,:) = referencial(1,:);
     for i = 2:num_ref
         ht_prev = reshape(ht_matrix(i-1,:),4,4);

@@ -4,11 +4,11 @@
 %       -Matriz de vectores directores LAMBDA_R = [lambda_r1 lambda_r2 lambda_r3 lambda_r4 lambda_r5 lambda_r6]
 function J = jacobian_generator(MTH, LAMBDA_R)
     n = size(LAMBDA_R,2);
-    J = zeros(n,(6*n));
-    j_w = zeros(3, n);
+    J = sym(zeros(n,(6*n)));
+    j_w = sym(zeros(3, n));
     for i = 1:n
-        j_i = zeros(6, n);
-        j_v = zeros(3, n);
+        j_i = sym(zeros(6, n));
+        j_v = sym(zeros(3, n));
         
         mth0_i = reshape(MTH(i,:), 4, 4);
         mth_r_i = mth0_i(1:3,1:3);
