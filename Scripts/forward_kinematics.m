@@ -13,4 +13,5 @@ function ht_matrix = forward_kinematics(referencial)
         ht_ref = reshape(referencial(i,:),4,4);
         ht_matrix(i,:) = reshape(ht_prev*ht_ref,1,16);
     end
+    ht_matrix = simplify(ht_matrix);
 end

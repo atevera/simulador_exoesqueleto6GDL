@@ -32,4 +32,5 @@ function J = jacobian_generator(MTH, LAMBDA_R)
         
         J(i,:) = reshape(j_i, 1, (6*n));
     end
+    J = simplify(J);
 end

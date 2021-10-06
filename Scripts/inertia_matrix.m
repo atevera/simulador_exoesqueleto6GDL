@@ -6,6 +6,7 @@
 %       - Tensor de inercia de cada centro de masa [Lista].
 
 function H = inertia_matrix(mass,J_cm, FK, IT)
+    f = waitbar(0, 'Starting');
     N = length(mass);
     H = zeros(N);
     for i  = 1:N
@@ -20,6 +21,7 @@ function H = inertia_matrix(mass,J_cm, FK, IT)
         linear = mass(i)*(Jv_cm_i)'*Jv_cm_i;
         angular = (Jw_cm_i')*(rotmatrix0_i)*(IT_i)*(rotmatrix0_i')*(Jw_cm_i);
         H = H + linear + angular;
+        waitbar(i/N, f, sprintf('Inertia Matrix: %d %%', floor(i/N*100)));
     end
-        H = (1/2)*H;
+    close(f)
 end

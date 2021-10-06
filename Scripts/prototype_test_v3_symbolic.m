@@ -24,6 +24,7 @@ inertial_tensor = [0.9844 0.5134 0.1339 0.8589 0.1776 0.0309 0.7856 0.3986 0.939
 
 %-- Array de ángulos --%
 q = sym('q',[1 6]);
+dq = sym('dq',[1 6]);
 
 %-- Ajuste del tercer referencial --%
 alpha = 0;
@@ -38,10 +39,14 @@ translation_ref = [[0 0 0]',[l(1) 0 l(2)]',[-l(7) 0 l(3)]',[-l(6) 0 l(4)]',[0 0 
 %-- Cinemática directa para los referenciales no inerciales
 htm1_6 = local_homogeneous_transform_matrix(translation_ref, lambda, q);
 
+disp('Homogeneous transformations: Done!')
+
 fk0_6 = forward_kinematics(htm1_6);
 
 %-- Cinemática directa para los centros de masa.
 fk_cm0_6 = forward_kinematics_center_of_masa_offset(fk0_6, cm_offset);
+
+disp('Forward kinematics: Done!')
 
 %-- Jacobiano geométrico para referenciales en articulaciones
 J_Art = jacobian_generator(fk0_6, lambda);
@@ -49,6 +54,25 @@ J_Art = jacobian_generator(fk0_6, lambda);
 %-- Jacobiano geométrico para centros de masas
 J_CM = jacobian_generator(fk_cm0_6, lambda);
 
-%-- Construcción de la matriz de Inercia H(q) 
-H(q) = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
+disp('Jacobians: Done!')
+
+%-- Construcción de la matriz de Inercia H(q) %Notas, si pones solo H, te
+% permite manipularla como matriz pero no evaluarla. Si pones H(q) te
+% permite evaluarla, pero no manipularla como matriz.
+
+%Recomendación de uso:
+%   - H --> Operaciones matriciales.
+%   - H(q) --> Salvar modelo e implementar en función para simulink.
+H = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
+H_save(q) = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
+
+disp('Inertia Matrix: Done!')
+
+%-- Construcción de vector de Coriolis.
+C(q,dq) = coriolis_vector(H, q, dq);
+
+disp('Coriolis vector: Done!')
+
+%save('H_q_test.mat', 'H_save');
+%save('C_q_dq_test.mat', 'C');
 

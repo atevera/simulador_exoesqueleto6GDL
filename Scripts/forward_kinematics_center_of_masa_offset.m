@@ -12,4 +12,5 @@ function HM_CM0_6 = forward_kinematics_center_of_masa_offset(forward_kinematics,
         HM_CM0_i = reshape(forward_kinematics(i,:),4,4)*[I offset(:,i); 0 0 0 1]; 
         HM_CM0_6(i,:) = reshape(HM_CM0_i, 1, 16);
     end
+    HM_CM0_6 = simplify(HM_CM0_6);
 end
