@@ -59,32 +59,23 @@ J_CM = jacobian_generator(fk_cm0_6, lambda);
 
 disp('Jacobians: Done!')
 
-%-- Construcción de la matriz de Inercia H(q) %Notas, si pones solo H, te
-% permite manipularla como matriz pero no evaluarla. Si pones H(q) te
-% permite evaluarla, pero no manipularla como matriz.
-
-%Recomendación de uso:
-%   - H --> Operaciones matriciales.
-%   - H(q) --> Salvar modelo e implementar en función para simulink.
+%-- Construcción de la matriz de Inercia H(q)
 H = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
-H_save(q) = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
+H_S(q) = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
 
 disp('Inertia Matrix: Done!')
 
 %-- Construcción de vector de Coriolis.
-C(q,dq) = coriolis_vector(H, q, dq);
+c(q,dq) = coriolis_vector(H, q, dq);
 
 disp('Coriolis vector: Done!')
 
-%save('H_q_test.mat', 'H_save');
-%save('C_q_dq_test.mat', 'C');
-
 g(q) = gravity_vector(masas, J_CM, g_0);
-% save('g_q.mat', 'g'); %Export to variable file
- disp('Gravity Vector: Done!')
+disp('Gravity Vector: Done!')
 
 %b = [0.1 0.1 0.1 0.1 0.1 0.1];
 %d(dq) = dissipative_vector(b, dq); % Error: Check it
-% save('d_dq.mat', 'd'); %Export to variable file
+
+save('symbolic_matrices.mat', 'H_S', 'c', 'g'); %Export to variable file
 
 disp('Enjoy your robot! :)')
