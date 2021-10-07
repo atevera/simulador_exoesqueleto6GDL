@@ -61,21 +61,21 @@ disp('Jacobians: Done!')
 
 %-- Construcción de la matriz de Inercia H(q)
 H = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
-tau_h(q) = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
+H_S(q) = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
 
 disp('Inertia Matrix: Done!')
 
 %-- Construcción de vector de Coriolis.
-tau_c(q,dq) = coriolis_vector(H, q, dq);
+c(q,dq) = coriolis_vector(H, q, dq);
 
 disp('Coriolis vector: Done!')
 
-tau_g(q) = gravity_vector(masas, J_CM, g_0);
+g(q) = gravity_vector(masas, J_CM, g_0);
 disp('Gravity Vector: Done!')
 
 b = [0.1 0.1 0.1 0.1 0.1 0.1];
-tau_d(dq) = dissipative_vector(b, dq); % Error: Check it
+d_(dq) = dissipative_vector(b, dq); % Error: Check it
 
-save('symbolic_matrices.mat', 'tau_h', 'tau_c', 'tau_g','tau_d'); %Export to variable file
+save('symbolic_matrices.mat', 'H_S', 'c', 'g'); %Export to variable file
 
 disp('Enjoy your robot! :)')

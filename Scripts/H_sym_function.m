@@ -4,5 +4,5 @@
 %       - file: Nombre del archivo [tipo: string]
 function H_eval = H_sym_function(q, file)
     H_file = load(file);
-    H_eval = double(H_file.H_S(q(1),q(2),q(3),q(4),q(5),q(6)));
+    H_eval = double(H_file.tau_h(q(1),q(2),q(3),q(4),q(5),q(6)));
 end
