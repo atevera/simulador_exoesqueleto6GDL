@@ -1,4 +1,8 @@
-function H_eval = H_sym_function(q1,q2,q3,q4,q5,q6)
-    H_test = load('H_q_test.mat');
-    H_eval = double(H_test.H(q1,q2,q3,q4,q5,q6));
+%-- Evaluación de la matriz de inercia H para simulación
+% Parámetros:
+%       - q:    Vector de coordenadas generalizadas q
+%       - file: Nombre del archivo [tipo: string]
+function H_eval = H_sym_function(q, file)
+    H_file = load(file);
+    H_eval = double(H_file.H(q(1),q(2),q(3),q(4),q(5),q(6)));
 end
