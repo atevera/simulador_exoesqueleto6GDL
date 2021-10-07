@@ -14,6 +14,9 @@ cm_offset = [[5 0 10]', [-5 0 6]', [-3 0 10]', [0 0 5]', [0 0 5]', [0 0 5]'];
 %-- Masas de cada eslabón
 masas= [0.3 0.5 0.2 1 1 1];  % [kg]
 
+%-- Vector de gravedad en coordenadas inerciales
+g_0 = [0 0 -9.81]';
+
 %-- Tensor de inercia test
 inertial_tensor = [0.9844 0.5134 0.1339 0.8589 0.1776 0.0309 0.7856 0.3986 0.9391; %Aplanado por columnas 
                    0.9844 0.5134 0.1339 0.8589 0.1776 0.0309 0.7856 0.3986 0.9391;
@@ -49,7 +52,7 @@ fk_cm0_6 = forward_kinematics_center_of_masa_offset(fk0_6, cm_offset);
 disp('Forward kinematics: Done!')
 
 %-- Jacobiano geométrico para referenciales en articulaciones
-J_Art = jacobian_generator(fk0_6, lambda);
+%J_Art = jacobian_generator(fk0_6, lambda);  * Nota: No es utilizado :)
 
 %-- Jacobiano geométrico para centros de masas
 J_CM = jacobian_generator(fk_cm0_6, lambda);
@@ -76,3 +79,12 @@ disp('Coriolis vector: Done!')
 %save('H_q_test.mat', 'H_save');
 %save('C_q_dq_test.mat', 'C');
 
+g(q) = gravity_vector(masas, J_CM, g_0);
+% save('g_q.mat', 'g'); %Export to variable file
+ disp('Gravity Vector: Done!')
+
+%b = [0.1 0.1 0.1 0.1 0.1 0.1];
+%d(dq) = dissipative_vector(b, dq); % Error: Check it
+% save('d_dq.mat', 'd'); %Export to variable file
+
+disp('Enjoy your robot! :)')
