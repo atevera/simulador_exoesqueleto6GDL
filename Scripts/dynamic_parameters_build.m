@@ -2,7 +2,7 @@
 % la asignación de referenciales GRyMA y el modelado dinámico considerando
 % D'Alambert-Lagrange como principio de análisis. 
 
-clear All
+clear all
 clc
 format long eng
 
@@ -25,7 +25,7 @@ center_of_mass = [cm1, cm2, cm3, cm4, cm5, cm6];
 masas = [0.04496018 0.02038587 0.00333783 0.02889644 0.0108769 0.00726735];
 
 %-- Vector de gravedad en coordenadas inerciales
-g_0 = [0 0 -9.81]';
+g_0 = [0 0 -9.81]'; % No se contempla con el - de la fórmula?
 
 %-- Tensores de inercia de cada eslabón respecto a su centro de masa
 inertial_tensor = [8.74E-05 2.47E-06 2.42E-05 2.47E-06 9.19E-05 0 2.42E-05 0 1.61E-05;
@@ -47,7 +47,7 @@ beta = -59.26721315*pi()/180; % Desviación del vector unitario de rotación respe
 motion_codes = [5 5 8 6 4 5 0 beta];
 lambda = rotation_vectors(motion_codes);
 
-translation_ref = [[0 0 0]',[l(1) 0 l(2)]',[-l(10) 0 l(3)]',[-l(9) 0 l(4)]',[0 0 l(5)]',[0 0 l(6)]',[0-l(8) 0 l(7)]'];
+translation_ref = [[0 0 0]',[l(1) 0 l(2)]',[-l(10) 0 l(3)]',[-l(9) 0 l(4)]',[0 0 l(5)]',[0 0 l(6)]',[-l(8) 0 l(7)]'];
 
 %-- Cinemática directa para los referenciales no inerciales
 htm1_6 = local_homogeneous_transform_matrix(translation_ref, lambda, q);
@@ -71,22 +71,25 @@ disp('Jacobians: Done!')
 
 %-- Construcción de la matriz de Inercia H(q)
 H = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
-tau_h(q) = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
+matlabFunction(H, 'File', 'H_sym_function');
 
 disp('Inertia Matrix: Done!')
 
-%-- Construcción de vector de Coriolis.
-tau_c(q,dq) = coriolis_vector(H, q, dq);
+%% -- Construcción de vector de Coriolis.
+tau_c = coriolis_vector(H, q, dq);
+matlabFunction(tau_c, 'File', 'tau_c_sym_function');
 
 disp('Coriolis vector: Done!')
 
-tau_g(q) = gravity_vector(masas, J_CM, g_0);
+tau_g = gravity_vector(masas, J_CM, g_0);
+matlabFunction(tau_g, 'File', 'tau_g_sym_function');
+
 disp('Gravity Vector: Done!')
 
 b = [0.1 0.1 0.1 0.1 0.1 0.1];
-tau_d(dq) = dissipative_vector(b, dq); 
+tau_d = dissipative_vector(b, dq);
+matlabFunction(tau_d, 'File', 'tau_d_sym_function');
 
-%-- Export to variable file
-save('symbolic_matrices.mat', 'tau_h', 'tau_c', 'tau_g','tau_d'); 
+disp('Dissipative Vector: Done!')
 
 disp('Enjoy your robot! :)')
