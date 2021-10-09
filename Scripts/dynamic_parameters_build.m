@@ -2,7 +2,7 @@
 % la asignación de referenciales GRyMA y el modelado dinámico considerando
 % D'Alambert-Lagrange como principio de análisis. 
 
-clear all
+clear All
 clc
 format long eng
 
@@ -71,24 +71,28 @@ disp('Jacobians: Done!')
 
 %-- Construcción de la matriz de Inercia H(q)
 H = inertia_matrix(masas, J_CM, fk_cm0_6, inertial_tensor);
-matlabFunction(H, 'File', 'H_sym_function');
+%matlabFunction(H, 'File', 'H_sym_function');
+matlabFunctionBlock('simulator_prototype/Inertia_matrix',H)
 
 disp('Inertia Matrix: Done!')
 
-%% -- Construcción de vector de Coriolis.
+% -- Construcción de vector de Coriolis.
 tau_c = coriolis_vector(H, q, dq);
-matlabFunction(tau_c, 'File', 'tau_c_sym_function');
+%matlabFunction(tau_c, 'File', 'tau_c_sym_function');
+matlabFunctionBlock('simulator_prototype/Coriolis_vector',tau_c)
 
 disp('Coriolis vector: Done!')
 
 tau_g = gravity_vector(masas, J_CM, g_0);
-matlabFunction(tau_g, 'File', 'tau_g_sym_function');
+%matlabFunction(tau_g, 'File', 'tau_g_sym_function');
+matlabFunctionBlock('simulator_prototype/Gravity_vector',tau_g)
 
 disp('Gravity Vector: Done!')
 
 b = [0.1 0.1 0.1 0.1 0.1 0.1];
 tau_d = dissipative_vector(b, dq);
-matlabFunction(tau_d, 'File', 'tau_d_sym_function');
+%matlabFunction(tau_d, 'File', 'tau_d_sym_function');
+matlabFunctionBlock('simulator_prototype/Dissipative_vector',tau_d)
 
 disp('Dissipative Vector: Done!')
 
