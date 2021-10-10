@@ -56,6 +56,10 @@ disp('Homogeneous transformations: Done!')
 
 fk0_6 = forward_kinematics(htm1_6);
 
+matlabFunctionBlock('simulator_prototype/foward_kinematics',fk0_6)
+
+%%
+
 %-- Cinemática directa para los centros de masa.
 fk_cm0_6 = forward_kinematics_center_of_masa_offset(fk0_6, center_of_mass);
 
