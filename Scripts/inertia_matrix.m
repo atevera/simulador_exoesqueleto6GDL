@@ -24,4 +24,5 @@ function H = inertia_matrix(mass,J_cm, FK, IT)
         waitbar(i/N, f, sprintf('Inertia Matrix: %d %%', floor(i/N*100)));
     end
     close(f)
+    
 end
