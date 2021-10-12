@@ -3,22 +3,22 @@
      Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="mechanic_model_exo6gdl">
+  name="mechanic_model_urdf">
   <link
-    name="inertial">
+    name="base_link">
     <inertial>
       <origin
-        xyz="-2.55411936634709E-15 -1.30745378752312E-17 -0.0167444902118063"
+        xyz="0 -2.4286E-17 -0.016744"
         rpy="0 0 0" />
       <mass
-        value="0.0277842883466461" />
+        value="0" />
       <inertia
-        ixx="5.88562650074952E-06"
-        ixy="-4.72268099762097E-22"
-        ixz="5.15087342452081E-23"
-        iyy="5.95724375817234E-06"
-        iyz="-3.20298136557097E-22"
-        izz="1.03978583869216E-05" />
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
     </inertial>
     <visual>
       <origin
@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/inertial.STL" />
+          filename="package://mechanic_model_urdf/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,25 +40,25 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/inertial.STL" />
+          filename="package://mechanic_model_urdf/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
   <link
-    name="link1">
+    name="Link1">
     <inertial>
       <origin
-        xyz="0.0106809535945396 0.00868295136758494 0.0552292034616581"
+        xyz="0.0078361 0.0029882 0.056607"
         rpy="0 0 0" />
       <mass
-        value="0.044960075942968" />
+        value="0" />
       <inertia
-        ixx="2.7948432434881E-05"
-        ixy="-1.87061191681349E-09"
-        ixz="-7.81394001942823E-06"
-        iyy="3.05258876976549E-05"
-        iyz="7.65282176048547E-10"
-        izz="5.5313050394128E-06" />
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
     </inertial>
     <visual>
       <origin
@@ -66,12 +66,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link1.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link1.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link1.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -91,67 +91,9 @@
       xyz="0 0 0"
       rpy="0 0 0" />
     <parent
-      link="inertial" />
+      link="base_link" />
     <child
-      link="link1" />
-    <axis
-      xyz="0 -1 0" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
-  </joint>
-  <link
-    name="link2">
-    <inertial>
-      <origin
-        xyz="-0.0224333560094355 2.27027663678102E-08 0.0158066348359009"
-        rpy="0 0 0" />
-      <mass
-        value="0.0203858204963203" />
-      <inertia
-        ixx="1.32941069730988E-06"
-        ixy="3.10777452383335E-12"
-        ixz="8.04384776014172E-07"
-        iyy="2.41993818939998E-06"
-        iyz="1.91453387492733E-12"
-        izz="1.9452498388042E-06" />
-    </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link2.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="1 1 1 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link2.STL" />
-      </geometry>
-    </collision>
-  </link>
-  <joint
-    name="q2"
-    type="revolute">
-    <origin
-      xyz="0.0323552493341545 0 0.105133904334066"
-      rpy="0 0 0" />
-    <parent
-      link="link1" />
-    <child
-      link="link2" />
+      link="Link1" />
     <axis
       xyz="0 1 0" />
     <limit
@@ -161,20 +103,20 @@
       velocity="0" />
   </joint>
   <link
-    name="link3">
+    name="Link2">
     <inertial>
       <origin
-        xyz="-0.0102551276298913 -8.60332663801944E-09 0.00922495292970382"
+        xyz="-0.018533 3.6366E-08 0.013162"
         rpy="0 0 0" />
       <mass
-        value="0.00333782776468066" />
+        value="0" />
       <inertia
-        ixx="1.63779073139352E-07"
-        ixy="-3.00540934781443E-13"
-        ixz="4.90940044410776E-08"
-        iyy="2.22873104365642E-07"
-        iyz="7.21279035854618E-13"
-        izz="1.13225251473632E-07" />
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
     </inertial>
     <visual>
       <origin
@@ -182,7 +124,65 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link3.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mechanic_model_urdf/meshes/Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="q2"
+    type="revolute">
+    <origin
+      xyz="0.032355 0 0.10513"
+      rpy="0 0 0" />
+    <parent
+      link="Link1" />
+    <child
+      link="Link2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link3">
+    <inertial>
+      <origin
+        xyz="-0.0094531 -8.3853E-09 0.0086519"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mechanic_model_urdf/meshes/Link3.STL" />
       </geometry>
       <material
         name="">
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link3.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link3.STL" />
       </geometry>
     </collision>
   </link>
@@ -204,14 +204,14 @@
     name="q3"
     type="revolute">
     <origin
-      xyz="-0.0361375560878337 0 0.0250384839032992"
+      xyz="-0.036138 0 0.025038"
       rpy="0 0 0" />
     <parent
-      link="link2" />
+      link="Link2" />
     <child
-      link="link3" />
+      link="Link3" />
     <axis
-      xyz="-0.831636482590333 0 0.555320412757156" />
+      xyz="-0.83164 0 0.55532" />
     <limit
       lower="0"
       upper="0"
@@ -219,20 +219,20 @@
       velocity="0" />
   </joint>
   <link
-    name="link4">
+    name="Link4">
     <inertial>
       <origin
-        xyz="-0.00584481412976537 -6.47355257169923E-06 0.0231116436931379"
+        xyz="-0.0028586 -1.5632E-06 0.020374"
         rpy="0 0 0" />
       <mass
-        value="0.0288964463729056" />
+        value="0" />
       <inertia
-        ixx="1.84407577659644E-06"
-        ixy="1.09180832884763E-09"
-        ixz="1.1521928023612E-08"
-        iyy="1.98086899908725E-06"
-        iyz="-1.09143826938808E-09"
-        izz="1.24517228929573E-06" />
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
     </inertial>
     <visual>
       <origin
@@ -240,12 +240,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link4.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link4.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -254,7 +254,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link4.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link4.STL" />
       </geometry>
     </collision>
   </link>
@@ -262,14 +262,14 @@
     name="q4"
     type="revolute">
     <origin
-      xyz="-0.0130095953517694 0 0.0228689244744532"
+      xyz="-0.012178 0 0.021314"
       rpy="0 0 0" />
     <parent
-      link="link3" />
+      link="Link3" />
     <child
-      link="link4" />
+      link="Link4" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
       lower="0"
       upper="0"
@@ -277,20 +277,20 @@
       velocity="0" />
   </joint>
   <link
-    name="link5">
+    name="Link5">
     <inertial>
       <origin
-        xyz="-6.4826395308748E-05 0.012471617228465 0.00568685835266433"
+        xyz="-0.00022016 0.0096004 0.0049591"
         rpy="0 0 0" />
       <mass
-        value="0.0108768962192842" />
+        value="0" />
       <inertia
-        ixx="4.43219333128473E-07"
-        ixy="-8.29413434743765E-17"
-        ixz="3.71398910921181E-09"
-        iyy="2.25114624567635E-07"
-        iyz="-1.09149648389532E-09"
-        izz="4.02439244510635E-07" />
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
     </inertial>
     <visual>
       <origin
@@ -298,12 +298,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link5.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link5.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -312,7 +312,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link5.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link5.STL" />
       </geometry>
     </collision>
   </link>
@@ -320,12 +320,12 @@
     name="q5"
     type="revolute">
     <origin
-      xyz="-0.000179990761935058 0 0.042340751540877"
+      xyz="-0.00017999 0 0.042341"
       rpy="0 0 0" />
     <parent
-      link="link4" />
+      link="Link4" />
     <child
-      link="link5" />
+      link="Link5" />
     <axis
       xyz="1 0 0" />
     <limit
@@ -335,20 +335,20 @@
       velocity="0" />
   </joint>
   <link
-    name="link6">
+    name="Link6">
     <inertial>
       <origin
-        xyz="-0.00999471073167814 -1.9343185981965E-09 0.0183887633408275"
+        xyz="-0.0099947 -1.9343E-09 0.018389"
         rpy="0 0 0" />
       <mass
-        value="0.00726735103486083" />
+        value="0" />
       <inertia
-        ixx="9.25873169963485E-07"
-        ixy="1.74470487122258E-13"
-        ixz="8.88062462570576E-08"
-        iyy="1.01752426404158E-06"
-        iyz="-1.54707150988666E-13"
-        izz="1.01820007511311E-06" />
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
     </inertial>
     <visual>
       <origin
@@ -356,7 +356,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link6.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link6.STL" />
       </geometry>
       <material
         name="">
@@ -370,7 +370,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://mechanic_model_exo6gdl/meshes/link6.STL" />
+          filename="package://mechanic_model_urdf/meshes/Link6.STL" />
       </geometry>
     </collision>
   </link>
@@ -378,14 +378,14 @@
     name="q6"
     type="revolute">
     <origin
-      xyz="0 0 0.00600000000000012"
+      xyz="0 0 0.006"
       rpy="0 0 0" />
     <parent
-      link="link5" />
+      link="Link5" />
     <child
-      link="link6" />
+      link="Link6" />
     <axis
-      xyz="0 -1 0" />
+      xyz="0 1 0" />
     <limit
       lower="0"
       upper="0"

@@ -18,26 +18,26 @@ torque = [1  2  3  4  5  6 ;
 
 sim_out = sim('simulator_prototype_v2.slx');
 
-position_array = reshape(sim_out.position,size(sim_out.position,1),size(sim_out.position,3));
-velocity_array = reshape(sim_out.velocity,size(sim_out.velocity,1),size(sim_out.velocity,3));
+% position_array = reshape(sim_out.position,size(sim_out.position,1),size(sim_out.position,3));
+% velocity_array = reshape(sim_out.velocity,size(sim_out.velocity,1),size(sim_out.velocity,3));
 
 time = (sim_out.tout)';
 
 simulate_robot_plot3(sim_out.coord_out);
 
-figure(10)
-plot(time, position_array)
-title('Joints position')
-legend('q1','q2','q3','q4','q5','q6')
-xlabel('time: [s]')
-ylabel('rad')
-
-figure(11)
-plot(time, velocity_array)
-title('Joints velocity')
-legend('dq1','dq2','dq3','dq4','dq5','dq6')
-xlabel('time: [s]')
-ylabel('rad/s')
+% figure(10)
+% plot(time, position_array)
+% title('Joints position')
+% legend('q1','q2','q3','q4','q5','q6')
+% xlabel('time: [s]')
+% ylabel('rad')
+% 
+% figure(11)
+% plot(time, velocity_array)
+% title('Joints velocity')
+% legend('dq1','dq2','dq3','dq4','dq5','dq6')
+% xlabel('time: [s]')
+% ylabel('rad/s')
 
 
 
