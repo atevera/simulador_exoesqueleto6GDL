@@ -25,7 +25,7 @@ center_of_mass = [cm1, cm2, cm3, cm4, cm5, cm6];
 masas = [0.04496018 0.02038587 0.00333783 0.02889644 0.0108769 0.00726735];
 
 %-- Vector de gravedad en coordenadas inerciales
-g_0 = [0 0 -9.81]'; % No se contempla con el - de la fórmula?
+g_0 = [0 0 -9.81]';
 
 %-- Tensores de inercia de cada eslabón respecto a su centro de masa
 inertial_tensor = [8.74E-05 2.47E-06 2.42E-05 2.47E-06 9.19E-05 0 2.42E-05 0 1.61E-05;
@@ -56,10 +56,20 @@ disp('Homogeneous transformations: Done!')
 
 fk0_6 = forward_kinematics(htm1_6);
 
+%matlabFunctionBlock('simulator_prototype/foward_kinematics',fk0_6)
+
+
 %-- Cinemática directa para los centros de masa.
 fk_cm0_6 = forward_kinematics_center_of_masa_offset(fk0_6, center_of_mass);
-
+%matlabFunctionBlock('simulator_prototype/foward_kinematics_cm',fkcm_0_6)
 disp('Forward kinematics: Done!')
+
+%-- Energía Potencial 
+U = potential_energy(masas, fk_cm0_6, g_0);
+matlabFunctionBlock('simulator_prototype/potential_energy', U)
+disp('Potential Energy: Done!')
+
+%%
 
 %-- Jacobiano geométrico para referenciales en articulaciones
 %J_Art = jacobian_generator(fk0_6, lambda);  * Nota: No es utilizado :)
