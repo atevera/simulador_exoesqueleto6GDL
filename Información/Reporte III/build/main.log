@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  14 OCT 2021 20:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  14 OCT 2021 20:26
 entering extended mode
 **"g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex"
 (g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex
@@ -483,7 +483,7 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 ) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
-)
+ (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Exoesqueleto.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Cinematica.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Dinamica.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Implementacion.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Resultados.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Discusion.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Eliezer_Conclusiones.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Antonio_Conclusiones.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Alejandro_Conclusiones.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Anexos.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 14.
@@ -553,125 +553,217 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 43.
 
-<./Imagenes//Dedo Vist Isometrica.JPG, id=1, 241.50224pt x 469.15276pt>
-File: ./Imagenes//Dedo Vist Isometrica.JPG Graphic file (type jpg)
-<use ./Imagenes//Dedo Vist Isometrica.JPG>
-Package pdftex.def Info: ./Imagenes//Dedo Vist Isometrica.JPG  used on input line 54.
+[1{C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+
+]
+\openout2 = `Secciones/Exoesqueleto.aux'.
+
+ (Secciones/Exoesqueleto.tex
+<../Imagenes//Dedo Vist Isometrica.JPG, id=9, 241.50224pt x 469.15276pt>
+File: ../Imagenes//Dedo Vist Isometrica.JPG Graphic file (type jpg)
+<use ../Imagenes//Dedo Vist Isometrica.JPG>
+Package pdftex.def Info: ../Imagenes//Dedo Vist Isometrica.JPG  used on input line 8.
 (pdftex.def)             Requested size: 156.97458pt x 304.94566pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<./Imagenes//EsquemaArticulaciones.png, id=2, 455.301pt x 489.62926pt>
-File: ./Imagenes//EsquemaArticulaciones.png Graphic file (type png)
-<use ./Imagenes//EsquemaArticulaciones.png>
-Package pdftex.def Info: ./Imagenes//EsquemaArticulaciones.png  used on input line 65.
+<../Imagenes//EsquemaArticulaciones.png, id=10, 455.301pt x 489.62926pt>
+File: ../Imagenes//EsquemaArticulaciones.png Graphic file (type png)
+<use ../Imagenes//EsquemaArticulaciones.png>
+Package pdftex.def Info: ../Imagenes//EsquemaArticulaciones.png  used on input line 19.
 (pdftex.def)             Requested size: 227.64993pt x 244.81403pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
-
-
- <./Imagenes//Dedo Vist Isometrica.JPG>]
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 70.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 24.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 70.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 24.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 70.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 24.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 70.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 24.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 90.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 44.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<./Imagenes//ExoParametrizado.png, id=11, 226.446pt x 499.26524pt>
-File: ./Imagenes//ExoParametrizado.png Graphic file (type png)
-<use ./Imagenes//ExoParametrizado.png>
-Package pdftex.def Info: ./Imagenes//ExoParametrizado.png  used on input line 105.
+<../Imagenes//ExoParametrizado.png, id=11, 226.446pt x 499.26524pt>
+File: ../Imagenes//ExoParametrizado.png Graphic file (type png)
+<use ../Imagenes//ExoParametrizado.png>
+Package pdftex.def Info: ../Imagenes//ExoParametrizado.png  used on input line 59.
 (pdftex.def)             Requested size: 158.51111pt x 349.48329pt.
+ [2
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/Dedo Vist Isometrica.JPG> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/EsquemaArticulaciones.png>]) [3
 
- [2 <./Imagenes//EsquemaArticulaciones.png> <./Imagenes//ExoParametrizado.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
+ <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ExoParametrizado.png>]
+\openout2 = `Secciones/Cinematica.aux'.
+
+ (Secciones/Cinematica.tex
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--229
+Underfull \hbox (badness 10000) in paragraph at lines 100--107
 
  []
 
-[3] (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-34.def
+[4
+
+
+
+] (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [4]
-Underfull \hbox (badness 10000) in paragraph at lines 448--451
+) [5]) [6
+
+]
+\openout2 = `Secciones/Dinamica.aux'.
+
+ (Secciones/Dinamica.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--469
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[5] [6]
+) [7
+
+
+
+] [8
+
+
+
+]
+\openout2 = `Secciones/Implementacion.aux'.
+
+ (Secciones/Implementacion.tex [9
+
+]) [10
+
+]
+\openout2 = `Secciones/Resultados.aux'.
+
+ (Secciones/Resultados.tex
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 667.
+(blindtext)                 on input line 3.
+
+) [11
+
+
+
+
+]
+\openout2 = `Secciones/Discusion.aux'.
+
+ (Secciones/Discusion.tex
+
+Package blindtext Warning: spanish not defined, using English instead.
+(blindtext)                 on input line 3.
+
+) [12
+
+
+
+
+] [13
+
+
+
+]
+\openout2 = `Secciones/Eliezer_Conclusiones.aux'.
+
+ (Secciones/Eliezer_Conclusiones.tex
+
+Package blindtext Warning: spanish not defined, using English instead.
+(blindtext)                 on input line 3.
+
+) [14
+
+
+]
+\openout2 = `Secciones/Antonio_Conclusiones.aux'.
+
+ (Secciones/Antonio_Conclusiones.tex
+
+Package blindtext Warning: spanish not defined, using English instead.
+(blindtext)                 on input line 3.
+
+) [15
+
+
+
+
+]
+\openout2 = `Secciones/Alejandro_Conclusiones.aux'.
+
+ (Secciones/Alejandro_Conclusiones.tex
+
+Package blindtext Warning: spanish not defined, using English instead.
+(blindtext)                 on input line 2.
+
+) [16
+
+
+
+
+]
+\openout2 = `Secciones/Anexos.aux'.
+
+ (Secciones/Anexos.tex
+
+Package blindtext Warning: spanish not defined, using English instead.
+(blindtext)                 on input line 2.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 671.
+(blindtext)                 on input line 3.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 676.
+(blindtext)                 on input line 4.
+
+) [17
 
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 678.
 
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 680.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 682.
-
-[7] (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
+] (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
-) ) 
+ (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Exoesqueleto.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Cinematica.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Dinamica.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Implementacion.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Resultados.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Discusion.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Eliezer_Conclusiones.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Antonio_Conclusiones.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Alejandro_Conclusiones.aux) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\Secciones/Anexos.aux)) ) 
 Here is how much of TeX's memory you used:
- 11670 strings out of 478927
- 168661 string characters out of 2845390
- 525174 words of memory out of 3000000
- 29300 multiletter control sequences out of 15000+600000
+ 11803 strings out of 478927
+ 177177 string characters out of 2845390
+ 527889 words of memory out of 3000000
+ 29360 multiletter control sequences out of 15000+600000
  479876 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,69p,535b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,69p,572b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (7 pages, 462512 bytes).
+Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (17 pages, 471128 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

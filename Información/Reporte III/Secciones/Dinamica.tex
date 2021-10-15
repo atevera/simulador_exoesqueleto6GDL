@@ -1,0 +1,77 @@
+\subsection{Dinámica}
+    La dinámica estudia las causas del movimiento, esto a través del estudio de las fuerzas y torques y su efecto en
+    el movimiento de los cuerpos (esta representada en expresiones de segundo orden). En robótica, cuando se habla de
+    dinámica, se hace referencia a la relación existente entre el movimiento del robot y las fuerzas generalizadas sobre el. 
+    El modelo de Euler-Lagrange esta representado por: 
+    \begin{equation*}
+        H(q)\ddot{q} + C(q, \dot{q}) \dot{q} + g(q) = \tau
+    \end{equation*}
+    Donde $H(q)$ es la matriz de inercia, $C(q, \dot{q})$ es la matriz de coriolis  y $g(q)$ es el vector de gravedad.
+    De igual forma, $\tau$ es la entrada des sistema.\\ 
+    \subsubsection{Matriz de Inercia}
+    La matriz de inercia, proviene de la energía cinemática del sistema, se encuentra descrita por
+    \begin{equation*}
+        K = \frac{1}{2} \dot{q}^T H(q)\dot{q}
+    \end{equation*}
+    De la ecuación anterior sur la matriz de inercia, expresada por
+    \begin{equation*}
+        H(q) = \sum_{i=o} ^n \{ m_i ^0 J_{v_cm_i} ^T(q) + ^0J_{\omega_i} ^T (q) R_0 ^i(q) I_c ^i {R_0 ^i}^T (q) ^0 J_{\omega_i} (q) \}
+    \end{equation*}
+    donde $m_i$ es la masa de cada eslabón $J_{v_cm_i}^T(q)$ es la matriz jacobiana de la velocidad lineal transpuesta para
+    el centro de masa $i$ dependiente de $q$, $J_{\omega_i} ^T (q)$ es la matriz jacobiana de la velocidad angular transpuesta
+    de $i$  dependiente de $q$, $I_c ^i$ es la matriz del tensor de inercia de $i$ y $J_{\omega_i} (q)$ es la matriz jacobiana
+    de la velocidad angular.
+    La matriz del tensor de inercia expresa el centro de masa en un marco referencial de coordenadas cartesianas. Es definida por
+    \begin{equation*}
+        \textbf{I}_c \triangleq \int_B [r \times]^T [r \times] dm 
+    \end{equation*}
+    Dentro de las propiedades de la matriz, es que esta debe ser definida positiva. \\
+
+    \subsubsection{Matriz de Coriolis}
+    El vector de fuerzas centrípetas y de Coriolis están representadas por $C_{q}(q,\dot{q})\dot{q}$ 
+    Como la matriz de Coriolis depende del vector de coordenadas generalizadas y las velocidades correspondientes, al
+    multiplicarla con el vector de velocidades en coordenadas generalizadas, se obtienen velocidades cruzadas (cuadrática en velocidada)
+    y debido a ello no hay una única matriz de Coriolis. 
+
+    Calcularla con los símbolos de Christofel nos da la propiedad de anti-simetría con respecto a la matriz de inercia.
+
+    $$\left | C_{q}(q,\dot{q}) \right |{k j}=\sum_{i=1}^{n}=c_{ijk}(q)\dot{q_{i}}$$
+
+    donde: 
+
+    $$c_{ijk}(q)=\frac{1}{2}\left \{ \frac{\delta h_{kj}(q)}{\delta q_{i}}+\frac{\delta h_{ik}(q)}{\delta q_{j}}
+                 -\frac{\delta h_{ij}(q)}{\delta q_{k}} \right \}$$
+
+    El vector de Coriolis se obtiene multiplicando la matriz de Coriolis por las velocidades en coordenadas generalizadas
+
+    $$C_{q}(q,\dot{q})\dot{q}=\begin{pmatrix}
+    \vdots\\
+    \sum_{ij=1}^{n}=C_{ijk}(q)\dot{q_{i}}\dot{q_{j}}\\ 
+    \vdots\\
+    \end{pmatrix}
+    =\begin{pmatrix}
+    \vdots\\
+    \dot{q}^{T}C_{k}(q)\dot{q}\\ 
+    \vdots\\
+    \end{pmatrix}$$
+
+    \subsubsection{Vector de gravedad}
+    El vector de gravedad representa los torques sobre el robot debido al peso de cada eslabón, para obtenerlo se parte
+    de la energía potencial. La energía potencial de cada cuerpo viene dada por su peso multiplicado por la posición
+    vertical de su centro de masa
+    $$U_{i}=-m_{i}g_{0}\cdot d_{cmi}(q)=-m_{i}d^{T}_{cmi}(q)g{o'}$$
+    $d_{cmi}$(q) ∈ R3 es la posición cartesiana del vector de masa del cuerpo $i$
+
+    $g_0 ∈ R3$ es la expresión inercial para la dirección de la gravedad (se define de acuerdo con la definición de la
+    referencia del marco inercial del sistema) y el signo menos es una corrección tal que la energía potencial aumenta
+    en contra de la dirección de la gravedad.\\
+    La potencia total es una función que varia solo en la configuración q del sistema: 
+    $$g_{q}=-\sum_{i=1}^{N}m_{i}\frac{\delta d_{cmi}(q)^{T}}{\delta q}g_{0}=-\sum_{i=1}^{N}m_{i}J_{v_{cmi}}^{T}(q)g_{0}$$
+
+    donde:
+
+    $$d_{cmi}(q)=d_{i}+R^{i}_{0}(q)r_{ci}$$
+
+    La gradiente de la energía potencial es calculada como:
+
+    $$g_{q}=- \sum_{i=1}^{n}m_{i}\frac{\delta d_{cmi}(q)^{T}}{\delta q}g_{0}=-\sum_{i=1}^{n}m_{i}J_{v_{cmi}}^{T}(q)g_{0}$$
