@@ -17,3 +17,6 @@ Información/Reporte III/build/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+Información/Reporte III/build/main.fdb_latexmk
+Información/Reporte III/build/main.fls
+Información/Reporte III/build/main.log
