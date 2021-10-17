@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/main"] 1634513094 "build/main.aux" "build/main.bbl" "build/main" 1634513105
+["bibtex build/main"] 1634513094 "build/main.aux" "build/main.bbl" "build/main" 1634513268
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "bibliografia.bib" 1634502136 1295 ecf44b2b7a27d47d4325d06d01faf0b4 ""
   "build/main.aux" 1634513103 15363 da6821c4f4f7c16c63acf382bae28c6a "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1634513095 "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" "build/main.pdf" "main" 1634513105
+["pdflatex"] 1634513095 "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" "build/main.pdf" "main" 1634513268
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1631248543 9722529 b64c00b7cfaf9c984d6d3a9db75576d4 ""
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1634513087 109011 fb6de004f01ccc0ac432631b69a16e5b ""
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
