@@ -6,6 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+/Información/Reporte III/build
 
 # Executables
 *.swf
