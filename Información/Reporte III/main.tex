@@ -21,26 +21,37 @@
 \graphicspath{ {../Imagenes/} }
 
 \begin{document}
-    \title{Simulador Dinámico de un Exoesqueleto de 6GdL\\
+    \title{Simulador Dinámico de un Exoesqueleto de 6GDL\\
     \small{Reporte de Medio Término}}
 
     \author{\IEEEauthorblockN{García-Álvarez Gregorio E. , Luna-Macías Antonio J. , Tevera-Ruiz Alejandro\\}
-    \IEEEauthorblockA{\textit{Departamento: Roobótica y Manufactura Avanzada} \\
+    \IEEEauthorblockA{\textit{Departamento: Robótica y Manufactura Avanzada} \\
     \textit{Centro de Investigación y de Estudios Avanzados (CINVESTAV)}}
     }
 
     \maketitle
 
+    % \begin{abstract}
+    %     El presente documento describe el desarrollo cinemático y dinámico que simula un exoesqueleto
+    %     con 6 grados de libertad (GDL).
+    %     \noindent El diseño está enfocado para utilizarse en el dedo índice, sin embargo debido a que
+    %     este trabajo aún no incorpora otras cadenas cinemáticas, como el diseño original presentado en
+    %     el trabajo: "HEXOTRAC"[1], esto implica que el propio, se pueda utilizar adecuadamente en
+    %     cualquier dedo a excepción del pulgar. 
+    %     \noindent Una de las características que tendrá el exoesqueleto presentado, será que el dedal
+    %     distal, tendrá capacidades hápticas y estará actuado en todos sus grados de libertad,
+    %     sin embargo por el momento, no es el alcance concerniente a este documento.         
+    % \end{abstract}
+
     \begin{abstract}
-        El presente documento describe el desarrollo cinemático y dinámico que simula un exoesqueleto
-        con 6 grados de libertad (GDL).
-        \noindent El diseño está enfocado para utilizarse en el dedo índice, sin embargo debido a que
-        este trabajo aún no incorpora otras cadenas cinemáticas, como el diseño original presentado en
-        el trabajo: "HEXOTRAC"[1], esto implica que el propio, se pueda utilizar adecuadamente en
-        cualquier dedo a excepción del pulgar. 
-        \noindent Una de las características que tendrá el exoesqueleto presentado, será que el dedal
-        distal, tendrá capacidades hápticas y estará actuado en todos sus grados de libertad,
-        sin embargo por el momento, no es el alcance concerniente a este documento.         
+        En el presente documento se explican los fundamentos, metodología y proceso de implementación 
+        para el desarrollo de un software dedicado a la simulación de la dinámica directa de un 
+        exoesqueleto actuado de 6 grados de libertad (GDL). En el desarrollo del reporte se describe 
+        el uso de la metodología GRyMA para la asignación de referenciales, las ecuaciones correspondientes 
+        al cálculo de los componentes de la cinemática directa del robot, y el cálculo de los componentes 
+        dinámicos, basados en la formulación de D'Lambert-Lagrange. Finalmente se muestra su implementación en 
+        MATLAB y Simulink, así como los resultados obtenidos de las variables de estado del sistema y el análisis 
+        energético.
     \end{abstract}
 
     \begin{IEEEkeywords}
@@ -58,7 +69,7 @@
 
     \section{Implementación}
 
-    \input{Secciones/Exoesqueleto.tex}
+    %\input{Secciones/Exoesqueleto.tex}
     \input{Secciones/Implementacion_cinematica.tex}
     \input{Secciones/Implementacion_dinamica.tex}
 
@@ -73,8 +84,6 @@
     \input{Secciones/Eliezer_Conclusiones.tex}
     \input{Secciones/Antonio_Conclusiones.tex}
     \input{Secciones/Alejandro_Conclusiones.tex}
-
-    \section{Referencias}
 
     \bibliographystyle{IEEEtran}
     \bibliography{bibliografia}
