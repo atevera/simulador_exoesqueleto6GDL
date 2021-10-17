@@ -13,8 +13,8 @@
     admisible del sistema. 
     
     \subsubsection{Ecuación de D'Alambert-Lagrange}
-    Considerando el principio de \emph{trabajo virtual} orientado al equilibrio estático del principio de mínima accción, puede partirse a la
-    construcción del \emph{principio de D'Alambert}; siendo una extensión y enfocado al equilibrio dinámico del sistema.  Permitiendo así, la 
+    De acuerdo a \cite{3DMotion}, si se considera el principio de \emph{trabajo virtual} orientado al equilibrio estático del principio de mínima accción, puede partirse a la
+    construcción del \emph{principio de D'Alambert}; siendo una extensión y enfocado al equilibrio dinámico del sistema.  Lo que permite obtener la
     expresión (\ref{eqn:DL_Equation}) que representa la \emph{Ecuación de D'Alambert-Lagrange} de forma vectorial para $\boldsymbol{q}$ linealmente
     independientes.
     \begin{equation} 
@@ -43,7 +43,7 @@
     \end{itemize}
 
     \subsubsection{Fuerzas Inerciales}   
-    Del mismo modo, para un conjunto de partículas hay una \emph{fuerza generalizada de inercia} $\boldsymbol{\tau}_I$ que representa la compensación
+    Con base en \cite{3DMotion}, cada conjunto de partículas tiene una \emph{fuerza generalizada de inercia} $\boldsymbol{\tau}_I$ que representa la compensación
     virtual del movimiento definido como el valor negativo de (\ref{eqn:DL_Equation}). 
     \begin{equation}
         \label{eqn:inertia_general_force}
@@ -70,12 +70,12 @@
     
     \subsubsection{Matriz de Inercia}
     Considerando una partícula $i$ de masa constante $m$, su energía cinética es proporcional a su velocidad traslacional $v_i$ 
-    y rotacional $\omega_i$ en el centro de masa en coordenadas inerciales.
+    y rotacional $\omega_i$ en el centro de masa en coordenadas inerciales \cite{theoretical_minimun}.
     \begin{equation}
         \label{eqn:cinetica_normal}
          K_i = \frac{1}{2} m_i {v_i^{(0)}}^2 + \frac{1}{2} I_{c_i}^{(0)} {\omega_i^{(0)}}^2 
     \end{equation}
-    Para sistemas multipartículas, 
+    Para sistemas multipartículas \cite{rigid_multibody}, 
     \begin{equation}
         \label{eqn:cinetica_multi}
          K = \sum_{i=1}^n K_i
@@ -83,7 +83,7 @@
     Por lo que si (\ref{eqn:cinetica_normal}) es equivalente a (\ref{eqn:kinetic_energy}), entonces la matriz de inercia $H(\boldsymbol{q})$ debe 
     contener la misma información que los términos de (\ref{eqn:cinetica_normal}). 
     
-    Para ello, es necesario el uso de (\textbf{Eq Jacobianos Geo}) para el mapeo de las velocidades lineales y angulares de los \textbf{centros de masa}
+    Para ello, es necesario el uso de (\ref{eq:Jw}) para el mapeo de las velocidades lineales y angulares de los centros de masa
     de cada eslabón en función de las coordenadas generalizadas. Obteniendo: 
     \begin{multline}
         \label{eqn:inertia_matrix}
@@ -175,13 +175,20 @@
     \end{equation}
 
     \subsubsection{Energía Potencial y Vector de gravedad}
-    Para definir adecuadamente el vector de gravedad, es necesario considerar la definición matemática de la energía potencial $U$ para sistemas multipartículas. Siendo
+    Para definir adecuadamente el vector de gravedad, es necesario considerar la definición matemática de la energía potencial $U$ para sistemas multipartículas con
+    referencia a un \emph{datum} o valor de referencial $h_0$. Siendo
     \begin{equation}
         \label{eqn:energia_potencial}
-         U = \sum_{i=1}^n U_i =  \sum_{i=1}^n m_i \boldsymbol{d}_{cm_i}^T \boldsymbol{g}_0
+         U_{h_0} = \sum_{i=1}^n U_{i_{h_0}} =  \sum_{i=1}^n m_i \boldsymbol{d}_{cm_i}^T \boldsymbol{g}_0
     \end{equation}
     donde $\boldsymbol{d}_{cm_i}$ corresponde al vector posición del centro de masa y $\boldsymbol{g}_0$ al vector de aceleración de la gravedad, ambos
     en coordenadas inerciales. 
+
+    Si el sistema cuenta con valores negativos en la energía potencial, puede obtarse por sumar un valor constante $U_0$ con el fin de evitarlo y generar un \emph{offset}. 
+    \begin{equation}
+        \label{eqn:energia_potencial_offset}
+         U = U_{h_0}+U_0 \: \: : \dot{U} = \dot{U}_{h_0} 
+    \end{equation}
 
     Ya que la energía potencial gravitacional depende de las coordenadas generalizadas, el vector de gravedad $\boldsymbol{g}(\boldsymbol{q})$ puede
     expresarse como:
@@ -190,3 +197,18 @@
         \boldsymbol{g}(\boldsymbol{q}) = \frac{\partial U}{\partial \boldsymbol{q}}=-\sum_{i=1}^n \left[m_i \: ^0J_{v{cm_i}}^T(\boldsymbol{q}) \right] \boldsymbol{g}_0
     \end{equation}
     Donde el signo negativo es la correción tal que la energía potencial gravitacional aumenta en contra de la dirección de la gravedad.
+
+    \subsection{Energía Mecánica}
+    Tal como se expresa en \cite{theoretical_minimun},
+    \begin{equation}
+        \label{eqn:energia_mecanica}
+         E = K + U
+    \end{equation}
+    es la energía mecánica del sistema.
+    
+    Para el caso conservativo, su valor debe ser constante ya que no existen pérdidas de energía o aumentos al ser un sistema ailsado y
+    únicamente existirá transformación de energía potencial a cinética y viceversa. Por lo tanto, 
+    \begin{equation}
+        \label{eqn:derivada_energia_mecanica}
+         \dot{E} = 0
+    \end{equation}

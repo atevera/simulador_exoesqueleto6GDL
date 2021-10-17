@@ -39,7 +39,7 @@
     \end{equation}
     está en coordenas inerciales con unidades en $[\frac{m}{s^2}]$. Su construcción se presenta en el Anexo \ref{cd:gravedad}.
 
-    \subsubsection{Diagrama de bloques}
+    \subsubsection{Simulador Dinámico}
     Considerando que \emph{Simulink} funciona mediante bloques, cada una de los términos requeridos por (\ref{eqn:modelo_dinamico}) pueden ser exportados mediante la
     función \emph{matlabFunctionBlock} \cite{matlabFunctionBlock}. Por lo que al implementarse, se obtiene el diagrama de bloques de la Figura \ref{fig:diagrama_bloques}.
     \begin{figure}[H]
@@ -48,7 +48,37 @@
         \caption{Diagrama de bloques del modelo dinámico}
         \label{fig:diagrama_bloques}
     \end{figure}
-    Donde \emph{dissipative} representa al factor de disipación $b$ indicado por el usuario, $dq$ indica $\boldsymbol{\dot{q}}$ y \emph{torque} es equivalente a
-    $\boldsymbol{\tau}$.
+    Donde \emph{dissipative} representa al factor de disipación $b$ indicado por el usuario, \emph{torque} es equivalente a $\boldsymbol{\tau}$; mientras que 
+    $dq$ y $q$ indican $\boldsymbol{\dot{q}}$ y $\boldsymbol{q}$ respectivamente. 
+    
+    Como salidas, se define la matriz de inercia $H$ evaluada y la aceleración $\boldsymbol{\ddot{q}}$. Sin embargo, la entrada del sistema depende de la salida, por lo que tiene
+    que pasar por un proceso de integración basadp en el $ode15s$ para la definición del comportamiento del sistema (también conocido como planta):
+    \begin{figure}[H]
+        \includegraphics[scale = 0.39]{simulador1.png}
+        \centering
+        \caption{Diagrama de bloques de la planta}
+        \label{fig:planta}
+    \end{figure}
+    
+    \subsubsection{Integrador}
+    %\textbf{Pendiente para revisar el caso conservativo}
+    Se describe en \cite{ode15s} que el integrador $ode15s$ es un solucionador de paso variable y orden variable (\emph{VSVO}), basado en las fórmulas de diferenciación numérica
+    (\emph{NDF}) de los órdenes 1 a 5, pero que a su vez, puede utilizar las fórmulas de diferenciación inversa (\emph{BDF}) que suelen ser menos eficientes. 
+    
+    Al igual que $ode113$, $ode15s$ es un solucionador de paso variable destinado a resolver ecuaciones diferenciales rígidas y ecuaciones algebraicas diferenciales (\emph{DAE}). 
+    Con respecto al concepto de los ODE rígidos, se explica en \cite{ODEs} que esto hace referencia a aquellos sistemas que presentan tramos de variación rápida en ciertas secciones de
+    la función, mientras que hay otras en las que el cambio es lento en comparación a otras regiones, lo cual conlleva a tamaños de paso extremadamente pequeños, ocasionando que
+    integradores de paso fijo como el $ode45$ fallen en converger, o bien que tomen mucho tiempo en lograrlo.
 
-    Sin embargo, 
+    \subsubsection{Energía Potencial}
+    Considerando que el modelo dinámico está obtenido con base a un análisis energético, es conveniento conocer como se comporta la energía cinética, potencial y mecánica del 
+    sistema para la validación del modelo, así como para la selección de técnicas de control como trabajo a futuro. Por lo tanto, se realizó la implementación de la expresión
+    (\ref{eqn:energia_potencial}) como se presenta en el Anexo \ref{cd:energia_potencial}. Sin embargo, para las gráficas se consideró el ajuste del \emph{datum} con el fin de
+    evitar valores negativos en la energía potencial tal como se presenta en (\ref{eqn:energia_potencial_offset}), donde $U_0$ corresponde al valor mínimo de $U$ durante el
+    tiempo de simulación. 
+
+    \subsubsection{Energía Cinética y Mecánica}
+    Para el cálculo de la energía cinética no fue necesaria la construcción de una función, dado que la matriz de inercia ya se encuentra evaluada durante la simulación como
+    se presenta en la Figura \ref{fig:diagrama_bloques}. Por lo que únicamente se aplicó (\ref{eqn:kinetic_energy}) para su cálculo. 
+
+    Mientras que para la energía mecánica se considero la expresión (\ref{eqn:energia_mecanica}).
