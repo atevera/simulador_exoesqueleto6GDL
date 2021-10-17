@@ -1,5 +1,4 @@
 \subsection{Cinemática directa}
-% Tony -------- Info
     \subsubsection{Transformaciones homogéneas}
         De manera general, se explica una matriz de transformación homogénea como una
         matriz que permite expresar un punto especificado en coordenadas de
@@ -35,9 +34,10 @@
         la transformación entre el primer y el último marco referencial, expresándose de la 
         siguiente manera.
 
-        \begin{equation*}
+        \begin{equation}
             A^i_0(q) =  A^{pi}_0(q_1,...,q_j)A_i(q_i)
-        \end{equation*}
+            \label{eq:CD}
+        \end{equation}
 
     \subsubsection{Asignación de referenciales}
         Con respecto al tema de transformaciones homogéneas, se observa que un 
@@ -103,13 +103,14 @@
         entonces la matriz de trasformación homogénea entre dos referenciales se 
         expresa de la siguiente manera.
         
-        \begin{equation*}
+        \begin{equation}
             A_i(q_i) = A_{i0} A_{iv}(q_i) = 
             \begin{bmatrix}
                 e^{[\lambda_{R_i}\times]q_i} & d_{i0} + \lambda_{Ti}q_i\\
                 0 & 1
             \end{bmatrix}
-        \end{equation*}
+            \label{eq:TH_GRYMA}
+        \end{equation}
 
         Considerando para el proceso de implementación, que el Operador Producto Cruz 
         [\textbf{a}X] representa el producto cruz vectorial como una expresión 
@@ -150,7 +151,7 @@
         \end{table}
 
         Con lo cual, la metodología GRyMA haría uso de 4 parámetros básicos constantes 
-        para cada relación padre/hijo entre referenciales: %d_{x_1}, d_{y_1}, d_{z_1}% 
+        para cada relación padre/hijo entre referenciales: $d_{x_1}, d_{y_1}, d_{z_1}$ 
         y $\Theta_i$.
 
         De otra manera, cada vector director de traslación y rotación puede ser parametrizado 
@@ -177,326 +178,104 @@
         \end{table}
 
     \subsubsection{Jacobiano geométrico}
+        Se explica en [Multirigid Body] que el Jacobiano Geométrico de un marco referencial 
+        específico, es el operador lineal que permite mapear las velocidades generalizadas 
+        $\textbf{\dot{q}}$ a los valores del \emph{twist} $v_i$, el cual es el vector que 
+        contiene la velocidad lineal y angular de un marco referencial, y se define de la 
+        siguiente manera. 
+
+        \begin{equation*}
+            \mathcal{V}  \triangleq 
+            \begin{pmatrix}
+                v \\
+                \omega
+            \end{pmatrix}
+            \epsilon \mathcal{M} \subset \mathbb{R}^6
+        \end{equation*}
+
+        Y con lo cual, al ser relacionado con el Jacobiano geométrico, se obtiene la siguiente 
+        igualdad.
+
+        \begin{equation*}
+            \mathcal{V} = J_i(q)\dot{q}
+        \end{equation*}
+
+        De esta manera, se observa que al ser el \emph{twist} un vector que puede ser expresado 
+        en las coordenadas de cualquier marco referencial, entonces también es posible expresar 
+        el Jacobiano geométrico de diferentes formas, en este caso surgen las siguientes expresiones 
+        para la representación del Jacobiano en coordenadas inerciales y locales.
+
+        \begin{align*}
+            \mathcal{V}^{(0)}_i = \prescript{0}{}J_i(q)\dot{q}
+            \mathcal{V}^{(i)}_i = \prescript{i}{}J_i(q)\dot{q}
+        \end{align*}
+        
+        Así mismo, debido a la definición que tiene el vector \emph{twist}, se observa que de igual 
+        manera el Jacobiano geométrico puede ser descompuesto en sus elementos referentes a velocidad 
+        lineal y velocidad angular de la siguiente manera.
+
+        \begin{equation*}
+            \prescript{j}{}J_i(q) = 
+            \begin{bmatrix}
+                \prescript{j}{}J_{vi}(q) \\
+                \prescript{j}{}J_{\omega i}(q)
+            \end{bmatrix}
+        \end{equation*}
+
+        De tal manera que se tienen las siguientes equivalencias para la velocidad lineal y angular del 
+        referencial local analizado.
+
+        \begin{align*}
+            v^{(j)}_i = \prescript{j}{}J_{vi}(q)\dot{q}
+            \omega^{(j)}_i = \prescript{j}{}J_{\omega i}(q)\dot{q}
+        \end{align*}
+
+        Cabe mencionar que los componentes de velocidad del Jacobiano pueden ser expresados 
+        con respecto al referencial inercial, solamente es necesario hacer la multiplicación 
+        por la matriz de transformación homogénea respectiva del referencial inercial al referencial 
+        correspondiente del Jacobiano local.
+
+        A continuación se presentarán las ecuaciones utilizadas en la implementación para el 
+        cálculo de los componentes de velocidad del Jacobiano geométrico.
+
     \subsubsection{Jacobiano geométrico de velocidad lineal}
+        Como primer punto se explica en [Multirigid Body] que el Jacobiano de velocidad lineal 
+        en una cadena serial, puede ser expresado de la siguiente manera.
+
+        \begin{equation}
+            \prescript{0}{}J_{Vi}(q) = 
+            [[\prescript{0}{}J_{Vi}]_1, [\prescript{0}{}J_{Vi}]_2, ..., \lambda^{0}_{Ti}, 0, ..., 0]
+            \epsilon \mathbb{R}^{3xn}
+            \label{eq:Jv}
+        \end{equation}
+
+        Donde cada columna del operador esta dado por la ecuación siguiente.
+
+        \begin{equation*}
+            [\prescript{0}{}J_{Vi}]_k = \frac{\partial v^{0}_i}{\partial \dot{q}k} = 
+            \begin{cases}
+                \lambda^{(0)}_{Tk} + \lambda^{(0)}_{Rk} \times (d_i - d_k) & si k \leqq i \\
+                0                                                          & Otro
+            \end{cases}
+        \end{equation*}
+
     \subsubsection{Jacobiano geométrico de velocidad angular}
+        Como segundo punto, se explica que el Jacobiano de velocidad angular, 
+        en cadenas seriales, puede ser calculado para cualquier marco de referencia 
+        haciendo uso de los vectores directores correspondientes a los referenciales 
+        subsecuentes, obteniéndose la siguiente expresión.
 
+        \begin{equation}
+            \prescript{0}{}J_{\omega i} =
+            [\lambda^{0}_{R1}, \lambda^{0}_{R2}, ..., \lambda^{0}_{Ri}, 0, ..., 0]
+            \epsilon \mathbb{R}^{3xn}
+            \label{eq:Jw}
+        \end{equation}
 
-    % Eliezer ----- Info
+        Esto es condierando que a partir de la metodología GRyMA para asignación de referenciales, 
+        el vector director de rotación con respecto al referencial inercial se expresa de la siguiente 
+        forma.
 
-    \noindent La cinemática directa consiste en definir la posición y orientación del efector final, en función de las
-    coordenadas generalizadas de cada articulación, con respescto a un marco de referencia [3], en este caso particular,
-    es un marco de referencia no inercial.
-
-    Para lograrlo, se requieren cadenas cinemáticas desde el referencial base hasta el referencial local; para cada uno de
-    estos ejes coordenados, se requiere el cálculo de matrices de transformación homogéneas mismas que definen el movimiento
-    de rotación y traslación en función de donde se ubique el marco referencial de cada articulación. 
-
-    Debido a que cada eslabón tiene asignada una coordenada generalizada y por lo tanto, tiene su propia matriz que describe
-    su movimiento, se necesita multiplicar cada una de las matrices de transformación homogéneas.
-    \\
-    La matriz de transformación homogenea tiene la siguiente forma:
-    \begin{equation*} 
-        A_i = 
-        \begin{bmatrix}
-        R^i_{i-1} & d^i_{i-1}\\
-        0 & 1
-        \end{bmatrix}
-    \end{equation*}
-
-    \noindent Cabe destacar que la matriz $R^j_i \in \mathbb{R}^{3\times 3}$ representa la orientación del referencial $j$
-    respecto al referencial $i$, y el vector $d^j_{i}$ expresa la traslación del referencial $j$ respecto al referencial $i$.\\
-
-    \noindent Existen diferentes métodos para asignar los referenciales de coordenadas generalizadas, y así obtener la matriz
-    de transformación homogenea; uno de los más utilizados en robótica industrial es el denominado: "Denavit Hartenberg",
-    pero no es el único. En el curso se presentan 2 más (Denavit Hartenberg modificado "mDH" y GRyMA), lo cierto es que los
-    3 buscan reducir la cantidad de parámetros que se requieren para definir las transformaciones homogéneas entre marcos
-    referenciales. 
-
-    \noindent Los movimientos rígidos generales se definen mediante una traslación $d \in \mathbb{R}^3$ y una rotación
-    $R \in SO(3)$. Por tanto, se componen de 6 GDL para cada par de marcos referenciales consecutivos. La asignación del marco
-    para cada elemento rígido da como resultado todos los $A_i (q_i) \in SE(3)$ en el sistema.
-
-    \noindent Dos de los ejemplos más comunes son las convenciones clásicas de Denavit-Hartenberg (DH) y las modificadas de
-    Denavit-Hartenberg (mDH). Ambos reducen los parámetros requeridos de 6 a 4, lo que da como resultado la torsión del enlace
-    ($\alpha$), la longitud del enlace ($a$), el ángulo de unión ($\theta$) y el desplazamiento del enlace ($d$).
-    \noindent A continuación se presentarán las reglas que se deben llevar a cabo para la asignación de referenciales,
-    correspondiente.
-
-    \subsubsection{Denavit Hartenberg}
-    \noindent Existen dos restricciones al momento de definir del marco de referencia: 
-    \begin{enumerate}
-        \item El eje $x$ de un referencial dado debe ser perpendicular al eje $z$ de los referenciales vecinos consecutivas. 
-        \item El eje $x$ de un referencial dado y el eje $z$ del referencial vecino consecutivo deben intersectar. 
-    \end{enumerate}
-
-    \noindent Debido a que la convención DH define una secuencia intrínseca explícita:
-    $\theta_i \rightarrow d_i \rightarrow a_i \rightarrow \alpha_i$, las transformaciones homogéneas $A_i (q_i)$,
-    que representan el movimiento rígido correspondiente, se obtiene la siguiente forma particular:
-    \begin{align*}
-        A_i (q_i) & \triangleq A_R (R_{z,\theta}) A_T (d_i k) A_T (a_i i) A_R (R_{x,\alpha_i}) \\
-        & = \left[  \begin{array}{cc}
-            R_{i-1}^i (\cdot)  & d_{i/i-1}^{(i-1)} (\cdot) \\
-            0 & 1  
-    \end{array} \right]
-    \end{align*}
-    donde
-    \begin{align*}
-        R_{i-1}^i (\cdot) & = R_{z,\theta_i}  R_{x,\alpha_i} \\ 
-        & = \left[  \begin{array}{ccc}
-            \cos{\theta_i}  & -\sin{\theta_i}\cos{\alpha_i} & \sin{\theta_i} \sin{\alpha_i} \\
-            \sin{\theta_i} &  \cos{\theta_i}\cos{\alpha_i} &
-            -\cos{\theta_i}\sin{\alpha_i} \\
-            0 & \sin{\alpha_i} & \cos{\alpha_i}
-        \end{array} \right]
-    \end{align*}
-
-    \vspace{2mm}
-    \begin{equation*}
-    \begin{array}{ccc}
-        d_{i/i-1}^{(i-1)} (\cdot) & = d_i k + a_i R_{z,\theta_i} R_{x,\alpha_i}  i 
-        & = \left[  \begin{array}{c}
-            a_i \cos{\theta_i} \\
-            a_i \sin{\theta_i} \\
-            d_i 
-        \end{array} \right]
-    \end{array}
-    \end{equation*}
-
-    \vspace{5mm}
-    \noindent Además se sabe que solo uno de los parámetros DH es variable en el tiempo, por lo tanto existen
-    variaciones en el ángulo de articulación o en el desplazamiento del enlace\\
-    \vspace{-2mm}
-    \begin{equation*}
-        \begin{array}{cc}
-            \theta_i (t) = \theta_{i_0} + q_i (t) & \text{Articulación Revoluta} (R) \\
-            d_i (t) = d_{i_0} + q_i (t) & \text{Articulación presmática} (P)
-        \end{array}
-    \end{equation*}
-    \vspace{1mm}
-    \noindent La cinemática directa de un robot manipulador puede ser determinada por la multiplicación de todas
-    las matrices $A_i (q_i)$ obtenidas por la tabla de los parámetros de DH. 
-
-    \noindent Sabiendo que el exoesqueleto tiene asignados 6 coordenadas generalizadas $q_i$ se tendría que
-    aplicar la multiplicación de la siguiente manera:
-    \begin{equation*}
-        % Revisar porque le moví a los subíndices jeje Atte. Alejandro :)
-    A = A_1(q_1) \hspace{1mm} A_2(q_2) \hspace{1mm} A_3(q_3) \hspace{1mm} A_4(q_4) \hspace{1mm} A_5(q_5)
-        \hspace{1mm} A_6(q_6) \hspace{1mm} A_7(q_7)
-    \end{equation*}
-    \noindent Sin embargo, esto no es del todo cierto, debido a que para lograr cumplir con las 2 condiciones que
-    estipula la metodología, aunado a la forma que tiene el diseño de los eslabones 1 y 3, implica que se generen
-    referenciales virtuales.     \\ 
-    \noindent Después de comparar los resultados de la matriz homogenea obtenida por las 3 metodologías y comparando
-    los resultados de las mismas, se optó por no utilizar la metodología tradicional y llevar acabo los cálculos con
-    el siguiente método: \\ 
-    \subsubsection{GRyMA}
-    \noindent La metodología GRyMA (Nombre dado en honor al Grupo de Robótica y Manufactura Avanzada) es otra alternativa
-    a la asignación de los marcos referenciales en una cadena cinemática. Busca un cambio de paradigma y no exige las
-    restricciones de DH mencionadas en la metodología anterior. \\ 
-    \noindent El origen de cada marco de referencia $ \sum_i$ se coloca a lo largo del eje de articulación que definirá
-    la coordenada generalizada $ qi$. No obstante, el eje z no está restringido a estar a lo largo de esta coordenada
-    y la dirección del movimiento se define directamente con el vector director extendido
-    $ \lambda_i=(\lambda_{Ti}^T, \lambda_{Ri}^T)^T \epsilon \thinspace \mathbb{R}^6 $.  \\ 
-    \noindent Todas las coordenada generalizada de referencia, son colocadas en la misma orientación de "CASA" logrando
-    una configuración nula y 3 parámetros de compensación son definidos para representar la distancia relativa desde el
-    origen del marco padre para cada marco nominal $ \mathbf{d}_{io}=(d_{xi}, d_{yi}, d_{zi})$ en la posición de "CASA"
-    (q=0).
-
-    La transformación homogenea correspondiente es $A_i$ y tiene la siguiente forma:
-
-    $A_i(qi)=A_{io}A{iV}(qi) \hfill \Sigma_i \rightarrow \Sigma_{pi},$
-
-    $A_{io}$ representa la transformación homogénea constante y $A_iv(qi)$ la transformación homogénea variante en el
-    tiempo.
-    \begin{equation*}
-        \hspace{-10mm}
-        A_{io} = \left[
-            \begin{array}{cc}
-                I_{3} & d_{io}\\
-                0 & 1\\
-            \end{array}\right]  \epsilon \thinspace SE(3) 
-    \end{equation*} 
-
-    donde 
-
-    \begin{equation*}
-        \hspace{-10mm}
-        d_{io} = \left(
-            \begin{array}{c}
-                d_{xi}\\
-                d_{yi}\\
-                d_{zi}\\
-            \end{array}\right) \epsilon \thinspace \mathbb{R}^3 
-    \end{equation*} 
-
-    Por otra parte:
-
-    \begin{equation*}
-        \hspace{-10mm}
-        A_{vi} (qi(t)) \doteq \left[
-            \begin{array}{cc}
-                e^{[\lambda_{Ri}X]_{qi}} & \lambda_(T_i)q_i\\
-                0 & 1\\
-            \end{array}\right]  
-    \end{equation*} 
-
-    $$ = 
-    \left\{\begin{matrix}
-    A_R (R\lambda_{Ri,qi}) & si \thinspace qi \thinspace es \thinspace rotacional \thinspace(\lambda_T=0) \\ 
-    A_T (\lambda_{Ti}qi) & si \thinspace qi \thinspace es \thinspace prismatica \thinspace(\lambda_R=0) \\ 
-    \end{matrix}\right.
-    $$
-    Se caracteriza con la coordenada generalizada escalar $qi\thinspace \epsilon \thinspace \mathbb{R} $ y el
-    vector director extendido unitario constante (vector director cinemático)
-    %Revisar expresión
-    $$\lambda_{i}^{(1)} \coloneqq   
-    \begin{pmatrix} A_{Ti} \\ A_{Ri} \\ \end{pmatrix} \thinspace   \epsilon \thinspace \mathbb{R}^4 \thinspace
-    \thinspace \Rightarrow \thinspace \thinspace \lambda_{Ti}x\lambda_{Ri}=0$$
-
-    Entonces:
-
-    $$A_{i}(q_{i})=A_{io}A_{iv}(q_{i})=\begin{bmatrix} e^{[\lambda_{Ri}X]}q_{i}& d_{io}+\lambda_{Ti}q_{i}\\ 0 & 1\end{bmatrix}$$
-
-    $e^{[\lambda_{Ri}X]qi}$ es la matriz de rotación correspondiente la cual es un mapeo exponencial (Formula de Rodrigues)
-
-    $$R_{\lambda_{i}\vartheta}=I+[\lambda x]s\vartheta+[\lambda x]^{2}\upsilon\vartheta=e^{[\lambda x]\vartheta}$$
-    donde
-    %Revisar expresión
-    $$ \epsilon_{q_i} = \thinspace verseno  \thinspace\thinspace \coloneqq  1 - cos(q_{i})$$ 
-
-    Si todos los movimientos posibles son alineados con uno de los ejes principales de cada marco, el vector director
-    cinemático $\Theta_i$ se puede codificar con un parámetro escalar único i, como se muestra a continuación:
-
-    \begin{table}[!ht] %[H]
-    \centering
-    \begin{center}
-    \begin{tabular}{cccccccc}
-    $\Theta_i$ & 0 & 1 & 2 & 3 & 4 & 5 & 6\\
-    \hline \hline 
-    $\lambda_{T_i}$ & 0 & 1 & 0 & 0 & 0 & 0 & 0\\ 
-    $\lambda_{T_i}$ & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
-    $\lambda_{T_i}$ & 0 & 0 & 0 & 1 & 0 & 0 & 0\\
-    \hline 
-    $\lambda_{R_i}$ & 0 & 0 & 0 & 0 & 1 & 0 & 0\\
-    $\lambda_{R_i}$ & 0 & 0 & 0 & 0 & 0 & 1 & 0\\
-    $\lambda_{R_i}$ & 0 & 0 & 0 & 0 & 0 & 0 & 1\\
-    \hline 
-    $R_{i}$ & $I_3$ & $I_3$ & $I_3$ & $I_3$ & $R_{x}(qi)$ & $R_{y}(qi)$ & $R_{z}(qi)$\\ 
-
-    \end{tabular}
-    \end{center}
-    \end{table}
-    En caso contrario, cada $\lambda_{T_i}$ , $\lambda_{R_i}$ puede parametrizarse con un
-    par elevación-azimut ($\alpha_i$, $\beta_i$):
-
-    \begin{table}[!ht] %[H]
-    \centering
-    \begin{center}
-    \begin{tabular}{ccc}
-    $\Theta_i$ & 7 & 8\\
-    \hline \hline 
-    $\lambda_{T_i}$ & $\cos{\alpha_i}\sin{\beta_i}$ & 0\\ 
-    $\lambda_{T_i}$ & $\sin{\alpha_i}\sin{\beta_i}$ & 0\\
-    $\lambda_{T_i}$ & $\cos{\beta_i}$ & 0\\
-    \hline 
-    $\lambda_{R_i}$ & 0 & $\cos{\alpha_i}\sin{\beta_i}$\\
-    $\lambda_{R_i}$ & 0 & $\sin{\alpha_i}\sin{\beta_i}$\\
-    $\lambda_{R_i}$ & 0 & $\cos{\beta_i}$\\
-    \hline 
-    $R_{i}$ & $I_3$ & $R_{\lambda_{R_i}}$ (qi)\\ 
-    \end{tabular}
-    \end{center}
-    \end{table}
-
-    Por lo cual, la metodología GRyMA usa únicamente 4 parámetros constantes independientes básicos  
-    para cada relación de los marcos padre/hijo:
-    $d_{xi}, d_{yi}, d_{zi}$ y $\theta$
-
-    Para la asignación de marcos se respeta el siguiente algoritmo:
-    \begin{enumerate}
-    \item Identificar los ejes de movimiento en cada articulación.
-    \item Asignar el marco de referencia inercial $\Sigma_0$ de modo que tanto la posición como la orientación sean
-    estratégicamente definidas con respecto a los ejes de articulación del sistema.
-    \item Asignar cada marco de referencia $\Sigma_i$ a la articulación correspondiente con la misma orientación del
-    marco inercial y con el origen a lo largo del eje de articulación.
-    \item Determinar el vector de distancia di0 ∈ R3 desde el marco padre de cada unión, en la posición "home" ($q = 0$).
-    \item Codificar el parámetro de dirección $\Theta _i$ con respecto a la dirección y el tipo de movimiento de cada
-    articulación.
-    
-    \end{enumerate}
-
-    \noindent Finalmente, aplicando lo anterior y asignando los marcos referenciales como se aprecia en la Figura
-    \ref{fig:ExoPara}, se obtiene la siguiente tabla:
-
-    \begin{table}[!ht] %[H]
-    \centering
-    \begin{center}
-    \begin{tabular}{cccccc}
-    $\Sigma_i$ & $\Sigma_{p_i}$ & $d_{x_i}$ & $d_{y_i}$ & $d_{z_i}$ & $\Theta_i$\\
-    \hline \hline 
-    $\Sigma_1$ & $\Sigma_0$ & 0   & 0 & 0  & 5\\ 
-    $\Sigma_2$ & $\Sigma_1$ & L1  & 1 & L2 & 5\\
-    $\Sigma_3$ & $\Sigma_2$ & -L7 & 0 & L3 & 8\\
-    $\Sigma_4$ & $\Sigma_3$ & -L6 & 0 & L4 & 6\\
-    $\Sigma_5$ & $\Sigma_4$ & 0   & 0 & L5 & 4\\
-    $\Sigma_6$ & $\Sigma_5$ & 0   & 0 & 0  & 5\\
-    $\Sigma_6$ & $\Sigma_6$ & -L8 & 0 & 0  & 0\\
-    \end{tabular}
-    \end{center}
-    \end{table}
-    \subsection{Jacobiano}
-    \noindent Existen dos tipos de jacobiano: El jacobiano analítico y el jacobiano geométrico. Este último depende de
-    la configuración del manipulador y representa la relación entre las velocidades de la articulación, la velocidad
-    lineal y angular de efector final. 
-    En contraparte, el jacobiana analítico es cuando el efector final se expresa con referencia a una representación
-    mínima (ángulos de Euler) en el espacio operacional, y se calcula derivando la posición del efector final y su
-    orientación con respecto a las variables de la articulación [6]. La matriz jacobiana de un manipulador robótico es
-    una matriz de $6 \times N$, donde la velocidad articular $ \dot{q}$ es un vector $N$ y la velocidad espacial $v$
-    es un vector $-6$. La velocidad espacial y la velocidad articular están relacionadas a través de la matriz
-    jacobiana mediante la siguiente expresión:
-    \vspace{-3mm}
-
-    \begin{equation*}
-        \nu = J_i (q)\dot{q}
-    \end{equation*}
-    En el caso de que el manipulador tenga 6 GDL, no hay ningún problema a la hora de analizar la matriz jacobiana,
-    ya que será una matriz de $ 6 \times  6 $ (matriz cuadrada), por lo que los cálculos de determinantes y rangos
-    se pueden realizar sin ningún problema. Sin embargo, como se mencionó anteriormente, el diseño propuesto se
-    clasifica como un manipulador de menos de 6 GDL. Debido a esto, la matriz jacobiana resultante será una matriz
-    de $ 6 \times 5 $.
-    \vspace{2mm}
-    De esta manera la matriz correspondiente a jacobiana se expresa como:
-    \begin{equation*}
-        \hspace{-10mm}
-        J = \left[
-            \begin{array}{ccccc}
-                J_{1,1} & J_{1,2} & J_{1,3} & J_{1,4} & J_{1,5}\\
-                J_{2,1} & J_{2,2} & J_{2,3} & J_{2,4} & J_{2,5}\\
-                J_{3,1} & J_{3,2} & J_{3,3} & J_{3,4} & J_{3,5}\\
-                J_{4,1} & J_{4,2} & J_{4,3} & J_{4,4} & J_{4,5}\\
-                J_{5,1} & J_{5,2} & J_{5,3} & J_{5,4} & J_{5,5}\\
-                J_{6,1} & J_{6,2} & J_{6,3} & J_{6,4} & J_{6,5}\\
-            \end{array}\right] 
-        \hspace{10mm}
-    \end{equation*} 
-    Donde los valores representados en los primeros 3 renglones, corresponden a la velocidad lineal y los siguientes
-    3 a la velocidad angular. 
-    Para el caso de la velocidad lineal, se parte de la ecuación:
-    \begin{equation*}
-        J_{v_i} q \triangleq = \frac{\partial d_i}{\partial q}
-    \end{equation*}
-    Tomando en cuenta esto, la matriz del jacobiana de la velocidad lineal $J_{v}$ para el robot manipulador propuesto
-    resultará de:
-    \begin{equation*}
-        J_v = J_{v_1}(q_1) \hspace{1mm} J_{v_2}(q_2) \hspace{1mm} J_{v_3}(q_3) \hspace{1mm} J_{v_4}(q_4) \hspace{1mm} J_{v_5}(q_5)
-    \end{equation*}
-    Para el caso de la velocidad angular, se parte de la ecuación:
-    \begin{equation*}
-        J_{\omega _i}q \triangleq = [r1_i] \times\frac{\partial r1_i}{\partial q} + [r2_i] \times\frac{\partial r2_i}{\partial q}
-                                    + [r3_i] \times\frac{\partial r3_i}{\partial q}
-    \end{equation*}
-    Tomando en cuenta esto, la matriz del jacobiana de la velocidad angular $J_{\omega}$ para el robot manipulador propuesto
-    resultará de:
-    \begin{equation*}
-        J_\omega = J_{\omega_1}(q_1) \hspace{1mm} J_{\omega_2}(q_2) \hspace{1mm} J_{\omega_3}(q_3) \hspace{1mm} J_{\omega_4}(q_4) \hspace{1mm} J_{\omega_5}(q_5)
-    \end{equation*}
+        \begin{equation*}
+            \lambda^{0}_{Ri}(\textbf{q}) = R^i_0(q)\lambda_{R_i}
+        \end{equation*}

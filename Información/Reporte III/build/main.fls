@@ -1,7 +1,7 @@
-PWD g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\main.tex
-OUTPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.log
+PWD c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III
+INPUT C:\Users\anlun\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\main.tex
+OUTPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.log
 INPUT .\IEEEtran.cls
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
@@ -13,50 +13,50 @@ INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT .\paquetes.tex
 INPUT .\paquetes.tex
 INPUT .\paquetes.tex
@@ -64,817 +64,811 @@ INPUT paquetes.tex
 INPUT .\paquetes.tex
 INPUT .\paquetes.tex
 INPUT paquetes.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkeyval.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkvutils.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
-OUTPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\utf8x.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucs.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-global.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\newtxmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\oberdiek\centernot.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\generic\binhex\binhex.tex
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\breqn.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\flexisym.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\cmbase.sym
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\breqn\mathstyle.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
+OUTPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxmi.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxexa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmsntxsy.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\lmxntxexx.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-0.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT .\Secciones\Cinematica.tex
 INPUT Secciones\Cinematica.tex
 INPUT .\Secciones\Cinematica.tex
 INPUT Secciones\Cinematica.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
-OUTPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi7.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsym.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\txsyb.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\txsya.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxexx.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txexs.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi5.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsy7.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Bold-tlf-ot1.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txbmiaX.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsy.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi5.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi7.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsyc.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\txsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-34.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-34.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-34.def
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\ucs\uni-34.def
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\ot1ntxtlf.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxmia.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsym.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\newtx\untxsyc.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+OUTPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\anlun\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi7.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsym.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\txsyb.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\txfonts\txsya.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxexx.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txexs.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmi5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsy5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi5.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsy7.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Bold-tlf-ot1.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txbmiaX.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Bold-tlf-ot1r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsy.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi5.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi7.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntx-Regular-tlf-ot1.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaX.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntx-Regular-tlf-ot1r.tfm
 INPUT .\Secciones\Dinamica.tex
 INPUT Secciones\Dinamica.tex
 INPUT .\Secciones\Dinamica.tex
 INPUT Secciones\Dinamica.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmi.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmi7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmi5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsy.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsy7.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsy5.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexx.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmia.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsym.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsyc.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexa.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexa.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexa.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxbmi.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXBMI.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxbsy.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txbsys.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txbex-bar.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmi.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmi7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmi5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsy.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsy7.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsy5.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexx.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbmia.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsym.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbsyc.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexa.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexa.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\ntxbexa.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxbmi.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXBMI.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxbsy.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txbsys.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txbex-bar.tfm
 INPUT .\Secciones\Exoesqueleto.tex
 INPUT Secciones\Exoesqueleto.tex
 INPUT .\Secciones\Exoesqueleto.tex
 INPUT Secciones\Exoesqueleto.tex
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\Dedo Vist Isometrica.JPG
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\Dedo Vist Isometrica.JPG
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\Dedo Vist Isometrica.JPG
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\EsquemaArticulaciones.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\EsquemaArticulaciones.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\EsquemaArticulaciones.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\Dedo Vist Isometrica.JPG
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\Dedo Vist Isometrica.JPG
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\Dedo Vist Isometrica.JPG
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\Dedo Vist Isometrica.JPG
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\EsquemaArticulaciones.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\EsquemaArticulaciones.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\EsquemaArticulaciones.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT c:\Users\anlun\Documents\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\Secciones\Implementacion_cinematica.tex
 INPUT Secciones\Implementacion_cinematica.tex
 INPUT .\Secciones\Implementacion_cinematica.tex
@@ -903,10 +897,6 @@ INPUT .\Secciones\Alejandro_Conclusiones.tex
 INPUT Secciones\Alejandro_Conclusiones.tex
 INPUT .\Secciones\Alejandro_Conclusiones.tex
 INPUT Secciones\Alejandro_Conclusiones.tex
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
 INPUT .\Secciones\Anexos_sistema_mecanico.tex
 INPUT Secciones\Anexos_sistema_mecanico.tex
 INPUT .\Secciones\Anexos_sistema_mecanico.tex
@@ -915,46 +905,7 @@ INPUT .\Secciones\Anexos_cinematica.tex
 INPUT Secciones\Anexos_cinematica.tex
 INPUT .\Secciones\Anexos_cinematica.tex
 INPUT Secciones\Anexos_cinematica.tex
-INPUT .\Secciones\Anexos_dinamica.tex
-INPUT Secciones\Anexos_dinamica.tex
-INPUT .\Secciones\Anexos_dinamica.tex
-INPUT Secciones\Anexos_dinamica.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newtx\ntx-ot1-tlf.enc
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXBMI.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXBMI.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI5.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI5.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI7.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI7.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txbsys.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txbsys.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txexs.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txexs.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txmiaX.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txmiaX.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsya.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsya.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsyb.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsyb.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsyc.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsyc.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmb.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\ztmr.pfb
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\anlun\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
