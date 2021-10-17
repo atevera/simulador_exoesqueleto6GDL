@@ -1,77 +1,192 @@
 \subsection{Dinámica}
-    La dinámica estudia las causas del movimiento, esto a través del estudio de las fuerzas y torques y su efecto en
-    el movimiento de los cuerpos (esta representada en expresiones de segundo orden). En robótica, cuando se habla de
-    dinámica, se hace referencia a la relación existente entre el movimiento del robot y las fuerzas generalizadas sobre el. 
-    El modelo de Euler-Lagrange esta representado por: 
-    \begin{equation*}
-        H(q)\ddot{q} + C(q, \dot{q}) \dot{q} + g(q) = \tau
-    \end{equation*}
-    Donde $H(q)$ es la matriz de inercia, $C(q, \dot{q})$ es la matriz de coriolis  y $g(q)$ es el vector de gravedad.
-    De igual forma, $\tau$ es la entrada des sistema.\\ 
+    La dinámica es la parte de la mecánica que estudia la relación entre el movimiento y las causas que lo producen
+    (fuerzas o torques) mediante el análisis de ecuaciones diferenciales de segundo orden (modelo dinámico). Para su
+    obtención, pueden utilizarse diferentes metodologías a partir de la mecánica Newtoniana o bien de la mecánica
+    Lagrangiana. 
+    
+    Especialmente, para sistemas multicuerpos rígidos, se prefiere el uso de la mecánica Lagrangiana dada su versatilidad
+    y fácil escalado mediante el análisis energético para sistemas con $n$ partículas. Además, reduce drásticamente el número de ecuaciones
+    necesarias para describir el movimiento de un conjunto de partículas; ya que sólo necesitaremos $n$ ecuaciones y no $3n$ como es el caso 
+    de la mecánica Newtoniana.    
+    Para ello, el sistema debe poder ser descrito mediante un conjunto de coordenadas generalizadas $\boldsymbol{q} \in \mathbb{R}^n$ y sus 
+    derivadas totales respecto al tiempo $\boldsymbol{\dot{q}}$ (ambas medibles); las cuales representan las direcciones del movimiento
+    admisible del sistema. 
+    
+    \subsubsection{Ecuación de D'Alambert-Lagrange}
+    Considerando el principio de \emph{trabajo virtual} orientado al equilibrio estático del principio de mínima accción, puede partirse a la
+    construcción del \emph{principio de D'Alambert}; siendo una extensión y enfocado al equilibrio dinámico del sistema.  Permitiendo así, la 
+    expresión (\ref{eqn:DL_Equation}) que representa la \emph{Ecuación de D'Alambert-Lagrange} de forma vectorial para $\boldsymbol{q}$ linealmente
+    independientes.
+    \begin{equation} 
+        \label{eqn:DL_Equation}
+         \frac{d}{dt} \frac{\partial K}{\partial \boldsymbol{\dot{q}}} - \frac{\partial K}{\partial \boldsymbol{q}} = \boldsymbol{Q}
+         \in \mathbb{R}^n
+    \end{equation}
+    donde
+    \begin{equation}
+        \label{eqn:kinetic_energy}
+         K = \frac{1}{2} \boldsymbol{\dot{q}}^T H(\boldsymbol{q}) \boldsymbol{\dot{q}}
+    \end{equation}
+    define la energía cinética total del sistema relacionada con la matriz de inercia $H(\boldsymbol{q})$ y 
+    \begin{equation}
+        \label{eqn:fuerzas_generalizadas}
+         \boldsymbol{Q} \triangleq \begin{bmatrix} Q_1 \\ \vdots \\ Q_n \end{bmatrix}
+    \end{equation}
+    representa las \emph{fuerzas generalizadas}
+    relacionadas a la suma de las fuerzas efectivas $\boldsymbol{f}_{e_j}$ que experimenta cada cuerpo $j$ respecto a la coordenada generalizada $q_i$
+    como resultado de los siguientes efectos:
+    \begin{itemize}
+        \item Potenciales conservativos
+        \item Disipación (para sistemas no conservativos)
+        \item Restricciones (no necesariamente \emph{holonómicas})
+        \item Fuerzas exógenas (normalmente definidas por el usuario)
+    \end{itemize}
+
+    \subsubsection{Fuerzas Inerciales}   
+    Del mismo modo, para un conjunto de partículas hay una \emph{fuerza generalizada de inercia} $\boldsymbol{\tau}_I$ que representa la compensación
+    virtual del movimiento definido como el valor negativo de (\ref{eqn:DL_Equation}). 
+    \begin{equation}
+        \label{eqn:inertia_general_force}
+        -\boldsymbol{\tau}_I \triangleq \frac{d}{dt} \frac{\partial K}{\partial \boldsymbol{\dot{q}}} - \frac{\partial K}{\partial \boldsymbol{q}} \in \mathbb{R}^n
+    \end{equation}
+    
+    Al resolver (\ref{eqn:inertia_general_force}) en términos de (\ref{eqn:kinetic_energy}), se obtiene:
+    \begin{equation}
+        \label{eqn:inertial_terms}
+        -\boldsymbol{\tau}_I = H(\boldsymbol{q}) \boldsymbol{\ddot{q}} + \dot{H}(\boldsymbol{q}, \boldsymbol{{\dot{q}}}) \boldsymbol{{\dot{q}}}
+        - \frac{1}{2} \frac{\partial \left \{ \boldsymbol{\dot{q}}^T H(\boldsymbol{q}) \boldsymbol{\dot{q}} \right \} }{\partial \boldsymbol{q}}
+    \end{equation}
+    Donde la suma del segundo y tercer término representan al vector de Coriolis
+    \begin{equation}
+        \label{eqn:coriolis_term}
+        C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}} = \dot{H}(\boldsymbol{q}, \boldsymbol{{\dot{q}}}) \boldsymbol{{\dot{q}}}
+        - \frac{1}{2} \frac{\partial \left \{ \boldsymbol{\dot{q}}^T H(\boldsymbol{q}) \boldsymbol{\dot{q}} \right \} }{\partial \boldsymbol{q}}
+    \end{equation} 
+    Por lo tanto, la expresión (\ref{eqn:DL_Equation}) puede reescribirse como:
+    \begin{equation}
+        \label{eqn:DL_vectors}
+        H(\boldsymbol{q}) \boldsymbol{\ddot{q}} + C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}} = \boldsymbol{Q}
+    \end{equation}
+    
     \subsubsection{Matriz de Inercia}
-    La matriz de inercia, proviene de la energía cinemática del sistema, se encuentra descrita por
-    \begin{equation*}
-        K = \frac{1}{2} \dot{q}^T H(q)\dot{q}
-    \end{equation*}
-    De la ecuación anterior sur la matriz de inercia, expresada por
-    \begin{equation*}
-        H(q) = \sum_{i=o} ^n \{ m_i ^0 J_{v_cm_i} ^T(q) + ^0J_{\omega_i} ^T (q) R_0 ^i(q) I_c ^i {R_0 ^i}^T (q) ^0 J_{\omega_i} (q) \}
-    \end{equation*}
-    donde $m_i$ es la masa de cada eslabón $J_{v_cm_i}^T(q)$ es la matriz jacobiana de la velocidad lineal transpuesta para
-    el centro de masa $i$ dependiente de $q$, $J_{\omega_i} ^T (q)$ es la matriz jacobiana de la velocidad angular transpuesta
-    de $i$  dependiente de $q$, $I_c ^i$ es la matriz del tensor de inercia de $i$ y $J_{\omega_i} (q)$ es la matriz jacobiana
-    de la velocidad angular.
-    La matriz del tensor de inercia expresa el centro de masa en un marco referencial de coordenadas cartesianas. Es definida por
-    \begin{equation*}
-        \textbf{I}_c \triangleq \int_B [r \times]^T [r \times] dm 
-    \end{equation*}
-    Dentro de las propiedades de la matriz, es que esta debe ser definida positiva. \\
+    Considerando una partícula $i$ de masa constante $m$, su energía cinética es proporcional a su velocidad traslacional $v_i$ 
+    y rotacional $\omega_i$ en el centro de masa en coordenadas inerciales.
+    \begin{equation}
+        \label{eqn:cinetica_normal}
+         K_i = \frac{1}{2} m_i {v_i^{(0)}}^2 + \frac{1}{2} I_{c_i}^{(0)} {\omega_i^{(0)}}^2 
+    \end{equation}
+    Para sistemas multipartículas, 
+    \begin{equation}
+        \label{eqn:cinetica_multi}
+         K = \sum_{i=1}^n K_i
+    \end{equation}
+    Por lo que si (\ref{eqn:cinetica_normal}) es equivalente a (\ref{eqn:kinetic_energy}), entonces la matriz de inercia $H(\boldsymbol{q})$ debe 
+    contener la misma información que los términos de (\ref{eqn:cinetica_normal}). 
+    
+    Para ello, es necesario el uso de (\textbf{Eq Jacobianos Geo}) para el mapeo de las velocidades lineales y angulares de los \textbf{centros de masa}
+    de cada eslabón en función de las coordenadas generalizadas. Obteniendo: 
+    \begin{multline}
+        \label{eqn:inertia_matrix}
+        H(\boldsymbol{q}) = \sum_{i=1}^n \{ m_i \: ^0J_{v{cm_i}}^T(\boldsymbol{q}) \: ^0J_{v{cm_i}}(\boldsymbol{q}) \\ 
+        + ^0J_{\omega_{cm_i}}^T (\boldsymbol{q}) \: R_0^i(\boldsymbol{q}) \: \boldsymbol{I}_c^{(i)} \: {R_0^i}^T (\boldsymbol{q}) \: {^0J_{\omega_{cm_i}}}(\boldsymbol{q}) \}
+    \end{multline}
+    donde 
+    \begin{equation}
+        \label{eqn:tensor_inercia}
+        \boldsymbol{I}_c \triangleq - \int_B [\boldsymbol{r} \times]^2 dm  = 
+        \begin{bmatrix}
+            I_{xx_c} & I_{xy_c} & I_{xz_c} \\
+            I_{xy_c} & I_{yy_c} & I_{yz_c} \\
+            I_{xz_c} & I_{yz_c} & I_{zz_c} \\
+        \end{bmatrix}
+    \end{equation}
+    es el tensor de inercia en el centro de masa de un cuerpo $B$, siendo $\boldsymbol{r}$ el vector de posición del centro de masa respecto a su referencial local no inercial.
+    
+    De acuerdo a (\ref{eqn:tensor_inercia}), la matriz es simétrica y está compuesta por los momentos de inercia (en su diagonal principal) y los productos de inercia 
+    (para los elementos fuera de ella). 
 
-    \subsubsection{Matriz de Coriolis}
-    El vector de fuerzas centrípetas y de Coriolis están representadas por $C_{q}(q,\dot{q})\dot{q}$ 
-    Como la matriz de Coriolis depende del vector de coordenadas generalizadas y las velocidades correspondientes, al
-    multiplicarla con el vector de velocidades en coordenadas generalizadas, se obtienen velocidades cruzadas (cuadrática en velocidada)
-    y debido a ello no hay una única matriz de Coriolis. 
+    Por otra parte, la matriz de inercia $H(\boldsymbol{q})$ cuenta con ciertas propiedades:
+    \begin{itemize}
+        \item Es simétrica $H(\boldsymbol{q}) = H(\boldsymbol{q})^T$
+        \item Es definida positiva $H(\boldsymbol{q})=0$ \textbf{revisaar}
+    \end{itemize}
 
-    Calcularla con los símbolos de Christofel nos da la propiedad de anti-simetría con respecto a la matriz de inercia.
+    \subsubsection{Vector de Coriolis}
+    $C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}}$ representa las fuerzas centrípetas y de Coriolis 
+    en función a las variables de estado del sistema ($\boldsymbol{q}, \boldsymbol{\dot{q}}$). 
+    
+    Es importante recalcar que $C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \in \mathbb{R}^{nxn}$ es la matriz de Coriolis y puede tener diferentes valores para el mismo robot, 
+    mientras que $C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}} \in \mathbb{R}^n$ es único.
 
-    $$\left | C_{q}(q,\dot{q}) \right |{k j}=\sum_{i=1}^{n}=c_{ijk}(q)\dot{q_{i}}$$
+    El vector de Coriolis puede ser expresado como:
+    \begin{equation}
+        \label{eqn:coriolis_vector}
+        C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}} = \begin{bmatrix} \vdots\\
+        \sum_{i,j}^{n} c_{ijk}(\boldsymbol{q})\dot{q_{i}}\dot{q_{j}}   \\  \vdots\\ \end{bmatrix}
+    \end{equation}
+    donde 
+    \begin{equation}
+        \label{eqn:christoffel}
+        c_{ijk}(q) \triangleq \frac{1}{2}\left( \frac{\partial h_{kj}(\boldsymbol{q})}{\partial q_{i}}+\frac{\partial h_{ik}(\boldsymbol{q})}{\partial q_{j}}
+        -\frac{\partial h_{ij}(\boldsymbol{q})}{\partial q_{k}} \right)
+    \end{equation}
+    son los \emph{Símbolos de Christoffel}. Donde $k$ corresponde a la posición en el vector de Coriolis, mientras que $i$ y $j$ permiten
+    obtener el producto de las velocidades generalizadas.
 
-    donde: 
+    Aunque el enfoque es el vector de Coriolis, resulta importante considerar la propiedad \emph{Skew-Symmetry}. De acuerdo a [@Olguin_Multibody],
+    se establece las siguientes relaciones con la matriz de inercia $H(\boldsymbol{q})$:
+    \begin{equation}
+        \label{eqn:skew1}
+        C(\boldsymbol{q}, \boldsymbol{\dot{q}}) - \frac{1}{2}\dot{H}(\boldsymbol{q}) = Q 
+    \end{equation}
+    \begin{equation}
+        \label{eqn:skew2}
+        Q + Q^T = 0
+    \end{equation}
+    \begin{equation}
+        \label{eqn:skew3}
+        C(\boldsymbol{q}, \boldsymbol{\dot{q}}) + C^T(\boldsymbol{q}, \boldsymbol{\dot{q}}) = \dot{H}(\boldsymbol{q})
+    \end{equation}
 
-    $$c_{ijk}(q)=\frac{1}{2}\left \{ \frac{\delta h_{kj}(q)}{\delta q_{i}}+\frac{\delta h_{ik}(q)}{\delta q_{j}}
-                 -\frac{\delta h_{ij}(q)}{\delta q_{k}} \right \}$$
+    \subsubsection{Vector de disipación}
+    Como se presentó en las propiedades de la expresión (\ref{eqn:fuerzas_generalizadas}), las fuerzas generalizadas pueden descomponerse en (\ref{eqn:torques_generalizados}).
+    \begin{equation}
+        \label{eqn:torques_generalizados}
+         \boldsymbol{Q} = \boldsymbol{\tau}_U + \boldsymbol{\tau}_D + \boldsymbol{\tau}_C + \boldsymbol{\tau}
+    \end{equation}
+    Donde $\boldsymbol{\tau}_U$ corresponde al efecto de potenciales conservativos, $\boldsymbol{\tau}_D$ representa la disipación de energía, $\boldsymbol{\tau}_C$
+    las fuerzas de contacto y $\boldsymbol{\tau}$ los torques aplicados en cada grado de libertad de acuerdo al usuario. 
+    
+    Si se consideran efectos de disipación y potencial conservativo en (\ref{eqn:DL_vectors}), puede obtenerse la siguiente expresión:
+    \begin{equation}
+        \label{eqn:DL_final}
+        H(\boldsymbol{q}) \boldsymbol{\ddot{q}} + C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}} + D(\boldsymbol{q}, \boldsymbol{\dot{q}})
+        + \boldsymbol{g}(\boldsymbol{q}) = \boldsymbol{\tau}
+    \end{equation}
+    Donde $D(\boldsymbol{q}, \boldsymbol{\dot{q}})$ es el vector de disipación y puede estar representado por una \emph{función de Rayleigh} tal como se presenta
+    \begin{equation}
+        \label{eqn:disipacion_ray}
+        D(\boldsymbol{q}, \boldsymbol{\dot{q}}) = \frac{\partial \mathcal{R}}{\partial \boldsymbol{\dot{q}}}
+    \end{equation} 
+    O bien, por una fricción viscosa lineal $b_i$ proporcional a la velocidad generalizadas $\boldsymbol{\dot{q}}_i$ como:
+    \begin{equation}
+        \label{eqn:disipacion_simple}
+        D(\boldsymbol{q}, \boldsymbol{\dot{q}}) = \begin{bmatrix} b_1 & 0 & 0 \\ 0 & \ddots & 0 \\ 0 & 0 & b_n  \end{bmatrix} \boldsymbol{\dot{q}} 
+    \end{equation}
 
-    El vector de Coriolis se obtiene multiplicando la matriz de Coriolis por las velocidades en coordenadas generalizadas
+    \subsubsection{Energía Potencial y Vector de gravedad}
+    Para definir adecuadamente el vector de gravedad, es necesario considerar la definición matemática de la energía potencial $U$ para sistemas multipartículas. Siendo
+    \begin{equation}
+        \label{eqn:energia_potencial}
+         U = \sum_{i=1}^n U_i =  \sum_{i=1}^n m_i \boldsymbol{d}_{cm_i}^T \boldsymbol{g}_0
+    \end{equation}
+    donde $\boldsymbol{d}_{cm_i}$ corresponde al vector posición del centro de masa y $\boldsymbol{g}_0$ al vector de aceleración de la gravedad, ambos
+    en coordenadas inerciales. 
 
-    $$C_{q}(q,\dot{q})\dot{q}=\begin{pmatrix}
-    \vdots\\
-    \sum_{ij=1}^{n}=C_{ijk}(q)\dot{q_{i}}\dot{q_{j}}\\ 
-    \vdots\\
-    \end{pmatrix}
-    =\begin{pmatrix}
-    \vdots\\
-    \dot{q}^{T}C_{k}(q)\dot{q}\\ 
-    \vdots\\
-    \end{pmatrix}$$
-
-    \subsubsection{Vector de gravedad}
-    El vector de gravedad representa los torques sobre el robot debido al peso de cada eslabón, para obtenerlo se parte
-    de la energía potencial. La energía potencial de cada cuerpo viene dada por su peso multiplicado por la posición
-    vertical de su centro de masa
-    $$U_{i}=-m_{i}g_{0}\cdot d_{cmi}(q)=-m_{i}d^{T}_{cmi}(q)g{o'}$$
-    $d_{cmi}$(q) ∈ R3 es la posición cartesiana del vector de masa del cuerpo $i$
-
-    $g_0 ∈ R3$ es la expresión inercial para la dirección de la gravedad (se define de acuerdo con la definición de la
-    referencia del marco inercial del sistema) y el signo menos es una corrección tal que la energía potencial aumenta
-    en contra de la dirección de la gravedad.\\
-    La potencia total es una función que varia solo en la configuración q del sistema: 
-    $$g_{q}=-\sum_{i=1}^{N}m_{i}\frac{\delta d_{cmi}(q)^{T}}{\delta q}g_{0}=-\sum_{i=1}^{N}m_{i}J_{v_{cmi}}^{T}(q)g_{0}$$
-
-    donde:
-
-    $$d_{cmi}(q)=d_{i}+R^{i}_{0}(q)r_{ci}$$
-
-    La gradiente de la energía potencial es calculada como:
-
-    $$g_{q}=- \sum_{i=1}^{n}m_{i}\frac{\delta d_{cmi}(q)^{T}}{\delta q}g_{0}=-\sum_{i=1}^{n}m_{i}J_{v_{cmi}}^{T}(q)g_{0}$$
+    Ya que la energía potencial gravitacional depende de las coordenadas generalizadas, el vector de gravedad $\boldsymbol{g}(\boldsymbol{q})$ puede
+    expresarse como:
+    \begin{equation}
+        \label{eqn:vector_gravedad}
+        \boldsymbol{g}(\boldsymbol{q}) = \frac{\partial U}{\partial \boldsymbol{q}}=-\sum_{i=1}^n \left[m_i \: ^0J_{v{cm_i}}^T(\boldsymbol{q}) \right] \boldsymbol{g}_0
+    \end{equation}
+    Donde el signo negativo es la correción tal que la energía potencial gravitacional aumenta en contra de la dirección de la gravedad.

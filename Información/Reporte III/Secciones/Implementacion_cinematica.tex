@@ -1,0 +1,55 @@
+\subsection{Cinemática directa}
+    Con respecto a la implementación en MATLAB de las ecuaciones correspondientes a la 
+    cinemática directa del sistema, primeramente se asigrnaron los referenciales 
+    a cada uno de los eslabones por medio de la metodología GRyMA, siendo posible 
+    visualizar la localización final de los referenciales en la figura [FIGURA 
+    CON REFERENCIALES]. De igual manera, se presenta en la tabla siguiente los parámetros 
+    utilizados para la asignación de los referenciales.
+
+    \begin{table}[H]
+        \centering
+        \begin{center}
+            \begin{tabular}{c||ccc|cc|c|c|c}
+                \multirow{3}{*}{$q_i$} & \multicolumn{5}{c|}{Parámetros de localización}               & \multirow{3}{*}{$\Theta_i$} & \multirow{3}{*}{$\Sigma_i$} & \multirow{3}{*}{$\Sigma_{pi}$} \\
+                                       & \multicolumn{3}{c|}{{[}mm{]}}  & \multicolumn{2}{c|}{{[}º{]}} &                             &                             &                                \\
+                                       & $d_{xi}$ & $d_{yi}$ & $d_{zi}$ & $\alpha$      & $\beta$      &                             &                             &                                \\ \hline \hline
+                $q_1$                  & 0        & 0        & 0        & -             & -            & 5                           & $\Sigma_1$                  & $\Sigma_0$                     \\
+                $q_2$                  & 32.35    & 0        & 105.13   & -             & -            & 5                           & $\Sigma_2$                  & $\Sigma_1$                     \\
+                $q_3$                  & -36.41   & 0        & 24.62    & 0º            & -59.26º      & 8                           & $\Sigma_3$                  & $\Sigma_2$                     \\
+                $q_4$                  & -12.73   & 0        & 22.28    & -             & -            & 6                           & $\Sigma_4$                  & $\Sigma_3$                     \\
+                $q_5$                  & 0        & 0        & 43.34    & -             & -            & 4                           & $\Sigma_5$                  & $\Sigma_4$                     \\
+                $q_6$                  & 0        & 0        & 6        & -             & -            & 5                           & $\Sigma_6$                  & $\Sigma_5$                    
+            \end{tabular}
+        \end{center}
+    \end{table}
+
+    De esta forma, en el anexo 1 se muestra el código elaborado para la función generadora de 
+    las matrices de transformación homogéneas entre marcos referenciales consecutivos, basado 
+    en la ecuación [ECUACIÓN!], con el cual se obtiene como salida un arreglo de 6 matrices 
+    expresable de la siguiente manera.
+
+    \begin{equation*}
+        A = [A^1_0(q_1), A^2_1(q_2), A^3_2(q_3), A^4_3(q_4), A^5_4(q_5), A^6_5(q_6)]
+    \end{equation*}
+
+    Posteriormente, a partir del arreglo de matrices resultante, se genera la función 
+    de cinemática directa, la cual implementa la propiedad de propagación del movimiento 
+    rígido, pues permite obtener las matrices de transformación homogénea desde el marco 
+    referencial inercial hasta cualquiera de los referenciales no inerciales por medio de su multiplicación. 
+    El código de la función se puede visualizar en el anexo 2, y su salida es un arreglo igualmente de 
+    6 matrices, al cual se le agregó el ajuste en coordenadas de posición correspondiente para 
+    el análisis de los centros de masa de cada uno de los eslabones, y que se puede expresar 
+    de la siguiente forma.
+
+    \begin{equation*}
+        A^i_0 = [A^1_0(q_1), A^2_0(q_1,q_2)...A^6_0(q_1,q_2,q_3,q_4,q_5,q_6)]
+    \end{equation*}
+
+    Finalmente, para la obtención de los Jacobianos geométricos de velocidad lineal y ángular, 
+    se hace uso de las expresiones presentadas en las ecuaciones [ECUACION] y [ECUACION], de 
+    esta manera se desarrolló el código para la generación de los Jacobianos, presentado en el 
+    anexo 3, el cual tiene como salida un arreglo de 6 matrices Jacobianas, de las cuales cada una 
+    representa el Jacobiano correspondiente a cada uno de los centros de masa de los diferentes eslabones 
+    que conforman el exoesqueleto.
+
+
