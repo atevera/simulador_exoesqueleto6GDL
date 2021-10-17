@@ -7,7 +7,7 @@
         una traslación pura, o una combinación de ambas sobre el marco referencial
         inicial.
 
-        De esta forma, se explica en [Multirigid Body] que para cadenas cinemáticas abiertas, 
+        De esta forma, se explica en \cite{3DMotion} que para cadenas cinemáticas abiertas, 
         donde el movimiento se encuentra restringido a una sola dirección, la 
         transformación homogénea desde el referencial padre hacia cualquier referencial 
         local se define únicamente por las coordenadas generalizadas escalares 
@@ -49,7 +49,7 @@
         puntos de interés en el robot a analizar, a este proceso se le conoce como 
         asignación de referenciales.
 
-        Como se explica en [Multirigid Body] Existen diferentes metodologías para la asiganción 
+        Como se explica en \cite{3DMotion} Existen diferentes metodologías para la asiganción 
         de referenciales en sistemas robóticos con cadenas cinemáticas abiertas, a 
         continuación se describirá de manera resumida el fundamento de las convenciones de 
         Denavit-Hartenberg (DH), que también aplican para su versión modificada (DHm), 
@@ -75,7 +75,7 @@
         al eje \emph{z} del referencial padre.
 
     \subsubsection{Cinemática GRyMA}
-        Con respecto a la metodología GRyMA, se explica en [Multirigid Body] que el proceso de asignación 
+        Con respecto a la metodología GRyMA, se explica en \cite{3DMotion} que el proceso de asignación 
         de referenciales inicia con delimitar cada marco referencial $\Sigma_i$ a lo largo de los ejes 
         de las articulaciones que definen las coordenadas generalizadas $q_i$. Sin embargo, a 
         diferencia de las metodologías \emph{DH} y \emph{DHm}, en este caso no existe la 
@@ -97,7 +97,7 @@
             d_{i0} = (d_{xi}, d_{yi}, d_{xi})
         \end{equation*}
 
-        Con lo cual, considerando que se cumple la condición de tornillo explicada en [Multirigid Body], 
+        Con lo cual, considerando que se cumple la condición de tornillo explicada en \cite{3DMotion}, 
         $\lambda_{Ti} X \lambda_{Ri} = 0$, debido a que cada coordenada generalizada 
         induce ya sea un movimiento prismático o de revoluta, pero no una combinación de ambos, 
         entonces la matriz de trasformación homogénea entre dos referenciales se 
@@ -178,7 +178,7 @@
         \end{table}
 
     \subsubsection{Jacobiano geométrico}
-        Se explica en [Multirigid Body] que el Jacobiano Geométrico de un marco referencial 
+        Se explica en \cite{3DMotion} que el Jacobiano Geométrico de un marco referencial 
         específico, es el operador lineal que permite mapear las velocidades generalizadas 
         $\textbf{\dot{q}}$ a los valores del \emph{twist} $v_i$, el cual es el vector que 
         contiene la velocidad lineal y angular de un marco referencial, y se define de la 
@@ -239,7 +239,7 @@
         cálculo de los componentes de velocidad del Jacobiano geométrico.
 
     \subsubsection{Jacobiano geométrico de velocidad lineal}
-        Como primer punto se explica en [Multirigid Body] que el Jacobiano de velocidad lineal 
+        Como primer punto se explica en \cite{3DMotion} que el Jacobiano de velocidad lineal 
         en una cadena serial, puede ser expresado de la siguiente manera.
 
         \begin{equation}
