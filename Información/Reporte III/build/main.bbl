@@ -21,6 +21,13 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{matlabFunctionBlock}
+\BIBentryALTinterwordspacing
+``Convert symbolic expression to matlab function block,'' 2009. [Online].
+  Available:
+  \url{https://la.mathworks.com/help/symbolic/matlabfunctionblock.html?s_tid=doc_ta}
+\BIBentrySTDinterwordspacing
+
 \bibitem{3DMotion}
 E.~Olguín-Díaz, \emph{3D Motion of Rigid Bodies}.\hskip 1em plus 0.5em minus
   0.4em\relax Springer, 2019.

@@ -883,6 +883,13 @@ INPUT .\Secciones\Implementacion_dinamica.tex
 INPUT Secciones\Implementacion_dinamica.tex
 INPUT .\Secciones\Implementacion_dinamica.tex
 INPUT Secciones\Implementacion_dinamica.tex
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\diagrama_bloques.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\diagrama_bloques.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\diagrama_bloques.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\diagrama_bloques.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\diagrama_bloques.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\diagrama_bloques.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\diagrama_bloques.png
 INPUT .\Secciones\Resultados.tex
 INPUT Secciones\Resultados.tex
 INPUT .\Secciones\Resultados.tex
@@ -919,11 +926,47 @@ INPUT .\Secciones\Anexos_dinamica.tex
 INPUT Secciones\Anexos_dinamica.tex
 INPUT .\Secciones\Anexos_dinamica.tex
 INPUT Secciones\Anexos_dinamica.tex
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT .\Codigos\inertia_matrix.m
+INPUT Codigos\inertia_matrix.m
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT .\Codigos\inertia_matrix.m
+INPUT Codigos\inertia_matrix.m
+INPUT .\Codigos\inertia_matrix.m
+INPUT Codigos\inertia_matrix.m
+INPUT .\Codigos\coriolis_vector.m
+INPUT Codigos\coriolis_vector.m
+INPUT .\Codigos\coriolis_vector.m
+INPUT Codigos\coriolis_vector.m
+INPUT .\Codigos\coriolis_vector.m
+INPUT Codigos\coriolis_vector.m
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\Codigos\dissipative_vector.m
+INPUT Codigos\dissipative_vector.m
+INPUT .\Codigos\dissipative_vector.m
+INPUT Codigos\dissipative_vector.m
+INPUT .\Codigos\dissipative_vector.m
+INPUT Codigos\dissipative_vector.m
+INPUT .\Codigos\gravity_vector.m
+INPUT Codigos\gravity_vector.m
+INPUT .\Codigos\gravity_vector.m
+INPUT Codigos\gravity_vector.m
+INPUT .\Codigos\gravity_vector.m
+INPUT Codigos\gravity_vector.m
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newtx\ntx-ot1-tlf.enc
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newtx\ntx-ot1-tlf.enc
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXBMI.pfb
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXBMI.pfb
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\NewTXMI.pfb
@@ -946,6 +989,8 @@ INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\pu
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsyc.pfb
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb

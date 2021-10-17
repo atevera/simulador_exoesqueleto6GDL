@@ -130,8 +130,8 @@
         c_{ijk}(q) \triangleq \frac{1}{2}\left( \frac{\partial h_{kj}(\boldsymbol{q})}{\partial q_{i}}+\frac{\partial h_{ik}(\boldsymbol{q})}{\partial q_{j}}
         -\frac{\partial h_{ij}(\boldsymbol{q})}{\partial q_{k}} \right)
     \end{equation}
-    son los \emph{Símbolos de Christoffel}. Donde $k$ corresponde a la posición en el vector de Coriolis, mientras que $i$ y $j$ permiten
-    obtener el producto de las velocidades generalizadas.
+    son los \emph{Símbolos de Christoffel}. Donde $h$ es el elemento en la matriz de inercia, $k$ corresponde a la posición en el vector de Coriolis; 
+    mientras que $i$ y $j$ permiten obtener el producto de las velocidades generalizadas. 
 
     Aunque el enfoque es el vector de Coriolis, resulta importante considerar la propiedad \emph{Skew-Symmetry}. De acuerdo a [@Olguin_Multibody],
     se establece las siguientes relaciones con la matriz de inercia $H(\boldsymbol{q})$:
@@ -171,7 +171,7 @@
     O bien, por una fricción viscosa lineal $b_i$ proporcional a la velocidad generalizadas $\boldsymbol{\dot{q}}_i$ como:
     \begin{equation}
         \label{eqn:disipacion_simple}
-        D(\boldsymbol{q}, \boldsymbol{\dot{q}}) = \begin{bmatrix} b_1 & 0 & 0 \\ 0 & \ddots & 0 \\ 0 & 0 & b_n  \end{bmatrix} \boldsymbol{\dot{q}} 
+        D(\boldsymbol{q}, \boldsymbol{\dot{q}}) = \begin{bmatrix} b_1 & 0 & 0 \\ 0 & \ddots & 0 \\ 0 & 0 & b_n  \end{bmatrix} 
     \end{equation}
 
     \subsubsection{Energía Potencial y Vector de gravedad}

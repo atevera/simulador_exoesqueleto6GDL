@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  16 OCT 2021 23:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  17 OCT 2021 02:25
 entering extended mode
 **"g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex"
 (g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex
@@ -741,20 +741,23 @@ Package pdftex.def Info: ../Imagenes//ExoParametrizado.png  used on input line 5
  [7 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/Dedo Vist Isometrica.JPG> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/EsquemaArticulaciones.png>]) (Secciones/Implementacion_cinematica.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (Secciones/Implementacion_dinamica.tex) (Secciones/Resultados.tex
+) (Secciones/Implementacion_dinamica.tex [8 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ExoParametrizado.png>]
+<../Imagenes//diagrama_bloques.png, id=49, 613.98079pt x 425.45035pt>
+File: ../Imagenes//diagrama_bloques.png Graphic file (type png)
+<use ../Imagenes//diagrama_bloques.png>
+Package pdftex.def Info: ../Imagenes//diagrama_bloques.png  used on input line 46.
+(pdftex.def)             Requested size: 233.31511pt x 161.6728pt.
+) (Secciones/Resultados.tex
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 3.
 
-)
-Underfull \vbox (badness 1694) has occurred while \output is active []
-
- [8 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ExoParametrizado.png>] (Secciones/Discusion.tex
+) (Secciones/Discusion.tex
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 3.
 
-) (Secciones/Eliezer_Conclusiones.tex
+) [9 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/diagrama_bloques.png>] (Secciones/Eliezer_Conclusiones.tex
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 3.
@@ -769,22 +772,45 @@ Package blindtext Warning: spanish not defined, using English instead.
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 2.
 
-) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl) (Secciones/Anexos_sistema_mecanico.tex) (Secciones/Anexos_cinematica.tex) (Secciones/Anexos_dinamica.tex) [9] (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
+) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
+Underfull \hbox (badness 5274) in paragraph at lines 26--30
+[]\OT1/ptm/m/n/8 ``Convert sym-bo-lic ex-pres-sion to matlab fun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+\OT1/ptm/m/n/8 ction block,'' 2009. [On-li-ne]. Avai-la-ble:
+ []
+
+
+Overfull \hbox (18.53273pt too wide) in paragraph at lines 26--30
+\OT1/ptm/m/n/8 https://la.mathworks.com/help/symbolic/matlabfunctionblock.html?s_tid=doc_ta 
+ []
+
+) (Secciones/Anexos_sistema_mecanico.tex) (Secciones/Anexos_cinematica.tex) (Secciones/Anexos_dinamica.tex (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2.
+ (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) (Codigos/inertia_matrix.m) (Codigos/coriolis_vector.m [10]) (Codigos/dissipative_vector.m) (Codigos/gravity_vector.m)) [11
+
+] (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 12895 strings out of 478927
- 187959 string characters out of 2845390
- 542602 words of memory out of 3000000
- 30447 multiletter control sequences out of 15000+600000
- 489896 words of font info for 193 fonts, out of 8000000 for 9000
+ 13853 strings out of 478927
+ 199057 string characters out of 2845390
+ 862942 words of memory out of 3000000
+ 31380 multiletter control sequences out of 15000+600000
+ 490627 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,15n,92p,570b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txbsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (9 pages, 491519 bytes).
+ 68i,15n,92p,570b,1973s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txbsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
+Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (11 pages, 571534 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
