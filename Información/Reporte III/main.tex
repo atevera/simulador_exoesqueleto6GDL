@@ -1,0 +1,90 @@
+\documentclass[journal]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\input{paquetes}
+
+
+\titlespacing*{\section}
+{0pt}{3.0ex plus 1ex minus .2ex}{1.0ex plus .2ex}
+\titlespacing*{\subsection}
+{0pt}{3.0ex plus 1ex minus .2ex}{1.0ex plus .2ex}
+\titlespacing*{\subsubsection}
+{0pt}{3.0ex plus 1ex minus .2ex}{1.0ex plus .2ex}
+
+\renewcommand\IEEEkeywordsname{Palabras Clave}
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+
+\graphicspath{ {../Imagenes/} }
+
+\begin{document}
+    \title{Simulador Dinámico de un Exoesqueleto de 6GdL\\
+    \small{Reporte de Medio Término}}
+
+    \author{\IEEEauthorblockN{García-Álvarez Gregorio E. , Luna-Macías Antonio J. , Tevera-Ruiz Alejandro\\}
+    \IEEEauthorblockA{\textit{Departamento: Roobótica y Manufactura Avanzada} \\
+    \textit{Centro de Investigación y de Estudios Avanzados (CINVESTAV)}}
+    }
+
+    \maketitle
+
+    \begin{abstract}
+        El presente documento describe el desarrollo cinemático y dinámico que simula un exoesqueleto
+        con 6 grados de libertad (GDL).
+        \noindent El diseño está enfocado para utilizarse en el dedo índice, sin embargo debido a que
+        este trabajo aún no incorpora otras cadenas cinemáticas, como el diseño original presentado en
+        el trabajo: "HEXOTRAC"[1], esto implica que el propio, se pueda utilizar adecuadamente en
+        cualquier dedo a excepción del pulgar. 
+        \noindent Una de las características que tendrá el exoesqueleto presentado, será que el dedal
+        distal, tendrá capacidades hápticas y estará actuado en todos sus grados de libertad,
+        sin embargo por el momento, no es el alcance concerniente a este documento.         
+    \end{abstract}
+
+    \begin{IEEEkeywords}
+    Simulador, Exoesqueleto, GRyMA
+    \end{IEEEkeywords}
+
+    \section{Introducción}
+
+
+    \section{Descripción Metodológica}
+
+    \input{Secciones/Cinematica.tex}
+    \input{Secciones/Dinamica.tex}
+
+
+    \section{Implementación}
+
+    \input{Secciones/Exoesqueleto.tex}
+    \input{Secciones/Implementacion_cinematica.tex}
+    \input{Secciones/Implementacion_dinamica.tex}
+
+    \section{Resultados}
+    \input{Secciones/Resultados.tex}
+
+    \section{Discusión}
+    \input{Secciones/Discusion.tex}
+
+    \section{Conclusiones}
+
+    \input{Secciones/Eliezer_Conclusiones.tex}
+    \input{Secciones/Antonio_Conclusiones.tex}
+    \input{Secciones/Alejandro_Conclusiones.tex}
+
+    \section{Referencias}
+
+    \bibliographystyle{IEEEtran}
+    \bibliography{bibliografia}
+    
+    
+
+    \section{Anexos}
+
+    \input{Secciones/Anexos_sistema_mecanico.tex}
+    \input{Secciones/Anexos_cinematica.tex}
+    \input{Secciones/Anexos_dinamica.tex}
+
+\end{document}
