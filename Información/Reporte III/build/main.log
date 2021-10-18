@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  17 OCT 2021 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  18 OCT 2021 02:22
 entering extended mode
 **"g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex"
 (g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex
@@ -699,48 +699,48 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count347
  (Secciones/Introduccion.tex) (Secciones/Cinematica.tex
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 16.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 15.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 16.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 15.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 16.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 15.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 16.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 15.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ) [1{C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 ] [2]) (Secciones/Dinamica.tex [3] [4]) (Secciones/Exoesqueleto.tex
-<../Imagenes//Dedo Vist Isometrica.png, id=30, 570.61879pt x 894.89113pt>
+<../Imagenes//Dedo Vist Isometrica.png, id=32, 570.61879pt x 894.89113pt>
 File: ../Imagenes//Dedo Vist Isometrica.png Graphic file (type png)
 <use ../Imagenes//Dedo Vist Isometrica.png>
 Package pdftex.def Info: ../Imagenes//Dedo Vist Isometrica.png  used on input line 10.
 (pdftex.def)             Requested size: 114.12173pt x 178.97505pt.
-<../Imagenes//EsquemaArticulaciones.png, id=32, 455.301pt x 489.62926pt>
+<../Imagenes//EsquemaArticulaciones.png, id=34, 455.301pt x 489.62926pt>
 File: ../Imagenes//EsquemaArticulaciones.png Graphic file (type png)
 <use ../Imagenes//EsquemaArticulaciones.png>
 Package pdftex.def Info: ../Imagenes//EsquemaArticulaciones.png  used on input line 21.
 (pdftex.def)             Requested size: 182.11717pt x 195.84822pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3895) has occurred while \output is active []
 
  [5 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/Dedo Vist Isometrica.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/EsquemaArticulaciones.png>]
-<../Imagenes//ExoParametrizado.png, id=37, 226.446pt x 499.26524pt>
+<../Imagenes//ExoParametrizado.png, id=39, 226.446pt x 499.26524pt>
 File: ../Imagenes//ExoParametrizado.png Graphic file (type png)
 <use ../Imagenes//ExoParametrizado.png>
 Package pdftex.def Info: ../Imagenes//ExoParametrizado.png  used on input line 76.
@@ -750,122 +750,144 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 14
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )) (Secciones/Implementacion_dinamica.tex [6 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ExoParametrizado.png>]
-<../Imagenes//diagrama_bloques.png, id=42, 613.98079pt x 425.45035pt>
+<../Imagenes//diagrama_bloques.png, id=44, 613.98079pt x 425.45035pt>
 File: ../Imagenes//diagrama_bloques.png Graphic file (type png)
 <use ../Imagenes//diagrama_bloques.png>
 Package pdftex.def Info: ../Imagenes//diagrama_bloques.png  used on input line 46.
 (pdftex.def)             Requested size: 233.31511pt x 161.6728pt.
 
-Underfull \vbox (badness 5036) has occurred while \output is active []
+Underfull \vbox (badness 4454) has occurred while \output is active []
 
-<../Imagenes//simulador1.png, id=43, 551.76573pt x 182.2461pt>
+<../Imagenes//simulador1.png, id=45, 551.76573pt x 182.2461pt>
 File: ../Imagenes//simulador1.png Graphic file (type png)
 <use ../Imagenes//simulador1.png>
 Package pdftex.def Info: ../Imagenes//simulador1.png  used on input line 57.
 (pdftex.def)             Requested size: 215.18777pt x 71.07568pt.
  [7 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/diagrama_bloques.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/simulador1.png>]) (Secciones/Implementacion_GUI.tex
-<../Imagenes//GUI.png, id=48, 468.5505pt x 492.6405pt>
+<../Imagenes//GUI.png, id=50, 468.5505pt x 492.6405pt>
 File: ../Imagenes//GUI.png Graphic file (type png)
 <use ../Imagenes//GUI.png>
 Package pdftex.def Info: ../Imagenes//GUI.png  used on input line 30.
 (pdftex.def)             Requested size: 187.41687pt x 197.0527pt.
-<../Imagenes//simscape.png, id=49, 1076.02pt x 372.39125pt>
+<../Imagenes//simscape.png, id=51, 1076.02pt x 372.39125pt>
 File: ../Imagenes//simscape.png Graphic file (type png)
 <use ../Imagenes//simscape.png>
 Package pdftex.def Info: ../Imagenes//simscape.png  used on input line 48.
 (pdftex.def)             Requested size: 250.71388pt x 86.76758pt.
-<../Imagenes//vistas_out.png, id=50, 1334.9875pt x 538.01pt>
+<../Imagenes//vistas_out.png, id=52, 1334.9875pt x 538.01pt>
 File: ../Imagenes//vistas_out.png Graphic file (type png)
 <use ../Imagenes//vistas_out.png>
 Package pdftex.def Info: ../Imagenes//vistas_out.png  used on input line 56.
 (pdftex.def)             Requested size: 208.26537pt x 83.9325pt.
 ) (Secciones/Resultados.tex [8 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/GUI.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/simscape.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/vistas_out.png>]
-<../Imagenes//coor_gen_caso_1.png, id=57, 444.2196pt x 201.3924pt>
+<../Imagenes//coor_gen_caso_1.png, id=59, 444.2196pt x 201.3924pt>
 File: ../Imagenes//coor_gen_caso_1.png Graphic file (type png)
 <use ../Imagenes//coor_gen_caso_1.png>
 Package pdftex.def Info: ../Imagenes//coor_gen_caso_1.png  used on input line 33.
 (pdftex.def)             Requested size: 222.10925pt x 100.69594pt.
-<../Imagenes//ener_cin_caso_1.png, id=58, 438.9198pt x 202.356pt>
+<../Imagenes//ener_cin_caso_1.png, id=60, 438.9198pt x 202.356pt>
 File: ../Imagenes//ener_cin_caso_1.png Graphic file (type png)
 <use ../Imagenes//ener_cin_caso_1.png>
 Package pdftex.def Info: ../Imagenes//ener_cin_caso_1.png  used on input line 43.
 (pdftex.def)             Requested size: 219.45935pt x 101.17775pt.
-<../Imagenes//ener_pot_caso_1.png, id=59, 444.2196pt x 202.356pt>
+<../Imagenes//ener_pot_caso_1.png, id=61, 444.2196pt x 202.356pt>
 File: ../Imagenes//ener_pot_caso_1.png Graphic file (type png)
 <use ../Imagenes//ener_pot_caso_1.png>
 Package pdftex.def Info: ../Imagenes//ener_pot_caso_1.png  used on input line 52.
 (pdftex.def)             Requested size: 222.10925pt x 101.17775pt.
-<../Imagenes//ener_mec_caso_1.png, id=60, 422.5386pt x 278.9622pt>
+<../Imagenes//ener_mec_caso_1.png, id=62, 422.5386pt x 278.9622pt>
 File: ../Imagenes//ener_mec_caso_1.png Graphic file (type png)
 <use ../Imagenes//ener_mec_caso_1.png>
 Package pdftex.def Info: ../Imagenes//ener_mec_caso_1.png  used on input line 62.
 (pdftex.def)             Requested size: 211.26878pt x 139.48076pt.
-<../Imagenes//vel_gen_caso_1.png, id=61, 444.2196pt x 201.3924pt>
+<../Imagenes//vel_gen_caso_1.png, id=63, 444.2196pt x 201.3924pt>
 File: ../Imagenes//vel_gen_caso_1.png Graphic file (type png)
 <use ../Imagenes//vel_gen_caso_1.png>
 Package pdftex.def Info: ../Imagenes//vel_gen_caso_1.png  used on input line 72.
 (pdftex.def)             Requested size: 222.10925pt x 100.69594pt.
  [9 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/coor_gen_caso_1.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_cin_caso_1.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_pot_caso_1.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_mec_caso_1.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/vel_gen_caso_1.png>]
-<../Imagenes//coor_gen_caso_2.png, id=70, 444.2196pt x 201.3924pt>
+<../Imagenes//coor_gen_caso_2.png, id=72, 444.2196pt x 201.3924pt>
 File: ../Imagenes//coor_gen_caso_2.png Graphic file (type png)
 <use ../Imagenes//coor_gen_caso_2.png>
 Package pdftex.def Info: ../Imagenes//coor_gen_caso_2.png  used on input line 105.
 (pdftex.def)             Requested size: 222.10925pt x 100.69594pt.
-<../Imagenes//ener_cin_caso_2.png, id=71, 444.2196pt x 202.356pt>
+<../Imagenes//ener_cin_caso_2.png, id=73, 444.2196pt x 202.356pt>
 File: ../Imagenes//ener_cin_caso_2.png Graphic file (type png)
 <use ../Imagenes//ener_cin_caso_2.png>
 Package pdftex.def Info: ../Imagenes//ener_cin_caso_2.png  used on input line 115.
 (pdftex.def)             Requested size: 222.10925pt x 101.17775pt.
-<../Imagenes//ener_pot_caso_2.png, id=72, 444.2196pt x 202.356pt>
+<../Imagenes//ener_pot_caso_2.png, id=74, 444.2196pt x 202.356pt>
 File: ../Imagenes//ener_pot_caso_2.png Graphic file (type png)
 <use ../Imagenes//ener_pot_caso_2.png>
 Package pdftex.def Info: ../Imagenes//ener_pot_caso_2.png  used on input line 125.
 (pdftex.def)             Requested size: 222.10925pt x 101.17775pt.
-<../Imagenes//ener_mec_caso_2.png, id=73, 422.5386pt x 278.9622pt>
+<../Imagenes//ener_mec_caso_2.png, id=75, 422.5386pt x 278.9622pt>
 File: ../Imagenes//ener_mec_caso_2.png Graphic file (type png)
 <use ../Imagenes//ener_mec_caso_2.png>
 Package pdftex.def Info: ../Imagenes//ener_mec_caso_2.png  used on input line 134.
 (pdftex.def)             Requested size: 211.26878pt x 139.48076pt.
-<../Imagenes//vel_gen_caso_2.png, id=74, 444.2196pt x 201.3924pt>
+<../Imagenes//vel_gen_caso_2.png, id=76, 444.2196pt x 201.3924pt>
 File: ../Imagenes//vel_gen_caso_2.png Graphic file (type png)
 <use ../Imagenes//vel_gen_caso_2.png>
 Package pdftex.def Info: ../Imagenes//vel_gen_caso_2.png  used on input line 143.
 (pdftex.def)             Requested size: 222.10925pt x 100.69594pt.
  [10 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/coor_gen_caso_2.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_cin_caso_2.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_pot_caso_2.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_mec_caso_2.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/vel_gen_caso_2.png>]
-<../Imagenes//coor_gen_caso_3.png, id=83, 444.2196pt x 201.3924pt>
+<../Imagenes//coor_gen_caso_3.png, id=85, 444.2196pt x 201.3924pt>
 File: ../Imagenes//coor_gen_caso_3.png Graphic file (type png)
 <use ../Imagenes//coor_gen_caso_3.png>
 Package pdftex.def Info: ../Imagenes//coor_gen_caso_3.png  used on input line 180.
 (pdftex.def)             Requested size: 222.10925pt x 100.69594pt.
-<../Imagenes//ener_cin_caso_3.png, id=84, 444.2196pt x 202.356pt>
+<../Imagenes//ener_cin_caso_3.png, id=86, 444.2196pt x 202.356pt>
 File: ../Imagenes//ener_cin_caso_3.png Graphic file (type png)
 <use ../Imagenes//ener_cin_caso_3.png>
 Package pdftex.def Info: ../Imagenes//ener_cin_caso_3.png  used on input line 191.
 (pdftex.def)             Requested size: 222.10925pt x 101.17775pt.
-<../Imagenes//ener_pot_caso_3.png, id=85, 444.2196pt x 202.356pt>
+<../Imagenes//ener_pot_caso_3.png, id=87, 444.2196pt x 202.356pt>
 File: ../Imagenes//ener_pot_caso_3.png Graphic file (type png)
 <use ../Imagenes//ener_pot_caso_3.png>
 Package pdftex.def Info: ../Imagenes//ener_pot_caso_3.png  used on input line 202.
 (pdftex.def)             Requested size: 222.10925pt x 101.17775pt.
-<../Imagenes//ener_mec_caso_3.png, id=86, 423.0204pt x 278.9622pt>
+<../Imagenes//ener_mec_caso_3.png, id=88, 423.0204pt x 278.9622pt>
 File: ../Imagenes//ener_mec_caso_3.png Graphic file (type png)
 <use ../Imagenes//ener_mec_caso_3.png>
 Package pdftex.def Info: ../Imagenes//ener_mec_caso_3.png  used on input line 213.
 (pdftex.def)             Requested size: 211.50967pt x 139.48076pt.
-<../Imagenes//vel_gen_caso_3.png, id=87, 444.2196pt x 201.3924pt>
+<../Imagenes//vel_gen_caso_3.png, id=89, 444.2196pt x 201.3924pt>
 File: ../Imagenes//vel_gen_caso_3.png Graphic file (type png)
 <use ../Imagenes//vel_gen_caso_3.png>
 Package pdftex.def Info: ../Imagenes//vel_gen_caso_3.png  used on input line 224.
 (pdftex.def)             Requested size: 222.10925pt x 100.69594pt.
-) (Secciones/Discusion.tex
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 3.
-
 )
-Underfull \vbox (badness 1688) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/coor_gen_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_cin_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_pot_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_mec_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/vel_gen_caso_3.png>] (Secciones/Eliezer_Conclusiones.tex
+ [11 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/coor_gen_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_cin_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_pot_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/ener_mec_caso_3.png>] (Secciones/Discusion.tex
+<../Imagenes//Resultados/ener_cin_caso3_5s.png, id=97, 440.3652pt x 202.356pt>
+File: ../Imagenes//Resultados/ener_cin_caso3_5s.png Graphic file (type png)
+<use ../Imagenes//Resultados/ener_cin_caso3_5s.png>
+Package pdftex.def Info: ../Imagenes//Resultados/ener_cin_caso3_5s.png  used on input line 25.
+(pdftex.def)             Requested size: 220.18205pt x 101.17775pt.
+<../Imagenes//Resultados/ener_pot_caso3_5s.png, id=98, 440.3652pt x 202.356pt>
+File: ../Imagenes//Resultados/ener_pot_caso3_5s.png Graphic file (type png)
+<use ../Imagenes//Resultados/ener_pot_caso3_5s.png>
+Package pdftex.def Info: ../Imagenes//Resultados/ener_pot_caso3_5s.png  used on input line 32.
+(pdftex.def)             Requested size: 220.18205pt x 101.17775pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<../Imagenes//Resultados/ener_mec_caso3_5s.png, id=99, 418.6842pt x 278.9622pt>
+File: ../Imagenes//Resultados/ener_mec_caso3_5s.png Graphic file (type png)
+<use ../Imagenes//Resultados/ener_mec_caso3_5s.png>
+Package pdftex.def Info: ../Imagenes//Resultados/ener_mec_caso3_5s.png  used on input line 59.
+(pdftex.def)             Requested size: 209.34158pt x 139.48076pt.
+<../Imagenes//Resultados/ener_mec_caso3_ode3_5s.png, id=100, 522.753pt x 403.7484pt>
+File: ../Imagenes//Resultados/ener_mec_caso3_ode3_5s.png Graphic file (type png)
+<use ../Imagenes//Resultados/ener_mec_caso3_ode3_5s.png>
+Package pdftex.def Info: ../Imagenes//Resultados/ener_mec_caso3_ode3_5s.png  used on input line 66.
+(pdftex.def)             Requested size: 198.6482pt x 153.42598pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/vel_gen_caso_3.png> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/Resultados/ener_cin_caso3_5s.png (PNG copy)> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/Resultados/ener_pot_caso3_5s.png (PNG copy)> <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/Resultados/ener_mec_caso3_5s.png (PNG copy)>]) (Secciones/Eliezer_Conclusiones.tex
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 3.
@@ -930,30 +952,30 @@ Overfull \hbox (23.49553pt too wide) in paragraph at lines 11--23
  [][] 
  []
 
-[12]) (Secciones/Anexos_cinematica.tex (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[13 <g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/Imagenes/Resultados/ener_mec_caso3_ode3_5s.png (PNG copy)>]) (Secciones/Anexos_cinematica.tex (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2.
  (C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (Codigos/local_homogeneous_transform_matrix.m) (Codigos/forward_kinematics_center_of_masa_offset.m) (Codigos/jacobian_generator.m)) (Secciones/Anexos_dinamica.tex (Codigos/inertia_matrix.m) (Codigos/coriolis_vector.m) (Codigos/dissipative_vector.m) (Codigos/gravity_vector.m [13]) (Codigos/potential_energy.m)) [14
+) (Codigos/local_homogeneous_transform_matrix.m) (Codigos/forward_kinematics_center_of_masa_offset.m) (Codigos/jacobian_generator.m)) (Secciones/Anexos_dinamica.tex (Codigos/inertia_matrix.m) (Codigos/coriolis_vector.m [14]) (Codigos/dissipative_vector.m) (Codigos/gravity_vector.m) (Codigos/potential_energy.m)) [15
 
 ] (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 ) ) 
 Here is how much of TeX's memory you used:
- 13166 strings out of 478927
- 194879 string characters out of 2845390
- 1143034 words of memory out of 3000000
- 30659 multiletter control sequences out of 15000+600000
- 492104 words of font info for 197 fonts, out of 8000000 for 9000
+ 13223 strings out of 478927
+ 196720 string characters out of 2845390
+ 1031449 words of memory out of 3000000
+ 30708 multiletter control sequences out of 15000+600000
+ 499468 words of font info for 214 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,92p,685b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txbsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (14 pages, 1427406 bytes).
+ 68i,15n,92p,685b,1974s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txbsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
+Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (15 pages, 1582299 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 196 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

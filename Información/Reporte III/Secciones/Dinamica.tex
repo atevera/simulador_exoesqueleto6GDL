@@ -1,20 +1,20 @@
 \subsection{Dinámica}
-    La dinámica es la parte de la mecánica que estudia la relación entre el movimiento y las causas que lo producen
+    \noindent La dinámica es la parte de la mecánica que estudia la relación entre el movimiento y las causas que lo producen
     (fuerzas o torques) mediante el análisis de ecuaciones diferenciales de segundo orden (modelo dinámico). Para su
     obtención, pueden utilizarse diferentes metodologías a partir de la mecánica Newtoniana o bien de la mecánica
     Lagrangiana. 
     
     Especialmente, para sistemas multicuerpos rígidos, se prefiere el uso de la mecánica Lagrangiana dada su versatilidad
-    y fácil escalado mediante el análisis energético para sistemas con $n$ partículas. Además, reduce drásticamente el número de ecuaciones
-    necesarias para describir el movimiento de un conjunto de partículas; ya que sólo necesitaremos $n$ ecuaciones y no $3n$ como es el caso 
+    y simplicidad mediante el análisis energético para sistemas con $n$ partículas. Además, reduce drásticamente el número de ecuaciones
+    necesarias para describir el movimiento de un conjunto de partículas ya que sólo necesitaremos $n$ ecuaciones y no $3n$ como es el caso 
     de la mecánica Newtoniana.    
     Para ello, el sistema debe poder ser descrito mediante un conjunto de coordenadas generalizadas $\boldsymbol{q} \in \mathbb{R}^n$ y sus 
-    derivadas totales respecto al tiempo $\boldsymbol{\dot{q}}$ (ambas medibles); las cuales representan las direcciones del movimiento
+    derivadas totales respecto al tiempo $\boldsymbol{\dot{q}}$ (ambas medibles), las cuales representan las direcciones del movimiento
     admisible del sistema. 
     
     \subsubsection{Ecuación de D'Alambert-Lagrange}
-    De acuerdo a \cite{3DMotion}, si se considera el principio de \emph{trabajo virtual} orientado al equilibrio estático del principio de mínima accción, puede partirse a la
-    construcción del \emph{principio de D'Alambert}; siendo una extensión y enfocado al equilibrio dinámico del sistema.  Lo que permite obtener la
+    \noindent De acuerdo a \cite{3DMotion}, si se considera el principio de \emph{trabajo virtual} orientado al equilibrio estático del principio de mínima accción, puede partirse a la
+    construcción del \emph{principio de D'Alambert} siendo una extensión y enfocado al equilibrio dinámico del sistema.  Lo que permite obtener la
     expresión (\ref{eqn:DL_Equation}) que representa la \emph{Ecuación de D'Alambert-Lagrange} de forma vectorial para $\boldsymbol{q}$ linealmente
     independientes.
     \begin{equation} 
@@ -27,11 +27,13 @@
         \label{eqn:kinetic_energy}
          K = \frac{1}{2} \boldsymbol{\dot{q}}^T H(\boldsymbol{q}) \boldsymbol{\dot{q}}
     \end{equation}
+
     define la energía cinética total del sistema relacionada con la matriz de inercia $H(\boldsymbol{q})$ y 
     \begin{equation}
         \label{eqn:fuerzas_generalizadas}
          \boldsymbol{Q} \triangleq \begin{bmatrix} Q_1 \\ \vdots \\ Q_n \end{bmatrix}
     \end{equation}
+
     representa las \emph{fuerzas generalizadas}
     relacionadas a la suma de las fuerzas efectivas $\boldsymbol{f}_{e_j}$ que experimenta cada cuerpo $j$ respecto a la coordenada generalizada $q_i$
     como resultado de los siguientes efectos:
@@ -43,7 +45,7 @@
     \end{itemize}
 
     \subsubsection{Fuerzas Inerciales}   
-    Con base en \cite{3DMotion}, cada conjunto de partículas tiene una \emph{fuerza generalizada de inercia} $\boldsymbol{\tau}_I$ que representa la compensación
+    \noindent Con base en \cite{3DMotion}, cada conjunto de partículas tiene una \emph{fuerza generalizada de inercia} $\boldsymbol{\tau}_I$ que representa la compensación
     virtual del movimiento definido como el valor negativo de (\ref{eqn:DL_Equation}). 
     \begin{equation}
         \label{eqn:inertia_general_force}
@@ -56,12 +58,14 @@
         -\boldsymbol{\tau}_I = H(\boldsymbol{q}) \boldsymbol{\ddot{q}} + \dot{H}(\boldsymbol{q}, \boldsymbol{{\dot{q}}}) \boldsymbol{{\dot{q}}}
         - \frac{1}{2} \frac{\partial \left \{ \boldsymbol{\dot{q}}^T H(\boldsymbol{q}) \boldsymbol{\dot{q}} \right \} }{\partial \boldsymbol{q}}
     \end{equation}
+
     Donde la suma del segundo y tercer término representan al vector de Coriolis
     \begin{equation}
         \label{eqn:coriolis_term}
         C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}} = \dot{H}(\boldsymbol{q}, \boldsymbol{{\dot{q}}}) \boldsymbol{{\dot{q}}}
         - \frac{1}{2} \frac{\partial \left \{ \boldsymbol{\dot{q}}^T H(\boldsymbol{q}) \boldsymbol{\dot{q}} \right \} }{\partial \boldsymbol{q}}
     \end{equation} 
+
     Por lo tanto, la expresión (\ref{eqn:DL_Equation}) puede reescribirse como:
     \begin{equation}
         \label{eqn:DL_vectors}
@@ -69,22 +73,24 @@
     \end{equation}
     
     \subsubsection{Matriz de Inercia}
-    Considerando una partícula $i$ de masa constante $m$, su energía cinética es proporcional a su velocidad traslacional $v_i$ 
-    y rotacional $\omega_i$ en el centro de masa en coordenadas inerciales \cite{theoretical_minimun}.
+    \noindent Considerando una partícula $i$ de masa constante $m$, su energía cinética es proporcional a su velocidad traslacional $v_i$ 
+    y rotacional $\omega_i$ en el centro de masa en coordenadas inerciales de acuerdo a \cite{theoretical_minimun}.
     \begin{equation}
         \label{eqn:cinetica_normal}
-         K_i = \frac{1}{2} m_i {v_i^{(0)}}^2 + \frac{1}{2} I_{c_i}^{(0)} {\omega_i^{(0)}}^2 
+         K_i = \frac{1}{2} m_i {\boldsymbol{v}_i^{(0)}}^2 + \frac{1}{2} I_{c_i}^{(0)} {\boldsymbol{\omega}_i^{(0)}}^2 
     \end{equation}
+
     Para sistemas multipartículas \cite{rigid_multibody}, 
     \begin{equation}
         \label{eqn:cinetica_multi}
          K = \sum_{i=1}^n K_i
     \end{equation}
+
     Por lo que si (\ref{eqn:cinetica_normal}) es equivalente a (\ref{eqn:kinetic_energy}), entonces la matriz de inercia $H(\boldsymbol{q})$ debe 
     contener la misma información que los términos de (\ref{eqn:cinetica_normal}). 
     
     Para ello, es necesario el uso de (\ref{eq:Jw}) para el mapeo de las velocidades lineales y angulares de los centros de masa
-    de cada eslabón en función de las coordenadas generalizadas. Obteniendo: 
+    de cada eslabón en función de las coordenadas generalizadas, obteniendo: 
     \begin{multline}
         \label{eqn:inertia_matrix}
         H(\boldsymbol{q}) = \sum_{i=1}^n \{ m_i \: ^0J_{v{cm_i}}^T(\boldsymbol{q}) \: ^0J_{v{cm_i}}(\boldsymbol{q}) \\ 
@@ -100,6 +106,7 @@
             I_{xz_c} & I_{yz_c} & I_{zz_c} \\
         \end{bmatrix}
     \end{equation}
+    
     es el tensor de inercia en el centro de masa de un cuerpo $B$, siendo $\boldsymbol{r}$ el vector de posición del centro de masa respecto a su referencial local no inercial.
     
     De acuerdo a (\ref{eqn:tensor_inercia}), la matriz es simétrica y está compuesta por los momentos de inercia (en su diagonal principal) y los productos de inercia 
@@ -112,7 +119,7 @@
     \end{itemize}
 
     \subsubsection{Vector de Coriolis}
-    $C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}}$ representa las fuerzas centrípetas y de Coriolis 
+    \noindent $C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}}$ representa las fuerzas centrípetas y de Coriolis 
     en función a las variables de estado del sistema ($\boldsymbol{q}, \boldsymbol{\dot{q}}$). 
     
     Es importante recalcar que $C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \in \mathbb{R}^{nxn}$ es la matriz de Coriolis y puede tener diferentes valores para el mismo robot, 
@@ -130,11 +137,12 @@
         c_{ijk}(q) \triangleq \frac{1}{2}\left( \frac{\partial h_{kj}(\boldsymbol{q})}{\partial q_{i}}+\frac{\partial h_{ik}(\boldsymbol{q})}{\partial q_{j}}
         -\frac{\partial h_{ij}(\boldsymbol{q})}{\partial q_{k}} \right)
     \end{equation}
+
     son los \emph{Símbolos de Christoffel}. Donde $h$ es el elemento en la matriz de inercia, $k$ corresponde a la posición en el vector de Coriolis; 
     mientras que $i$ y $j$ permiten obtener el producto de las velocidades generalizadas. 
 
     Aunque el enfoque es el vector de Coriolis, resulta importante considerar la propiedad \emph{Skew-Symmetry}. De acuerdo con \cite{rigid_multibody},
-    se establece las siguientes relaciones con la matriz de inercia $H(\boldsymbol{q})$:
+    se establecen las siguientes relaciones con la matriz de inercia:
     \begin{equation}
         \label{eqn:skew1}
         C(\boldsymbol{q}, \boldsymbol{\dot{q}}) - \frac{1}{2}\dot{H}(\boldsymbol{q}) = Q 
@@ -149,11 +157,12 @@
     \end{equation}
 
     \subsubsection{Vector de disipación}
-    Como se presentó en las propiedades de la expresión (\ref{eqn:fuerzas_generalizadas}), las fuerzas generalizadas pueden descomponerse en (\ref{eqn:torques_generalizados}).
+    \noindent Como se presentó en las propiedades de la expresión (\ref{eqn:fuerzas_generalizadas}), las fuerzas generalizadas se definen como:
     \begin{equation}
         \label{eqn:torques_generalizados}
          \boldsymbol{Q} = \boldsymbol{\tau}_U + \boldsymbol{\tau}_D + \boldsymbol{\tau}_C + \boldsymbol{\tau}
     \end{equation}
+
     Donde $\boldsymbol{\tau}_U$ corresponde al efecto de potenciales conservativos, $\boldsymbol{\tau}_D$ representa la disipación de energía, $\boldsymbol{\tau}_C$
     las fuerzas de contacto y $\boldsymbol{\tau}$ los torques aplicados en cada grado de libertad de acuerdo al usuario. 
     
@@ -163,11 +172,13 @@
         H(\boldsymbol{q}) \boldsymbol{\ddot{q}} + C(\boldsymbol{q}, \boldsymbol{\dot{q}}) \boldsymbol{\dot{q}} + D(\boldsymbol{q}, \boldsymbol{\dot{q}})
         + \boldsymbol{g}(\boldsymbol{q}) = \boldsymbol{\tau}
     \end{equation}
-    Donde $D(\boldsymbol{q}, \boldsymbol{\dot{q}})$ es el vector de disipación y puede estar representado por una \emph{función de Rayleigh} tal como se presenta
+    
+    Donde $D(\boldsymbol{q}, \boldsymbol{\dot{q}})$ es el vector de disipación y puede estar representado por una \emph{función de Rayleigh} tal como se presenta:
     \begin{equation}
         \label{eqn:disipacion_ray}
         D(\boldsymbol{q}, \boldsymbol{\dot{q}}) = \frac{\partial \mathcal{R}}{\partial \boldsymbol{\dot{q}}}
     \end{equation} 
+
     O bien, por una fricción viscosa lineal $b_i$ proporcional a la velocidad generalizadas $\boldsymbol{\dot{q}}_i$ como:
     \begin{equation}
         \label{eqn:disipacion_simple}
@@ -175,16 +186,17 @@
     \end{equation}
 
     \subsubsection{Energía Potencial y Vector de gravedad}
-    Para definir adecuadamente el vector de gravedad, es necesario considerar la definición matemática de la energía potencial $U$ para sistemas multipartículas con
-    referencia a un \emph{datum} o valor de referencial $h_0$. Siendo
+    \noindent Para definir adecuadamente el vector de gravedad, es necesario considerar la expresión matemática de la energía potencial $U$ para sistemas multipartículas con
+    referencia a un \emph{datum} o valor de referencial $h_0$, siendo:
     \begin{equation}
         \label{eqn:energia_potencial}
          U_{h_0} = \sum_{i=1}^n U_{i_{h_0}} =  \sum_{i=1}^n m_i \boldsymbol{d}_{cm_i}^T \boldsymbol{g}_0
     \end{equation}
+
     donde $\boldsymbol{d}_{cm_i}$ corresponde al vector posición del centro de masa y $\boldsymbol{g}_0$ al vector de aceleración de la gravedad, ambos
     en coordenadas inerciales. 
 
-    Si el sistema cuenta con valores negativos en la energía potencial, puede obtarse por sumar un valor constante $U_0$ con el fin de evitarlo y generar un \emph{offset}. 
+    Si el sistema cuenta con valores negativos en la energía potencial, puede optarse por sumar un valor constante $U_0$ con el fin de evitarlo y generar un \emph{offset}. 
     \begin{equation}
         \label{eqn:energia_potencial_offset}
          U = U_{h_0}+U_0 \: \: : \dot{U} = \dot{U}_{h_0} 
@@ -196,10 +208,11 @@
         \label{eqn:vector_gravedad}
         \boldsymbol{g}(\boldsymbol{q}) = \frac{\partial U}{\partial \boldsymbol{q}}=-\sum_{i=1}^n \left[m_i \: ^0J_{v{cm_i}}^T(\boldsymbol{q}) \right] \boldsymbol{g}_0
     \end{equation}
+
     Donde el signo negativo es la correción tal que la energía potencial gravitacional aumenta en contra de la dirección de la gravedad.
 
     \subsection{Energía Mecánica} 
-    Tal como se expresa en \cite{theoretical_minimun},
+    \noindent Tal como se expresa en \cite{theoretical_minimun},
     \begin{equation}
         \label{eqn:energia_mecanica}
          E = K + U
