@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  17 OCT 2021 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  17 OCT 2021 20:23
 entering extended mode
 **"g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex"
 (g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex
@@ -881,47 +881,47 @@ Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 2.
 
 ) (g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
 []\OT1/ptm/m/n/8 MathWorks, ``Con-vert sym-bo-lic ex-pres-sion to
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 47--51
+Underfull \hbox (badness 2351) in paragraph at lines 48--52
 \OT1/ptm/m/n/8 matlab fun-ction block,'' 2009. [On-li-ne]. Avai-la-ble:
  []
 
 
-Overfull \hbox (22.53273pt too wide) in paragraph at lines 47--51
+Overfull \hbox (22.53273pt too wide) in paragraph at lines 48--52
 \OT1/ptm/m/n/8 https://la.mathworks.com/help/symbolic/matlabfunctionblock.html?s_tid=doc_ta 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 []\OT1/ptm/m/n/8 ------, ``ode15s.'' [On-li-ne]. Avai-la-ble:
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 60--63
+Underfull \hbox (badness 4595) in paragraph at lines 61--64
 []\OT1/ptm/m/n/8 ------, ``Sol-ve stiff odes.'' [On-li-ne]. Avai-la-ble:
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 66--69
+Underfull \hbox (badness 2538) in paragraph at lines 67--70
 []\OT1/ptm/m/n/8 ------, ``Matlab app de-sig-ner.'' [On-li-ne]. Avai-la-ble:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
 []\OT1/ptm/m/n/8 ------, ``Sims-ca-pe.'' [On-li-ne]. Avai-la-ble:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
 []\OT1/ptm/m/n/8 Gazebo, ``Urdf.'' [On-li-ne]. Avai-la-ble:
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 96--99
+Underfull \hbox (badness 6252) in paragraph at lines 97--100
 []\OT1/ptm/m/n/8 MathWorks, ``Urdf im-port.'' [On-li-ne]. Avai-la-ble:
  []
 
@@ -951,7 +951,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,12n,92p,685b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txbsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (14 pages, 1427446 bytes).
+Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (14 pages, 1427593 bytes).
 PDF statistics:
  179 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

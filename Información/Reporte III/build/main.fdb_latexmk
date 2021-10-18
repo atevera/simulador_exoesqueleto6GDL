@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/main"] 1634519982 "build/main.aux" "build/main.bbl" "build/main" 1634520094
+["bibtex build/main"] 1634520223 "build/main.aux" "build/main.bbl" "build/main" 1634520232
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "bibliografia.bib" 1634519852 2762 32459d69418d19d3c55f04b6cca1645e ""
-  "build/main.aux" 1634520062 17204 ad93d2136df16479f04badd56f9975c9 "pdflatex"
+  "bibliografia.bib" 1634520222 2760 0571e14e5f4459fd77f757a7156ad060 ""
+  "build/main.aux" 1634520230 17204 ad93d2136df16479f04badd56f9975c9 "pdflatex"
   (generated)
-  "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1634520055 "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" "build/main.pdf" "main" 1634520094
+  "build/main.bbl"
+["pdflatex"] 1634520224 "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" "build/main.pdf" "main" 1634520232
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1631248543 9722529 b64c00b7cfaf9c984d6d3a9db75576d4 ""
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1634513087 109011 fb6de004f01ccc0ac432631b69a16e5b ""
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -249,12 +249,12 @@
   "build/../Imagenes//vel_gen_caso_2.png" 1634513060 64337 a6d19490a58f441e75ea109f3a6c33d8 ""
   "build/../Imagenes//vel_gen_caso_3.png" 1634513060 57947 588fc01b1345ce5809e22da6f494ec42 ""
   "build/../Imagenes//vistas_out.png" 1634519175 61818 112987e06ed7d37b81567ed38ecfb1b5 ""
-  "build/main.aux" 1634520062 17204 ad93d2136df16479f04badd56f9975c9 "pdflatex"
-  "build/main.bbl" 1634519983 3594 c4c1875e9eaecfc5c53c1fd355ff33d6 "bibtex build/main"
+  "build/main.aux" 1634520230 17204 ad93d2136df16479f04badd56f9975c9 "pdflatex"
+  "build/main.bbl" 1634520224 3685 24b7f9d995748d150622cc7cf06660ee "bibtex build/main"
   "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" 1634520084 2905 47f64f13bc7ea71983b7c866cda4aef1 ""
   "main.tex" 1634520084 2905 47f64f13bc7ea71983b7c866cda4aef1 ""
   "paquetes.tex" 1634513060 913 2f5f571ef4b1479b85b9bd23f5d35385 ""
   (generated)
   "build/main.aux"
-  "build/main.log"
   "build/main.pdf"
+  "build/main.log"
