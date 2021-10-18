@@ -1,18 +1,17 @@
 A lo largo del presente documento se describe el desarrollo matemático necesario para 
 simular la dinámica directa de un exoesqueleto completamente actuado con 6 grados de 
-libertad (GDL). El diseño del exoesqueleto se propone en el artículo original \cite{hexotrac} como un robot háptico 
+libertad (GdL). El diseño del exoesqueleto se propone en el artículo original \cite{hexotrac} como un robot háptico 
 colocado en el dedo índice, el cual permite simular las fuerzas generadas en un entorno virtual, 
 para ser transferidas al usuario en el mundo real. 
 
-De esta manera, el objetivo del proyecto explicado a continuación es el desarrollo de un simulador 
+De esta manera, el objetivo del proyecto es  desarrollar un simulador 
 que permita observar el comportamiento de la dinámica directa del robot, así como analizar parámetros 
-relevantes referentes al cambio en el movimiento y la energía, con lo cual la entrada del simulador deberán 
-ser valores de torque para cada articulacición, y la salida serán valores de posición y velocidad 
-generalizadas variables en el tiempo.
+relacionados con el cambio sus coordenadas generalizadas y la energía total del sistema. Siedno la entrada del simulador los
+torques aplicados en cada articulación, y la salida serán valores de posición y velocidad generalizadas variables en el tiempo.
 
 Para esto, se explica el proceso de asignación de referenciales por medio de la metodología GRyMA \cite{rigid_multibody},
 la obtención de las ecuaciones de cinemática directa a partir de los referenciales definidos en cada articulación, 
-la obtención de las fuerzas generalizadas del sistema basados en la formulación de D'Lambert-Lagrange, considerando 
-la aportación de las fuerzas exógenas, de gravedad, disipación y Coriolis, y finalmente la implementación de las 
-ecuaciones en MATLAB y Simulink para la generación de una aplicación de MATLAB, la cual permite generar un visualizador 
+así como del modelo dinámico basado en la formulación de D'Lambert-Lagrange, considerando 
+la aportación de las fuerzas exógenas, de gravedad, disipación y Coriolis. Además, se presenta la implementación de las 
+ecuaciones en MATLAB y Simulink para la generación de una interfaz gráfica que permite presentar una visualización 
 3D del robot, así como gráficas con las variaciones de movimiento y análisis energético.
