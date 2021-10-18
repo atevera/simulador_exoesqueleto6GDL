@@ -1429,52 +1429,52 @@ INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
+INPUT .\Secciones\Anexos_sistema_mecanico.tex
+INPUT Secciones\Anexos_sistema_mecanico.tex
+INPUT .\Secciones\Anexos_sistema_mecanico.tex
+INPUT Secciones\Anexos_sistema_mecanico.tex
+INPUT .\Secciones\Anexos_cinematica.tex
+INPUT Secciones\Anexos_cinematica.tex
+INPUT .\Secciones\Anexos_cinematica.tex
+INPUT Secciones\Anexos_cinematica.tex
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT .\Codigos\local_homogeneous_transform_matrix.m
+INPUT Codigos\local_homogeneous_transform_matrix.m
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT .\Codigos\local_homogeneous_transform_matrix.m
+INPUT Codigos\local_homogeneous_transform_matrix.m
+INPUT .\Codigos\local_homogeneous_transform_matrix.m
+INPUT Codigos\local_homogeneous_transform_matrix.m
+INPUT .\Codigos\forward_kinematics_center_of_masa_offset.m
+INPUT Codigos\forward_kinematics_center_of_masa_offset.m
+INPUT .\Codigos\forward_kinematics_center_of_masa_offset.m
+INPUT Codigos\forward_kinematics_center_of_masa_offset.m
+INPUT .\Codigos\forward_kinematics_center_of_masa_offset.m
+INPUT Codigos\forward_kinematics_center_of_masa_offset.m
+INPUT .\Codigos\jacobian_generator.m
+INPUT Codigos\jacobian_generator.m
+INPUT .\Codigos\jacobian_generator.m
+INPUT Codigos\jacobian_generator.m
+INPUT .\Codigos\jacobian_generator.m
+INPUT Codigos\jacobian_generator.m
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT .\Secciones\Anexos_sistema_mecanico.tex
-INPUT Secciones\Anexos_sistema_mecanico.tex
-INPUT .\Secciones\Anexos_sistema_mecanico.tex
-INPUT Secciones\Anexos_sistema_mecanico.tex
-INPUT .\Secciones\Anexos_cinematica.tex
-INPUT Secciones\Anexos_cinematica.tex
-INPUT .\Secciones\Anexos_cinematica.tex
-INPUT Secciones\Anexos_cinematica.tex
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT .\Codigos\local_homogeneous_transform_matrix.m
-INPUT Codigos\local_homogeneous_transform_matrix.m
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
-INPUT .\Codigos\local_homogeneous_transform_matrix.m
-INPUT Codigos\local_homogeneous_transform_matrix.m
-INPUT .\Codigos\local_homogeneous_transform_matrix.m
-INPUT Codigos\local_homogeneous_transform_matrix.m
-INPUT .\Codigos\forward_kinematics_center_of_masa_offset.m
-INPUT Codigos\forward_kinematics_center_of_masa_offset.m
-INPUT .\Codigos\forward_kinematics_center_of_masa_offset.m
-INPUT Codigos\forward_kinematics_center_of_masa_offset.m
-INPUT .\Codigos\forward_kinematics_center_of_masa_offset.m
-INPUT Codigos\forward_kinematics_center_of_masa_offset.m
-INPUT .\Codigos\jacobian_generator.m
-INPUT Codigos\jacobian_generator.m
-INPUT .\Codigos\jacobian_generator.m
-INPUT Codigos\jacobian_generator.m
-INPUT .\Codigos\jacobian_generator.m
-INPUT Codigos\jacobian_generator.m
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT .\Secciones\Anexos_dinamica.tex
 INPUT Secciones\Anexos_dinamica.tex
 INPUT .\Secciones\Anexos_dinamica.tex
 INPUT Secciones\Anexos_dinamica.tex
 INPUT .\Codigos\inertia_matrix.m
 INPUT Codigos\inertia_matrix.m
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT .\Codigos\inertia_matrix.m
 INPUT Codigos\inertia_matrix.m
 INPUT .\Codigos\inertia_matrix.m
