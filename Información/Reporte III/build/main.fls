@@ -668,6 +668,10 @@ INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\00mi
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
+INPUT .\Secciones\Introduccion.tex
+INPUT Secciones\Introduccion.tex
+INPUT .\Secciones\Introduccion.tex
+INPUT Secciones\Introduccion.tex
 INPUT .\Secciones\Cinematica.tex
 INPUT Secciones\Cinematica.tex
 INPUT .\Secciones\Cinematica.tex
@@ -745,9 +749,9 @@ INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adob
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxmi.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\NewTXMI.tfm
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
@@ -870,30 +874,30 @@ INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\EsquemaArticulaciones.png
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT .\Secciones\Implementacion_cinematica.tex
+INPUT Secciones\Implementacion_cinematica.tex
+INPUT .\Secciones\Implementacion_cinematica.tex
+INPUT Secciones\Implementacion_cinematica.tex
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
-INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\ExoParametrizado.png
+INPUT .\Secciones\Implementacion_dinamica.tex
+INPUT Secciones\Implementacion_dinamica.tex
+INPUT .\Secciones\Implementacion_dinamica.tex
+INPUT Secciones\Implementacion_dinamica.tex
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT .\Secciones\Implementacion_cinematica.tex
-INPUT Secciones\Implementacion_cinematica.tex
-INPUT .\Secciones\Implementacion_cinematica.tex
-INPUT Secciones\Implementacion_cinematica.tex
-INPUT .\Secciones\Implementacion_dinamica.tex
-INPUT Secciones\Implementacion_dinamica.tex
-INPUT .\Secciones\Implementacion_dinamica.tex
-INPUT Secciones\Implementacion_dinamica.tex
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\diagrama_bloques.png
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\..\Imagenes\\diagrama_bloques.png
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\Imagenes\diagrama_bloques.png
@@ -1065,12 +1069,12 @@ INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
 INPUT g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.bbl
+INPUT .\Secciones\Anexos_sistema_mecanico.tex
+INPUT Secciones\Anexos_sistema_mecanico.tex
+INPUT .\Secciones\Anexos_sistema_mecanico.tex
+INPUT Secciones\Anexos_sistema_mecanico.tex
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT .\Secciones\Anexos_sistema_mecanico.tex
-INPUT Secciones\Anexos_sistema_mecanico.tex
-INPUT .\Secciones\Anexos_sistema_mecanico.tex
-INPUT Secciones\Anexos_sistema_mecanico.tex
 INPUT .\Secciones\Anexos_cinematica.tex
 INPUT Secciones\Anexos_cinematica.tex
 INPUT .\Secciones\Anexos_cinematica.tex
@@ -1109,30 +1113,30 @@ INPUT .\Secciones\Anexos_dinamica.tex
 INPUT Secciones\Anexos_dinamica.tex
 INPUT .\Codigos\inertia_matrix.m
 INPUT Codigos\inertia_matrix.m
+INPUT .\Codigos\inertia_matrix.m
+INPUT Codigos\inertia_matrix.m
+INPUT .\Codigos\inertia_matrix.m
+INPUT Codigos\inertia_matrix.m
+INPUT .\Codigos\coriolis_vector.m
+INPUT Codigos\coriolis_vector.m
+INPUT .\Codigos\coriolis_vector.m
+INPUT Codigos\coriolis_vector.m
+INPUT .\Codigos\coriolis_vector.m
+INPUT Codigos\coriolis_vector.m
+INPUT .\Codigos\dissipative_vector.m
+INPUT Codigos\dissipative_vector.m
+INPUT .\Codigos\dissipative_vector.m
+INPUT Codigos\dissipative_vector.m
+INPUT .\Codigos\dissipative_vector.m
+INPUT Codigos\dissipative_vector.m
+INPUT .\Codigos\gravity_vector.m
+INPUT Codigos\gravity_vector.m
+INPUT .\Codigos\gravity_vector.m
+INPUT Codigos\gravity_vector.m
+INPUT .\Codigos\gravity_vector.m
+INPUT Codigos\gravity_vector.m
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
 INPUT C:\Users\Alejandro TeveraRuiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
-INPUT .\Codigos\inertia_matrix.m
-INPUT Codigos\inertia_matrix.m
-INPUT .\Codigos\inertia_matrix.m
-INPUT Codigos\inertia_matrix.m
-INPUT .\Codigos\coriolis_vector.m
-INPUT Codigos\coriolis_vector.m
-INPUT .\Codigos\coriolis_vector.m
-INPUT Codigos\coriolis_vector.m
-INPUT .\Codigos\coriolis_vector.m
-INPUT Codigos\coriolis_vector.m
-INPUT .\Codigos\dissipative_vector.m
-INPUT Codigos\dissipative_vector.m
-INPUT .\Codigos\dissipative_vector.m
-INPUT Codigos\dissipative_vector.m
-INPUT .\Codigos\dissipative_vector.m
-INPUT Codigos\dissipative_vector.m
-INPUT .\Codigos\gravity_vector.m
-INPUT Codigos\gravity_vector.m
-INPUT .\Codigos\gravity_vector.m
-INPUT Codigos\gravity_vector.m
-INPUT .\Codigos\gravity_vector.m
-INPUT Codigos\gravity_vector.m
 INPUT .\Codigos\potential_energy.m
 INPUT Codigos\potential_energy.m
 INPUT .\Codigos\potential_energy.m

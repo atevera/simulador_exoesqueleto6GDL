@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/main"] 1634519853 "build/main.aux" "build/main.bbl" "build/main" 1634519861
+["bibtex build/main"] 1634519982 "build/main.aux" "build/main.bbl" "build/main" 1634520094
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "bibliografia.bib" 1634519852 2762 32459d69418d19d3c55f04b6cca1645e ""
-  "build/main.aux" 1634519709 17265 98dcd3d5fe675b23b48daae6725a134a "pdflatex"
+  "build/main.aux" 1634520062 17204 ad93d2136df16479f04badd56f9975c9 "pdflatex"
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["pdflatex"] 1634519702 "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" "build/main.pdf" "main" 1634519861
+  "build/main.blg"
+["pdflatex"] 1634520055 "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" "build/main.pdf" "main" 1634520094
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1631248543 9722529 b64c00b7cfaf9c984d6d3a9db75576d4 ""
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1634513087 109011 fb6de004f01ccc0ac432631b69a16e5b ""
   "C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -220,10 +220,11 @@
   "Secciones/Dinamica.tex" 1634519701 13258 295e987c30193724921ed5bbcf9c58d5 ""
   "Secciones/Discusion.tex" 1634260905 37 d3658499fd3df14150b47621024915b7 ""
   "Secciones/Eliezer_Conclusiones.tex" 1634445633 71 eed156b0452f55a84a8f9bdb13d62e98 ""
-  "Secciones/Exoesqueleto.tex" 1634512255 4483 a0355645d528c40a8781dcd0ef48d2d4 ""
-  "Secciones/Implementacion_GUI.tex" 1634519481 3170 17185f6c216ca1741453505eba80173c ""
+  "Secciones/Exoesqueleto.tex" 1634519962 4522 fe5ac380342a993d2262d01a212a5bf5 ""
+  "Secciones/Implementacion_GUI.tex" 1634520054 3171 47eb4e85cec43f8e12df67414e01f0aa ""
   "Secciones/Implementacion_cinematica.tex" 1634458806 4431 57798c6befbe95c31fa584817b00af11 ""
   "Secciones/Implementacion_dinamica.tex" 1634505858 7117 e1585577f85f7cec018dc292f01845ea ""
+  "Secciones/Introduccion.tex" 1634519962 1618 715a8af697bb60c1ad3e26a58ac7597d ""
   "Secciones/Resultados.tex" 1634513060 13150 298359430ab5232f15693b619e2bed42 ""
   "build/../Imagenes//Dedo Vist Isometrica.png" 1634512010 320843 98129ca22463be3daa1efd182983446c ""
   "build/../Imagenes//EsquemaArticulaciones.png" 1634250310 149891 202897b40069c46174785fd95664049d ""
@@ -248,12 +249,12 @@
   "build/../Imagenes//vel_gen_caso_2.png" 1634513060 64337 a6d19490a58f441e75ea109f3a6c33d8 ""
   "build/../Imagenes//vel_gen_caso_3.png" 1634513060 57947 588fc01b1345ce5809e22da6f494ec42 ""
   "build/../Imagenes//vistas_out.png" 1634519175 61818 112987e06ed7d37b81567ed38ecfb1b5 ""
-  "build/main.aux" 1634519709 17265 98dcd3d5fe675b23b48daae6725a134a "pdflatex"
-  "build/main.bbl" 1634519853 3246 d148ed262b4211b288b33e979cd0685a "bibtex build/main"
-  "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" 1634513497 3698 618f138634605acc642bf20e232fd39b ""
-  "main.tex" 1634513497 3698 618f138634605acc642bf20e232fd39b ""
+  "build/main.aux" 1634520062 17204 ad93d2136df16479f04badd56f9975c9 "pdflatex"
+  "build/main.bbl" 1634519983 3594 c4c1875e9eaecfc5c53c1fd355ff33d6 "bibtex build/main"
+  "g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex" 1634520084 2905 47f64f13bc7ea71983b7c866cda4aef1 ""
+  "main.tex" 1634520084 2905 47f64f13bc7ea71983b7c866cda4aef1 ""
   "paquetes.tex" 1634513060 913 2f5f571ef4b1479b85b9bd23f5d35385 ""
   (generated)
-  "build/main.pdf"
-  "build/main.log"
   "build/main.aux"
+  "build/main.log"
+  "build/main.pdf"
