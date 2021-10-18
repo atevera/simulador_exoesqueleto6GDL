@@ -1,3 +1,31 @@
 
-    \subsection{Luna Macías Antonio de Jesús}
-    \blindtext[0]
+\subsection{Luna Macías Antonio de Jesús}
+    \noindent A partir del proyecto elaborado, se puede afirmar que se logró 
+    de manera parcial el objetivo incial, referente al desarrollo 
+    de un software que permitiera simular la dinámica de un exoesqueleto 
+    actuado de cadena cinemática abierta con 6 GDL. Por un lado, 
+    se implementaron de manera satisfactoria las ecuaciones respectivas a 
+    la dinámica del robot por medio de la formulación de 
+    D'Lambert-Lagrange, lo cual se reafirma con los resultados 
+    obtenidos de posición, velocidad y análisis energético de las 
+    pruebas realizadas para casos no conservativos, es decir 
+    aquellos casos en los cuales se consideran los efectos de las fuerzas 
+    disipativas. 
+
+    Por otro lado, se observan discrepancias entre los resultados de análisis 
+    energético para el caso conservativo, y los resultados esperados dada la conservación de 
+    la energía. En este caso se observa en los primeros 5[s] de simulación un comportamiento 
+    complementario entre las energías cinética y potencial, tendiendo a un valor 
+    constante en la energía mecánica. El problema aparece cuando las velocidades 
+    de la articulación $q_6$ incrementan, ya que a partir de ese instante de tiempo, se 
+    visualiza por las gráficas que se genera más energía cinética de lo que el valor 
+    máximo de energía potencial inicial debería permitir. De esta mnaera, se interpreta 
+    que las discrepancias están dadas por un error acumulado entre el integrador 
+    utilizado y el tiempo de muestreo, los cuales posiblemente generen una pérdida de información 
+    en el proceso de integración.
+
+    De esta manera, con respecto a los trabajos futuros, resalta el desarrollo de un 
+    simulador basado en la teoría del BDA el cual permita reducir el orden de 
+    complejidad de las Ecuaciones Diferenciales presentes en las matrices dinámicas, 
+    y por lo tanto tender a la obtención de un simulador más eficiente y con 
+    menor acumulación en el error.
