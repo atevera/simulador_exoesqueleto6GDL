@@ -40,15 +40,23 @@
     Donde la única entrada son las coordenadas generalizadas $\boldsymbol{q}$.
 
     Para ello, se exportó el modelo 3D (Figura \ref{fig:3DModel}) previamente diseñado en \emph{SolidWorks} a un archivo
-    \emph{URDF} \cite{urdf} mediante la extesión desarrollada por \cite{sw2urdf}.
+    \emph{URDF} \cite{urdf} mediante la extesión desarrollada por \cite{sw2urdf} bajo el procediento en \cite{import_urdf}. 
 
     Obteniendo el resultado de la Figura \ref{fig:visualizador}, donde se anuló el motor dinámico de 
-    \emph{Simscape} para no modificar ningun resultado previamente obtenido por el simulador desarrollado. 
+    \emph{Simscape} para no modificar ningun resultado previamente obtenido por el simulador desarrollado.
     \begin{figure}[H]
         \includegraphics[scale = 0.233]{simscape.png}
         \centering
         \caption{Diagrama de bloques del visualizador}
         \label{fig:visualizador}
+    \end{figure}
+    Del mismo modo, al culminar la simulación se construyen las vistas de la Figura \ref{fig:vistas} que permiten observar desde diferentes
+    puntos el comportamiento del exoesqueleto. 
+    \begin{figure}[h]
+        \includegraphics[scale = 0.156]{vistas_out.png}
+        \centering
+        \caption{ Vistas del simulador }
+        \label{fig:vistas}
     \end{figure}
     
     
