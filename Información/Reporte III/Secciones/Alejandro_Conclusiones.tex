@@ -1,0 +1,28 @@
+\subsection{Tevera Ruiz Alejandro}
+    \noindent Se alcanzó el objetivo deseado orientado al desarrollo del simulador dinámico
+    para el exoesqueleto de 6GdL (\emph{sistema no conservativo}) con base al diseño de \cite{hexotrac}. Para ello, 
+    se consideró fundamentos científicos basados principalmente en el modelado de sistemas 
+    dinámicos mediante el análisis energético bajo la formulación de \emph{D'Alambert-Lagrange}. 
+
+    De esta manera, se simplificó el proceso de modelado del sistema multipartículas otorgando la posibilidad
+    de analizar adecuadamente las variables de estado y el comportamiento energético. Para ello, se construyó 
+    el simulador mediante bloques en \emph{Simulink} con base en funciones desarrolladas en \emph{MATLAB}, así como la
+    implementación de una interfaz gráfica y visualizador con el objetivo de proveer un entorno de análisis potente pero
+    sencillo de configurar bajo ciertos parámetros. 
+
+    Por otro lado, se realizaron diversas pruebas para el desarrollo y la validación del simulador dinámico. Concluyendo 
+    así con tres casos de estudio expuestos en la Sección \ref{resultados}. Para el primero y segundo de ellos, el comportamiento
+    del \emph{sistema no conservativo} fue el esperado, donde la interacción con las \emph{fuerzas generalizadas} de disipación y/o
+    exógenas es notoria.
+    
+    Sin embargo, los resultados del \emph{sistema conservativo} fueron inconsistentes a la teoría como consecuencia del tipo de solucionador
+    utilizado para resolver la dinámica del sistema. Esto puede observarse en el error acumulado de la energía cinética ya que 
+    presenta un comportamiento ascendente durante cierto periodo hasta que el solucionador busca corregir el error.
+    
+    Aunque el $ode15s$ utiliza un método numérico potente para \emph{sistemas rígidos}, el número de operaciones para la integración
+    de las variables de estado es alto, por lo que aún realizando el ajuste de la frecuencia de muestreo del solucionador no se presenta
+    una mejora significativa, únicamente mayor tiempo requerido para la convergencia. 
+
+    Esto abre la posibilidad de realizar una segunda versión del simulador orientado al modelado dinámico basado en \emph{BDA} con el
+    fin de reducir el consumo de recursos informáticos y por ende, las operaciones aritméticas para la solución de la dinámica directa
+    del sistema.

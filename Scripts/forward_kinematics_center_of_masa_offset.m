@@ -1,9 +1,3 @@
-%-- Traslación del referencial del eslabón al referencial virtual del
-%   centro de masa mediante su matriz de transformación homogénea. 
-% Parámetros:
-%       - Lista de cinemática directa de cada referencial.
-%       - Lista de centros de masa de cada eslabón en coordenadas del
-%         referencial local xyz.
 function HM_CM0_6 = forward_kinematics_center_of_masa_offset(forward_kinematics, offset)
     num_cm = size(offset, 2);
     HM_CM0_6 = sym(zeros(num_cm, 16));

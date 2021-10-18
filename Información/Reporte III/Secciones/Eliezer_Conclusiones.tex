@@ -1,0 +1,26 @@
+\subsection{García Álvarez Gregorio Eliezer}
+\noindent Se alcanzó el objetivo de este reporte  puesto que se efectuó el 
+simulador dinámico, así como su comportamiento semejante a lo esperado en 
+la realidad, en el caso del sistema no conservativo.
+
+En contraparte en el sistema que no considera la fricción viscosa, se 
+obtuvieron resultados no esperados que se analizaron y discutieron a 
+profundidad, con el objetivo de identificar el error y así implementar 
+una solución adecuada. 
+
+Se concluye que la discrepancia es debida al integrador. Una hipótesis 
+es la siguiente:
+
+Debido a que sobre el sistema solo actúa la fuerza de gravedad, al 
+soltarse el exoesqueleto de su posición vertical de "casa", se empieza 
+a acelerar y a partir del segundo 5 aún no alcanza una velocidad 
+constante porque el sistema se puede considerar como un péndulo 
+compuesto de 7 eslabones, lo que conlleva a un sistema caótico 
+(sin embargo continúa siendo determinista). Es importante remarcar 
+que el 6to referencial presenta una velocidad mayor al del resto 
+de los eslabones, porque al ser tan pequeño en relación a los demás, 
+implica que tiene el menor momento de inercia. Al ser el último 
+eslabón el que mayor velocidad tiene, este influye considerablemente 
+en la trayectoria de la cadena cinemática. Y estos cambios de 
+aceleraciones sobrepasan al tiempo de procesamiento del integrador,  
+acumulando un error numérico y mostrando datos imposibles (crear energía).

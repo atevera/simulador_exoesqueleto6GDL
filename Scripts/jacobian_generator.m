@@ -1,7 +1,3 @@
-%--Cálculo de Jacobiano Geométrico--
-%   Necesario:
-%       -Array de matrices de transformación en la forma MTH = {[mth0_1] [mth0_2]...
-%       -Matriz de vectores directores LAMBDA_R = [lambda_r1 lambda_r2 lambda_r3 lambda_r4 lambda_r5 lambda_r6]
 function J = jacobian_generator(MTH, LAMBDA_R)
     n = size(LAMBDA_R,2);
     J = sym(zeros(n,(6*n)));
