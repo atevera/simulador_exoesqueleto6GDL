@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  18 OCT 2021 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.9)  18 OCT 2021 17:32
 entering extended mode
 **"g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex"
 (g:/Mi unidad/Master/C1/Robótica I/simulador_exoesqueleto6GDL/Información/Reporte III/main.tex
@@ -1028,13 +1028,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  20003 strings out of 478927
  300624 string characters out of 2845390
- 1098881 words of memory out of 3000000
+ 1098880 words of memory out of 3000000
  37106 multiletter control sequences out of 15000+600000
  497883 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,92p,529b,2149s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXBMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI5.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txbsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Alejandro TeveraRuiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (15 pages, 1666676 bytes).
+Output written on "g:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Información\Reporte III\build\main.pdf" (15 pages, 1666688 bytes).
 PDF statistics:
  884 PDF objects out of 1000 (max. 8388607)
  278 named destinations out of 1000 (max. 500000)
