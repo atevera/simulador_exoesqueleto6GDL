@@ -5,13 +5,14 @@
     \begin{table}[H]
         \centering
         \begin{center}
+        \caption{Tabla de parámetros GRyMA}
             \begin{tabular}{c||ccc|cc|c|c|c}
                 \multirow{3}{*}{$q_i$} & \multicolumn{5}{c|}{Parámetros de localización}               & \multirow{3}{*}{$\Theta_i$} & \multirow{3}{*}{$\Sigma_i$} & \multirow{3}{*}{$\Sigma_{pi}$} \\
                                        & \multicolumn{3}{c|}{{[}mm{]}}  & \multicolumn{2}{c|}{{[}º{]}} &                             &                             &                                \\
                                        & $d_{xi}$ & $d_{yi}$ & $d_{zi}$ & $\alpha$      & $\beta$      &                             &                             &                                \\ \hline \hline
                 $q_1$                  & 0        & 0        & 0        & -             & -            & 5                           & $\Sigma_1$                  & $\Sigma_0$                     \\
                 $q_2$                  & 32.35    & 0        & 105.13   & -             & -            & 5                           & $\Sigma_2$                  & $\Sigma_1$                     \\
-                $q_3$                  & -36.41   & 0        & 24.62    & 0º            & -59.26º      & 8                           & $\Sigma_3$                  & $\Sigma_2$                     \\
+                $q_3$                  & -36.41   & 0        & 24.62    & 0            & -59.26      & 8                           & $\Sigma_3$                  & $\Sigma_2$                     \\
                 $q_4$                  & -12.73   & 0        & 22.28    & -             & -            & 6                           & $\Sigma_4$                  & $\Sigma_3$                     \\
                 $q_5$                  & 0        & 0        & 43.34    & -             & -            & 4                           & $\Sigma_5$                  & $\Sigma_4$                     \\
                 $q_6$                  & 0        & 0        & 6        & -             & -            & 5                           & $\Sigma_6$                  & $\Sigma_5$                    
@@ -45,7 +46,5 @@
     se utilizan las expresiones (\ref{eq:Jv}) y (\ref{eq:Jw}). Permitiendo así el desarrollo del código para su
     generación como se expone en la Sección anexo \ref{cd:J}, el cual tiene como salida un arreglo de 6 matrices en
     representación del Jacobiano correspondiente a cada uno de los centros de masa.
-
-    \textbf{¿Agregar vectores de rotación o Jacobianos?}
 
 
