@@ -2,7 +2,7 @@
 Simulador Dinámico para uno exoesqueleto de 6GdL completamente actuado. 
 
 
-## CINVESTAV
+### CINVESTAV
 ### Maestría en Ciencias en Robótica y Manufactura Avanzada
 
 ## Contacto
