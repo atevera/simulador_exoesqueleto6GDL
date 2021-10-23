@@ -7,6 +7,6 @@ Simulador Dinámico para uno exoesqueleto de 6GdL completamente actuado.
 
 ## Contacto
 
-eliezer.alvarez@cinvestav.mx
-antonio.luna@cinvestav.mx
-alejandro.tevera@cinvestav.mx
+* eliezer.alvarez@cinvestav.mx
+* antonio.luna@cinvestav.mx
+* alejandro.tevera@cinvestav.mx
