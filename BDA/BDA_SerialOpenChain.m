@@ -2,6 +2,11 @@
 % la asignación de referenciales GRyMA y el modelado dinámico considerando
 % BDA como principio de análisis. 
 
+%% -- Section 1 to review -- 
+% Modified:
+% rotation_vectors --> lambda_vectors
+% lambda_extended --> Modified to be more intuitive
+
 clear all; close all; clc
 format long eng
 
@@ -32,7 +37,7 @@ masas = [0.04496018 0.02038587 0.00333783 0.02889644 0.0108769 0.00726735];
 %-- Vector de gravedad en coordenadas inerciales
 g_0 = [0 0 -9.81]';
 %-- Vector extendido de gravedad --%
-G = extended_gravity(g_0);
+G = extended_gravity(g_0); % || Tony validation ||
 
 %-- Tensores de inercia de cada eslabón respecto a su centro de masa
 %   NOTA: Es necesario para la matriz de masas M pero se debe revisar que
@@ -55,12 +60,14 @@ beta = -59.26721315*pi()/180; % Desviación del vector unitario de rotación res
 
 %-- Vectores de rotación --%
 motion_codes = [5 5 8 6 4 5 0 beta];
-lambda = rotation_vectors(motion_codes);
+lambda = lambda_vectors(motion_codes); % || Tony validation ||
 
 %-- Matriz de vectores de rotación --%
-LAMBDA = lambda_extended(lambda);
+LAMBDA = lambda_extended(lambda); % || Tony validation ||
 
 translation_ref = [[0 0 0]',[l(1) 0 l(2)]',[-l(10) 0 l(3)]',[-l(9) 0 l(4)]',[0 0 l(5)]',[0 0 l(6)]',[-l(8) 0 l(7)]'];
+
+%% -- Section 2 to review -- 
 
 %-- Matrices de Transformación Homogénea --%
 A = local_homogeneous_transform_matrix(translation_ref, lambda, q);
@@ -73,15 +80,22 @@ M = mass_matrix(masas, center_of_mass, inertial_tensor);
 
 %--%--%--%--%--%--%--%--%--%--%--%--%--%--%--%--%--%--%--%--%
 %--- Inicialización de variables ---%
-H = zeros(6,6);      % Inicialización de matriz de inercia
-h = zeros(6,1);      % Inicialización del "vector dinámico"
+H = sym(zeros(6,6));      % Inicialización de matriz de inercia
+h = sym(zeros(6,1));      % Inicialización del "vector dinámico"
 J = sym(zeros(6,36));     % Inicialización de Jacobianos locales
 a = sym(zeros(6,6));      % Inicialización de aceleración residual
 twist = sym(zeros(6,6));  % Inicialización del twist
 
+% J_cm = sym(zeros(6,36));     % Inicialización de Jacobianos locales al centro de masa
+% a_cm = sym(zeros(6,6));      % Inicialización de aceleración residual al centro de masa
+% twist_cm = sym(zeros(6,6));  % Inicialización del twist al centro de masa
+
 %--- Vectores extendidos de rotación^T y traslación ---%
 T = extended_translation(d);
+T_cm = extended_translation(center_of_mass');
 R_T = extended_rotation_T(R);
+
+%% -- Section 3 to review -- 
 
 %--- INITIAL CONDITIONS ---%
 a_0 = -G;
@@ -95,31 +109,42 @@ for i = 1:6
     X_i = R_i_T*T_i;
 
     if i == 1
-        twist_i = X_i*twist_0 + [zeros(3,1); lambda(:,1)]*dq(1);
-        a_i = X_i*a_0 - dq(1)*Omega(lambda(:,1))*twist_i; 
+        %twist_i = X_i*twist_0 + [zeros(3,1); lambda(:,1)]*dq(1);
+        twist_i = X_i*twist_0 + lambda(:,1)*dq(1);
+        % a_i = X_i*a_0 - dq(1)*Omega(lambda(:,1))*twist_i; 
+        a_i = X_i*a_0 - Omega(lambda(:,1)*dq(1))*twist_i; 
         LAMBDA_1 = reshape(LAMBDA(1,:),6,6);
         J_i = X_i*J_0 + LAMBDA_1;   
     else
         % Notación --> j = i - 1
         twist_j = reshape(twist(i-1,:),6,1);
-        twist_i = X_i*twist_j + [zeros(3,1); lambda(:,i)]*dq(i);
+        %twist_i = X_i*twist_j + [zeros(3,1); lambda(:,i)]*dq(i);
+        twist_i = X_i*twist_j + lambda(:,i)*dq(i);
         a_j = reshape(a(i-1,:),6,1);
-        a_i = X_i*a_j - dq(i)*Omega(lambda(:,i))*twist_i;
+        % a_i = X_i*a_j - dq(i)*Omega(lambda(:,i))*twist_i;
+        a_i = X_i*a_j - Omega(lambda(:,i)*dq(i))*twist_i;
         J_j = reshape(J(i-1,:),6,6);
         LAMBDA_i = reshape(LAMBDA(i,:),6,6);
         J_i = X_i*J_j + LAMBDA_i;
     end
+    
+    T_cm_i = reshape(T_cm(i,:),6,6);
 
     a(i,:) = reshape(a_i, 1, 6);
+    a_cm_i = T_cm_i*a_i;
+
     twist(i,:) = reshape(twist_i, 1, 6);
+    twist_cm_i = T_cm_i*twist_i;
+
     J(i,:) = reshape(J_i,1,36);
+    J_cm_i = T_cm_i*J_i;
 
     M_i = reshape(M(i,:),6,6);
 
 
-    H = H + J_i'*M_i*J_i;
+    H = H + J_cm_i'*M_i*J_cm_i;
 
-    h = h + J_i'*( M_i*a_i-Omega(twist_i)*M_i*twist_i);
+    h = h + J_cm_i'*( M_i*a_cm_i-(Omega(twist_cm_i))'*M_i*twist_cm_i); 
 end
 
 %--- Vector de disipación con fricción viscosa simple
@@ -127,9 +152,8 @@ b = 0.01; % Puede ser simbólica para ser variable en la GUI
 D = b*dq';
 
 %--- Export to Simulink ---%
-% matlabFunctionBlock('BDA_DynamicModel/h',h)
-% matlabFunctionBlock('BDA_DynamicModel/H',H)
-
+matlabFunctionBlock('BDA_DynamicModel/h',h)
+matlabFunctionBlock('BDA_DynamicModel/H',H)
 
 
 

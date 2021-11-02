@@ -10,12 +10,12 @@
 %         -> Cada renglón corresponde a cada eslabón 
 function M = mass_matrix(m, r_c, tensor)
     n = length(m);
-    M = zeros(n,6*n);
+    M = sym(zeros(n,36));
     for i = 1:n
-        rc_x = OPC(r_c(:,i));
+        %rc_x = OPC(r_c(:,i));
         tensor_i = reshape(tensor(i,:),3,3);
-        M_i = [m(i)*eye(3) -m(i)*rc_x; m(i)*rc_x tensor_i];
-        M(i,:) = reshape(M_i, 1,6*n);
+        M_i = [m(i)*eye(3) zeros(3); zeros(3) tensor_i];
+        M(i,:) = reshape(M_i, 1,36);
     end
 end
 
