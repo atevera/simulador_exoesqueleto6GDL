@@ -87,7 +87,7 @@ disp('Inertia Matrix: Done!')
 % -- Construcción de vector de Coriolis.
 tau_c = coriolis_vector_v2(H,q,dq);
 %matlabFunction(tau_c, 'File', 'tau_c_sym_function');
-matlabFunctionBlock('simulator_prototype_v2/Coriolis_vector',tau_c)
+matlabFunctionBlock('simulator_prototype_v2/Coriolis_vector_v2',tau_c)
 
 disp('Coriolis vector: Done!')
 

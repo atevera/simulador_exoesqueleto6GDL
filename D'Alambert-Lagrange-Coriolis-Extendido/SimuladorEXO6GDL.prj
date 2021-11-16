@@ -1,0 +1,81 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="544039024" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Scripts\SimuladorEXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Scripts" name="SimuladorEXO6GDL" target="target.mlapps" target-name="Package App">
+    <param.appname>SimuladorEXO6GDL</param.appname>
+    <param.authnamewatermark>EA, AL, AT</param.authnamewatermark>
+    <param.email />
+    <param.company>CINVESTAV</param.company>
+    <param.icon>${PROJECT_ROOT}\SimuladorEXO6GDL_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\SimuladorEXO6GDL_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\SimuladorEXO6GDL_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\SimuladorEXO6GDL_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Simulador Dinámico de un exoesqueleto de 6 grados de libertad para la Maestría en Ciencias en Robótica y Manufactura Avanzada</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Alejandro TeveraRuiz\AppData\Local\Temp\tp041ceda4_bc97_4d1e_b257_83bacfb7623a.png</param.screenshot>
+    <param.version>1.3</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Simscape</item>
+      <item>Simscape Multibody</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>104</item>
+      <item>64</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.11</item>
+      <item>10.4</item>
+      <item>5.2</item>
+      <item>7.4</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\Users\Alejandro TeveraRuiz\Desktop\app</param.output>
+    <param.guid>5420bc4b-11ef-485c-8355-a9a1877e0208</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.description />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\simulator_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\question_icon.png</file>
+      <file>${PROJECT_ROOT}\ryma_icon.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\mechanic_model_urdf</file>
+      <file>${PROJECT_ROOT}\simulator_prototype.slx</file>
+      <file>${PROJECT_ROOT}\slprj</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Alejandro TeveraRuiz\Desktop" name="app" optional="false">C:\Users\Alejandro TeveraRuiz\Desktop\app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
