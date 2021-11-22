@@ -37,7 +37,7 @@ masas = [0.04496018 0.02038587 0.00333783 0.02889644 0.0108769 0.00726735];
 %-- Vector de gravedad en coordenadas inerciales
 g_0 = [0 0 -9.81]';
 %-- Vector extendido de gravedad --%
-G = extended_gravity(g_0); % || Tony validation ||
+G0 = extended_gravity(g_0); % || Tony validation ||
 
 %-- Tensores de inercia de cada eslabón respecto a su centro de masa
 %   NOTA: Es necesario para la matriz de masas M pero se debe revisar que
@@ -98,7 +98,8 @@ R_T = extended_rotation_T(R);
 %% -- Section 3 to review -- 
 
 %--- INITIAL CONDITIONS ---%
-a_0 = -G;
+a_0 = -G0;
+G = zeros(6,1);
 twist_0 = zeros(6,1);
 J_0 = zeros(6,6);
 
@@ -145,6 +146,8 @@ for i = 1:6
     H = H + J_cm_i'*M_i*J_cm_i;
 
     h = h + J_cm_i'*( M_i*a_cm_i-(Omega(twist_cm_i))'*M_i*twist_cm_i); 
+
+    G = G + masas(i)*R_i_T*G0;
 end
 
 %--- Vector de disipación con fricción viscosa simple
@@ -152,8 +155,9 @@ b = 0.01; % Puede ser simbólica para ser variable en la GUI
 D = b*dq';
 
 %--- Export to Simulink ---%
-matlabFunctionBlock('BDA_DynamicModel/h',h)
-matlabFunctionBlock('BDA_DynamicModel/H',H)
+%matlabFunctionBlock('BDA_DynamicModel/h',h)
+%matlabFunctionBlock('BDA_DynamicModel/H',H)
+matlabFunctionBlock('BDA_DynamicModel/G',G)
 
 
 
