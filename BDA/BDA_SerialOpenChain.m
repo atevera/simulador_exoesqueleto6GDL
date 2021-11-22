@@ -99,7 +99,7 @@ R_T = extended_rotation_T(R);
 
 %--- INITIAL CONDITIONS ---%
 a_0 = -G0;
-G = zeros(6,1);
+g = zeros(6,1);
 twist_0 = zeros(6,1);
 J_0 = zeros(6,6);
 
@@ -147,7 +147,7 @@ for i = 1:6
 
     h = h + J_cm_i'*( M_i*a_cm_i-(Omega(twist_cm_i))'*M_i*twist_cm_i); 
 
-    G = G + masas(i)*R_i_T*G0;
+    g = g + masas(i)*J_cm_i'*R_i_T*G0;
 end
 
 %--- Vector de disipación con fricción viscosa simple
@@ -157,7 +157,7 @@ D = b*dq';
 %--- Export to Simulink ---%
 %matlabFunctionBlock('BDA_DynamicModel/h',h)
 %matlabFunctionBlock('BDA_DynamicModel/H',H)
-matlabFunctionBlock('BDA_DynamicModel/G',G)
+matlabFunctionBlock('BDA_DynamicModel/g',g)
 
 
 
