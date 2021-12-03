@@ -14,15 +14,15 @@ function lambdas = director_vectors(code)
     for i = 1:length(code)-2
         switch code(i)
             case 0
-                lambda = [0 0 0]';
+                lambda = [0 0 0 0 0 0]';
             case 4
-                lambda = [1 0 0]';
+                lambda = [0 0 0 1 0 0]';
             case 5
-                lambda = [0 1 0]';
+                lambda = [0 0 0 0 1 0]';
             case 6 
-                lambda = [0 0 1]';
+                lambda = [0 0 0 0 0 1]';
             otherwise
-                lambda = [cos(a)*sin(b) sin(a)*sin(b) cos(b)]';
+                lambda = [0 0 0 cos(a)*sin(b) sin(a)*sin(b) cos(b)]';
         end
         lambdas(:,i) = lambda; 
     end
