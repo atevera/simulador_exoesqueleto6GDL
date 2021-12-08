@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3985768211" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3649158046" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
     <param.appname>GUI EXO6GDL</param.appname>
     <param.authnamewatermark>EA, AL, AT</param.authnamewatermark>
     <param.email />
@@ -63,6 +63,7 @@
       <file>${PROJECT_ROOT}\Resources\ryma_icon.png</file>
       <file>${PROJECT_ROOT}\SIM_EXO_DAL.slx</file>
       <file>${PROJECT_ROOT}\SIM_EXO_DAL.slxc</file>
+      <file>${PROJECT_ROOT}\slprj</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
