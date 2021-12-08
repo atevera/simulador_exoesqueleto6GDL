@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3649158046" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="4099093355" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
     <param.appname>GUI EXO6GDL</param.appname>
     <param.authnamewatermark>EA, AL, AT</param.authnamewatermark>
     <param.email />
@@ -15,7 +15,7 @@
 - Simulación de sistema en lazo abierto (Sistema conservativo)
 - Simulación de sistema en lazo abierto (Sistema no conservativo)
 - Simulación de sistema en lazo cerrado (PD,PD+g,PID)</param.description>
-    <param.screenshot>C:\Users\Alejandro TeveraRuiz\AppData\Local\Temp\tp00b39610_6e5b_4a3b_b351_04d89dfbfe18.png</param.screenshot>
+    <param.screenshot>C:\Users\Alejandro TeveraRuiz\AppData\Local\Temp\tp259653f4_18f6_4268_adfe_f2e799e2990c.png</param.screenshot>
     <param.version>2.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -43,7 +43,7 @@
     </param.products.version>
     <param.platforms />
     <param.output>G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL</param.output>
-    <param.guid>5d20c12b-d5eb-40a2-b463-3edf9d5fa12b</param.guid>
+    <param.guid>2da9e690-d48f-4af8-8f18-f95564de61fc</param.guid>
     <unset>
       <param.authnamewatermark />
       <param.email />
@@ -53,14 +53,13 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\SIM_GUI.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Resources\icons8-play.png</file>
+      <file>${PROJECT_ROOT}\Resources\icons8-web-analytics-96.png</file>
+      <file>${PROJECT_ROOT}\Resources\ryma_icon.png</file>
+    </fileset.depfun>
     <fileset.resources>
       <file>${PROJECT_ROOT}\mechanic_model_urdf</file>
-      <file>${PROJECT_ROOT}\Resources\icons8-play.png</file>
-      <file>${PROJECT_ROOT}\Resources\icons8-robot.png</file>
-      <file>${PROJECT_ROOT}\Resources\icons8-web-analytics-96.png</file>
-      <file>${PROJECT_ROOT}\Resources\LogoCinvestav1Negro.png</file>
-      <file>${PROJECT_ROOT}\Resources\ryma_icon.png</file>
       <file>${PROJECT_ROOT}\SIM_EXO_DAL.slx</file>
       <file>${PROJECT_ROOT}\SIM_EXO_DAL.slxc</file>
       <file>${PROJECT_ROOT}\slprj</file>
