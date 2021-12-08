@@ -1,0 +1,63 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\BDA\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\BDA" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
+    <param.appname>GUI EXO6GDL</param.appname>
+    <param.authnamewatermark>EA, AL, AT</param.authnamewatermark>
+    <param.email />
+    <param.company>CINVESTAV</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Simulador Dinámico de un exoesqueleto de 6 grados de libertad para la Maestría en Ciencias en Robótica y Manufactura Avanzada</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Alejandro TeveraRuiz\AppData\Local\Temp\tp52e75c46_b086_4486_bb5d_17a4bd15171a.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>88d2f03d-7307-45f7-bdd9-74a0dda84de5</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\simulator_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL" name="BDA" optional="false">G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\BDA</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

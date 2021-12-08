@@ -1,0 +1,92 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4099093355" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
+    <param.appname>GUI EXO6GDL</param.appname>
+    <param.authnamewatermark>EA, AL, AT</param.authnamewatermark>
+    <param.email />
+    <param.company>CINVESTAV</param.company>
+    <param.icon>${PROJECT_ROOT}\GUI EXO6GDL_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\GUI EXO6GDL_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\GUI EXO6GDL_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\GUI EXO6GDL_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Simulador dinámico de un exoesqueleto de 6 grados de libertad para la Maestría en Ciencias en Robótica y Manufactura Avanzada.</param.summary>
+    <param.description>Utilidades: 
+- Simulación de sistema en lazo abierto (Sistema conservativo)
+- Simulación de sistema en lazo abierto (Sistema no conservativo)
+- Simulación de sistema en lazo cerrado (PD,PD+g,PID)</param.description>
+    <param.screenshot>C:\Users\Alejandro TeveraRuiz\AppData\Local\Temp\tp259653f4_18f6_4268_adfe_f2e799e2990c.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+      <item>Simscape</item>
+      <item>Simscape Multibody</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>104</item>
+      <item>64</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.11</item>
+      <item>10.4</item>
+      <item>10.11</item>
+      <item>5.2</item>
+      <item>7.4</item>
+      <item>9.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL</param.output>
+    <param.guid>2da9e690-d48f-4af8-8f18-f95564de61fc</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\SIM_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Resources\icons8-play.png</file>
+      <file>${PROJECT_ROOT}\Resources\icons8-web-analytics-96.png</file>
+      <file>${PROJECT_ROOT}\Resources\ryma_icon.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\mechanic_model_urdf</file>
+      <file>${PROJECT_ROOT}\SIM_EXO_DAL.slx</file>
+      <file>${PROJECT_ROOT}\SIM_EXO_DAL.slxc</file>
+      <file>${PROJECT_ROOT}\slprj</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="G:\Mi unidad\Master\C1\Robótica I" name="simulador_exoesqueleto6GDL" optional="false">G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
