@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="458796622" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1177566527" file="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control\GUI EXO6GDL.prj" location="G:\Mi unidad\Master\C1\Robótica I\simulador_exoesqueleto6GDL\Control" name="GUI EXO6GDL" target="target.mlapps" target-name="Package App">
     <param.appname>GUI EXO6GDL</param.appname>
     <param.authnamewatermark>EA, AL, AT</param.authnamewatermark>
     <param.email />
@@ -10,12 +10,12 @@
       <file>${PROJECT_ROOT}\GUI EXO6GDL_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\GUI EXO6GDL_resources\icon_16.png</file>
     </param.icons>
-    <param.summary>Simulador dinámico de un exoesqueleto de 6 grados de libertad para la Maestría en Ciencias en Robótica y Manufactura Avanzada.</param.summary>
+    <param.summary>Simulador dinámico y control de un exoesqueleto de 6 grados de libertad para la Maestría en Ciencias en Robótica y Manufactura Avanzada.</param.summary>
     <param.description>Utilidades: 
 - Simulación de sistema en lazo abierto (Sistema conservativo)
 - Simulación de sistema en lazo abierto (Sistema no conservativo)
 - Simulación de sistema en lazo cerrado (PD,PD+g,PID)</param.description>
-    <param.screenshot>C:\Users\Alejandro TeveraRuiz\AppData\Local\Temp\tpb69e6e84_e333_4e87_b6b4_efa3faa736c7.png</param.screenshot>
+    <param.screenshot>C:\Users\Alejandro TeveraRuiz\AppData\Local\Temp\tp9ae33391_8d96_43e5_b2a1_91d467546dfb.png</param.screenshot>
     <param.version>2.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -53,13 +53,10 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\SIM_GUI.mlapp</file>
     </fileset.main>
-    <fileset.depfun>
-      <file>${PROJECT_ROOT}\Resources\icons8-play.png</file>
-      <file>${PROJECT_ROOT}\Resources\icons8-web-analytics-96.png</file>
-      <file>${PROJECT_ROOT}\Resources\ryma_icon.png</file>
-    </fileset.depfun>
+    <fileset.depfun />
     <fileset.resources>
       <file>${PROJECT_ROOT}\mechanic_model_urdf</file>
+      <file>${PROJECT_ROOT}\Resources</file>
       <file>${PROJECT_ROOT}\SIM_EXO_DAL.slx</file>
       <file>${PROJECT_ROOT}\SIM_EXO_DAL.slxc</file>
     </fileset.resources>
